@@ -26,62 +26,257 @@
 
 \layout Itemize
 
+[Barton.2015] J. H. Barton, C. R. Garcia, E. A. Berry, R. Salas, and R. C. Rumpf, 
+\begin_inset Quotes eld
+\end_inset
+3-D printed all-dielectric frequency selective surface with large bandwidth and field of view,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 3, pp. 1032-1039, Mar. 2015
+ (DOI: 10.1109/TAP.2015.2388541).
+
+
+\layout Itemize
+
+[Hu.2017] H.-T. Hu, F.-C. Chen, J.-F. Qian, and Q.-X. Chu, 
+\begin_inset Quotes eld
+\end_inset
+A differential filtering microstrip antenna array with intrinsic common-mode rejection,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 12, pp. 7361-7365, Dec. 2017
+ (DOI: 10.1109/TAP.2017.2764097).
+
+
+\layout Itemize
+
+[Zhang.2019] J. F. Zhang, Y. J. Cheng, Y. R. Ding, and C. X. Bai, 
+\begin_inset Quotes eld
+\end_inset
+A dual-band shared-aperture antenna with large frequency ratio, high aperture reuse efficiency, and high channel isolation,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 2, pp. 853-860, Feb. 2019
+ (DOI: 10.1109/TAP.2018.2882697).
+
+
+\layout Itemize
+
+[Luo.2019] Q. Luo et al., 
+\begin_inset Quotes eld
+\end_inset
+A hybrid design method for thin-panel transmitarray antennas,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 10, pp. 6473-6483, Oct. 2019
+ (DOI: 10.1109/TAP.2019.2923076).
+
+
+\layout Itemize
+
+[Zhang.2019] B. Zhang et al., 
+\begin_inset Quotes eld
+\end_inset
+A metallic 3-d printed airborne high-power handling magneto-electric dipole array with cooling channels,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 12, pp. 7368-7378, Dec. 2019
+ (DOI: 10.1109/TAP.2019.2935085).
+
+
+\layout Itemize
+
+[Khan.2018] S. Khan and T. F. Eibert, 
+\begin_inset Quotes eld
+\end_inset
+A multifunctional metamaterial-based dual-band isotropic frequency-selective surface,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 8, pp. 4042-4051, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2835667).
+
+
+\layout Itemize
+
+[Fan.2017] C. Fan, W. Che, W. Yang, and S. He, 
+\begin_inset Quotes eld
+\end_inset
+A novel pramc-based ultralow-profile transmitarray antenna by using ray tracing principle,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 4, pp. 1779-1787, Apr. 2017
+ (DOI: 10.1109/TAP.2017.2670600).
+
+
+\layout Itemize
+
+[Mao.2017] C.-X. Mao, S. Gao, Y. Wang, Q. Luo, and Q.-X. Chu, 
+\begin_inset Quotes eld
+\end_inset
+A shared-aperture dual-band dual-polarized filtering-antenna-array with improved frequency response,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 4, pp. 1836-1844, Apr. 2017
+ (DOI: 10.1109/TAP.2017.2670325).
+
+
+\layout Itemize
+
+[Yan.2016] M. Yan et al., 
+\begin_inset Quotes eld
+\end_inset
+A tri-band, highly selective, bandpass FSS using cascaded multilayer loop arrays,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 5, pp. 2046-2049, May 2016
+ (DOI: 10.1109/TAP.2016.2536175).
+
+
+\layout Itemize
+
+[Cao.2018] Y. F. Cao and X. Y. Zhang, 
+\begin_inset Quotes eld
+\end_inset
+A wideband beam-steerable slot antenna using artificial magnetic conductors with simple structure,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 4, pp. 1685-1694, Apr. 2018
+ (DOI: 10.1109/TAP.2018.2804480).
+
+
+\layout Itemize
+
+[Ding.2020] C. Ding, H.-H. Sun, H. Zhu, and Y. Jay Guo, 
+\begin_inset Quotes eld
+\end_inset
+Achieving wider bandwidth with full-wavelength dipoles for 5G base stations,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 68, no. 2, pp. 1119-1127, Feb. 2020
+ (DOI: 10.1109/TAP.2019.2950108).
+
+
+\layout Itemize
+
+[Delafkar.2018] H. Delafkar and A. Pirhadi, 
+\begin_inset Quotes eld
+\end_inset
+An accurate method for synthesis of reflecting elements to design wideband reflectarray antenna,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 5, pp. 2392-2400, May 2018
+ (DOI: 10.1109/TAP.2018.2816602).
+
+
+\layout Itemize
+
+[Hassan.2018] T. Hassan, M. U. Khan, H. Attia, and M. S. Sharawi, 
+\begin_inset Quotes eld
+\end_inset
+An FSS based correlation reduction technique for MIMO antennas,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 9, pp. 4900-4905, Sep. 2018
+ (DOI: 10.1109/TAP.2018.2842256).
+
+
+\layout Itemize
+
+[Deng.2017] R. Deng, F. Yang, S. Xu, and M. Li, 
+\begin_inset Quotes eld
+\end_inset
+An fss-backed 20/30-ghz dual-band circularly polarized reflectarray with suppressed mutual coupling and enhanced performance,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 2, pp. 926-931, Feb. 2017
+ (DOI: 10.1109/TAP.2016.2633159).
+
+
+\layout Itemize
+
+[Zhong.2019] X. Zhong, H.-X. Xu, L. Chen, W. Li, H. Wang, and X. Shi, 
+\begin_inset Quotes eld
+\end_inset
+An fss-backed broadband phase-shifting surface array with multimode operation,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 9, pp. 5974-5981, Sep. 2019
+ (DOI: 10.1109/TAP.2019.2916747).
+
+
+\layout Itemize
+
+[Deng.2018] R. Deng, S. Xu, F. Yang, and M. Li, 
+\begin_inset Quotes eld
+\end_inset
+An fss-backed ku/ka quad-band reflectarray antenna for satellite communications,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 8, pp. 4353-4358, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2835725).
+
+
+\layout Itemize
+
 [Xu.2018] P. Xu, W. X. Jiang, S. Y. Wang, and T. J. Cui, 
 \begin_inset Quotes eld
 \end_inset
-An ultrathin cross-polarization converter with near unity efficiency for transmitted,
+An ultrathin cross-polarization converter with near unity efficiency for transmitted waves,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 8, pp. 4370-4373, Aug. 2018.
-
-
-
-\layout Itemize
-
-[Guyon.2019] F. Guyon, M. A. K. Othman, C. Guclu, and F. Capolino, 
-\begin_inset Quotes eld
-\end_inset
-Hyperbolic metamaterials at microwaves with stacked inductive coiled-wire,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 10, pp. 6494-6507, Oct. 2019.
-
-
-
-\layout Itemize
-
-[Lansey.2015] E. Lansey, I. M. Mandel, I. R. Hooper, J. N. Gollub, A. P. Hibbins, and D. T. Crouse, 
-\begin_inset Quotes eld
-\end_inset
-Measurement of photon sorting at microwave frequencies in a cavity array,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 10, pp. 4521-4524, Oct. 2015.
-
-
-
-\layout Itemize
-
-[Ghayekhloo.2017] A. Ghayekhloo, A. Abdolali, and S. H. Mohseni Armaki, 
-\begin_inset Quotes eld
-\end_inset
-Observation of radar cross-section reduction using low-pressure plasma-arrayed coating,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 6, pp. 3058-3064, Jun. 2017.
-
+, vol. 66, no. 8, pp. 4370-4373, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2839972).
 
 
 \layout Itemize
@@ -98,74 +293,74 @@ status Collapsed
 guez-Berral, F. Mesa, and F. Medina, 
 \begin_inset Quotes eld
 \end_inset
-Analytical multimodal network approach for 2-d arrays of planar patches/apertures embedded in a layered,
+Analytical multimodal network approach for 2-d arrays of planar patches/apertures embedded in a layered medium,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 63, no. 5, pp. 1969-1984, May 2015.
-
+, vol. 63, no. 5, pp. 1969-1984, May 2015
+ (DOI: 10.1109/TAP.2015.2406885).
 
 
 \layout Itemize
 
-[Camacho.2019] M. Camacho, R. R. Boix, and F. Medina, 
+[Ding.2019] X. Ding, Y.-F. Cheng, W. Shao, and B.-Z. Wang, 
 \begin_inset Quotes eld
 \end_inset
-NUFFT for the efficient spectral domain MoM analysis of a wide variety of multilayered periodic,
+Broadband low-rcs phased array with wide-angle scanning performance based on the switchable stacked artificial structure,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 10, pp. 6551-6563, Oct. 2019.
-
+, vol. 67, no. 10, pp. 6452-6460, Oct. 2019
+ (DOI: 10.1109/TAP.2019.2925202).
 
 
 \layout Itemize
 
-[Zamani.2015] A. Zamani and A. Abbosh, 
+[Niroo.2016] M. Niroo Jazi, M. R. Chaharmir, J. Shaker, and A. R. Sebak, 
 \begin_inset Quotes eld
 \end_inset
-Hybrid clutter rejection technique for improved microwave head,
+Broadband transmitarray antenna design using polarization-insensitive frequency selective surfaces,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 63, no. 11, pp. 4921-4931, Nov. 2015.
-
+, vol. 64, no. 1, pp. 99-108, Jan. 2016
+ (DOI: 10.1109/TAP.2015.2500230).
 
 
 \layout Itemize
 
-[Dickie.2017] R. Dickie et al., 
+[Momeni.2016] S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-Low-Pass FSS for 50-230 GHz quasi-optical demultiplexing for the MetOp second-generation microwave sounder,
+Broadband true-time-delay circularly polarized reflectarray with linearly polarized feed,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 10, pp. 5312-5321, Oct. 2017.
-
+, vol. 64, no. 11, pp. 4891-4896, Nov. 2016
+ (DOI: 10.1109/TAP.2016.2596900).
 
 
 \layout Itemize
 
-[Baladi.2018] E. Baladi and A. K. Iyer, 
+[Huang.2018] C. Huang, C. Ji, X. Wu, J. Song, and X. Luo, 
 \begin_inset Quotes eld
 \end_inset
-Far-Field magnification of subdiffraction conducting features using metamaterial-lined aperture,
+Combining FSS and EBG surfaces for high-efficiency transmission and low-scattering properties,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 7, pp. 3482-3490, Jul. 2018.
-
+, vol. 66, no. 3, pp. 1628-1632, Mar. 2018
+ (DOI: 10.1109/TAP.2018.2790430).
 
 
 \layout Itemize
@@ -182,29 +377,149 @@ status Collapsed
 , C. Decroze, M. Mouhamadou, and T. Fromenteze, 
 \begin_inset Quotes eld
 \end_inset
-Computational imaging for compressive synthetic aperture interferometric,
+Computational imaging for compressive synthetic aperture interferometric radiometer,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 10, pp. 5546-5557, Oct. 2018.
-
+, vol. 66, no. 10, pp. 5546-5557, Oct. 2018
+ (DOI: 10.1109/TAP.2018.2858178).
 
 
 \layout Itemize
 
-[Zhong.2019] J. Zhong, A. Johnson, E. A. Alwan, and J. L. Volakis, 
+[Hendry.2019] D. R. Hendry and A. M. Abbosh, 
 \begin_inset Quotes eld
 \end_inset
-Dual-Linear polarized phased array with 9:1 bandwidth and 60° scanning off,
+Coupled-Resonator theory of isolation in multi-mode antennas,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 3, pp. 1996-2001, Mar. 2019.
+, vol. 67, no. 9, pp. 5801-5811, Sep. 2019
+ (DOI: 10.1109/TAP.2019.2922551).
 
+
+\layout Itemize
+
+[Liang.2015] B. Liang, B. Sanz-Izquierdo, E. A. Parker, and J. C. Batchelor, 
+\begin_inset Quotes eld
+\end_inset
+Cylindrical slot FSS configuration for beam-switching applications,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 1, pp. 166-173, Jan. 2015
+ (DOI: 10.1109/TAP.2014.2367534).
+
+
+\layout Itemize
+
+[Zhu.2019] Y. Zhu, Y. Chen, and S. Yang, 
+\begin_inset Quotes eld
+\end_inset
+Decoupling and low-profile design of dual-band dual-polarized base station antennas using frequency-selective surface,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 8, pp. 5272-5281, Aug. 2019
+ (DOI: 10.1109/TAP.2019.2916730).
+
+
+\layout Itemize
+
+[Cheng.2020] Y.-F. Cheng, X. Ding, L. Peng, J. Feng, and C. Liao, 
+\begin_inset Quotes eld
+\end_inset
+Design and analysis of a wideband low-scattering endfire antenna using a moth tail-inspired metamaterial absorber and a surface waveguide,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 68, no. 3, pp. 1411-1418, Mar. 2020
+ (DOI: 10.1109/TAP.2020.2967310).
+
+
+\layout Itemize
+
+[Li.2015] Y. Li, L. Li, Y. Zhang, and C. Zhao, 
+\begin_inset Quotes eld
+\end_inset
+Design and synthesis of multilayer frequency selective surface based on antenna-filter-antenna using Minkowski fractal structures,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 1, pp. 133-141, Jan. 2015
+ (DOI: 10.1109/TAP.2014.2367523).
+
+
+\layout Itemize
+
+[Chaharmir.2015] M. R. Chaharmir and J. Shaker, 
+\begin_inset Quotes eld
+\end_inset
+Design of a multilayer x-/ka-band frequency-selective surface-backed reflectarray for satellite applications,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 4, pp. 1255-1262, Apr. 2015
+ (DOI: 10.1109/TAP.2015.2389838).
+
+
+\layout Itemize
+
+[Liang.2016] L. Liang and S. Victor Hum, 
+\begin_inset Quotes eld
+\end_inset
+Design of a UWB reflectarray as an impedance surface using bessel filters,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 10, pp. 4242-4255, Oct. 2016
+ (DOI: 10.1109/TAP.2016.2594056).
+
+
+\layout Itemize
+
+[Naseri.2018] P. Naseri, S. A. Matos, J. R. Costa, C. A. Fernandes, and N. J. G. Fonseca, 
+\begin_inset Quotes eld
+\end_inset
+Dual-Band dual-linear-to-circular polarization converter in transmission mode application to $k/ka$ -band satellite communications,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 12, pp. 7128-7137, Dec. 2018
+ (DOI: 10.1109/TAP.2018.2874680).
+
+
+\layout Itemize
+
+[Wang.2018] C. Wang, Y. Chen, and S. Yang, 
+\begin_inset Quotes eld
+\end_inset
+Dual-Band dual-polarized antenna array with flat-top and sharp cutoff radiation patterns for 2g/3g/lte cellular bands,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 11, pp. 5907-5917, Nov. 2018
+ (DOI: 10.1109/TAP.2018.2866596).
 
 
 \layout Itemize
@@ -212,14 +527,119 @@ Dual-Linear polarized phased array with 9:1 bandwidth and 60° scanning off,
 [Brown.2019] J. A. Brown, S. Barth, B. P. Smyth, and A. K. Iyer, 
 \begin_inset Quotes eld
 \end_inset
-Dual-Band microstrip corporate feed network using an embedded metamaterial-based,
+Dual-Band microstrip corporate feed network using an embedded metamaterial-based EBG,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 11, pp. 7031-7039, Nov. 2019.
+, vol. 67, no. 11, pp. 7031-7039, Nov. 2019
+ (DOI: 10.1109/TAP.2019.2923074).
 
+
+\layout Itemize
+
+[Fartookzadeh.2016] M. Fartookzadeh and S. H. Mohseni Armaki, 
+\begin_inset Quotes eld
+\end_inset
+Dual-Band reflection-type circular polarizers based on anisotropic impedance surfaces,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 2, pp. 826-830, Feb. 2016
+ (DOI: 10.1109/TAP.2015.2511152).
+
+
+\layout Itemize
+
+[Zhong.2019] J. Zhong, A. Johnson, E. A. Alwan, and J. L. Volakis, 
+\begin_inset Quotes eld
+\end_inset
+Dual-Linear polarized phased array with 9:1 bandwidth and 60° scanning off broadside,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 3, pp. 1996-2001, Mar. 2019
+ (DOI: 10.1109/TAP.2019.2891607).
+
+
+\layout Itemize
+
+[Reis.2017] J. R. Reis, R. F. S. Caldeirinha, A. Hammoudeh, and N. Copner, 
+\begin_inset Quotes eld
+\end_inset
+Electronically reconfigurable fss-inspired transmitarray for 2-d beamsteering,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 9, pp. 4880-4885, Sep. 2017
+ (DOI: 10.1109/TAP.2017.2723087).
+
+
+\layout Itemize
+
+[Zhu.2018] D. Z. Zhu, M. D. Gregory, P. L. Werner, and D. H. Werner, 
+\begin_inset Quotes eld
+\end_inset
+Fabrication and characterization of multiband polarization independent 3-d-printed frequency selective structures with ultrawide fields of view,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 11, pp. 6096-6105, Nov. 2018
+ (DOI: 10.1109/TAP.2018.2866507).
+
+
+\layout Itemize
+
+[Baladi.2018] E. Baladi and A. K. Iyer, 
+\begin_inset Quotes eld
+\end_inset
+Far-Field magnification of subdiffraction conducting features using metamaterial-lined aperture arrays,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 7, pp. 3482-3490, Jul. 2018
+ (DOI: 10.1109/TAP.2018.2829822).
+
+
+\layout Itemize
+
+[Wincza.2017] K. Wincza and S. Gruszczynski, 
+\begin_inset Quotes eld
+\end_inset
+Frequency-Selective feeding network based on directional filter for constant-beamwidth scalable antenna arrays,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 8, pp. 4346-4350, Aug. 2017
+ (DOI: 10.1109/TAP.2017.2717962).
+
+
+\layout Itemize
+
+[Reis.2016] J. R. Reis et al., 
+\begin_inset Quotes eld
+\end_inset
+FSS-Inspired transmitarray for two-dimensional antenna beamsteering,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 6, pp. 2197-2206, Jun. 2016
+ (DOI: 10.1109/TAP.2016.2543802).
 
 
 \layout Itemize
@@ -227,14 +647,263 @@ Dual-Band microstrip corporate feed network using an embedded metamaterial-based
 [Matos.2017] S. A. Matos et al., 
 \begin_inset Quotes eld
 \end_inset
-High gain dual-band beam-steering transmit array for satcom terminals at,
+High gain dual-band beam-steering transmit array for satcom terminals at ka-band,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 7, pp. 3528-3539, Jul. 2017.
+, vol. 65, no. 7, pp. 3528-3539, Jul. 2017
+ (DOI: 10.1109/TAP.2017.2702658).
 
+
+\layout Itemize
+
+[Mahmud.2017] R. H. Mahmud and M. J. Lancaster, 
+\begin_inset Quotes eld
+\end_inset
+High-Gain and wide-bandwidth filtering planar antenna array-based solely on resonators,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 5, pp. 2367-2375, May 2017
+ (DOI: 10.1109/TAP.2017.2670443).
+
+
+\layout Itemize
+
+[Wu.2017] R. Y. Wu, Y. B. Li, W. Wu, C. B. Shi, and T. J. Cui, 
+\begin_inset Quotes eld
+\end_inset
+High-Gain dual-band transmitarray,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 7, pp. 3481-3488, Jul. 2017
+ (DOI: 10.1109/TAP.2017.2705074).
+
+
+\layout Itemize
+
+[Zamani.2015] A. Zamani and A. Abbosh, 
+\begin_inset Quotes eld
+\end_inset
+Hybrid clutter rejection technique for improved microwave head imaging,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 11, pp. 4921-4931, Nov. 2015
+ (DOI: 10.1109/TAP.2015.2479238).
+
+
+\layout Itemize
+
+[Guyon.2019] F. Guyon, M. A. K. Othman, C. Guclu, and F. Capolino, 
+\begin_inset Quotes eld
+\end_inset
+Hyperbolic metamaterials at microwaves with stacked inductive coiled-wire arrays,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 10, pp. 6494-6507, Oct. 2019
+ (DOI: 10.1109/TAP.2019.2925141).
+
+
+\layout Itemize
+
+[Momeni.2015] S. M. A. Momeni Hasan Abadi and N. Behdad, 
+\begin_inset Quotes eld
+\end_inset
+Inductively-Coupled miniaturized-element frequency selective surfaces with narrowband, high-order bandpass responses,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 11, pp. 4766-4774, Nov. 2015
+ (DOI: 10.1109/TAP.2015.2477850).
+
+
+\layout Itemize
+
+[Costa.2018] F. Costa, D. Bianchi, A. Monorchio, and G. Manara, 
+\begin_inset Quotes eld
+\end_inset
+Linear fabry-perot/leaky-wave antennas excited by multiple sources,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 10, pp. 5150-5159, Oct. 2018
+ (DOI: 10.1109/TAP.2018.2860038).
+
+
+\layout Itemize
+
+[Dickie.2017] R. Dickie et al., 
+\begin_inset Quotes eld
+\end_inset
+Low-Pass FSS for 50-230 GHz quasi-optical demultiplexing for the MetOp second-generation microwave sounder instrument,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 10, pp. 5312-5321, Oct. 2017
+ (DOI: 10.1109/TAP.2017.2740978).
+
+
+\layout Itemize
+
+[Lansey.2015] E. Lansey, I. M. Mandel, I. R. Hooper, J. N. Gollub, A. P. Hibbins, and D. T. Crouse, 
+\begin_inset Quotes eld
+\end_inset
+Measurement of photon sorting at microwave frequencies in a cavity array metasurface,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 10, pp. 4521-4524, Oct. 2015
+ (DOI: 10.1109/TAP.2015.2458011).
+
+
+\layout Itemize
+
+[Rahmati.2015] B. Rahmati and H. R. Hassani, 
+\begin_inset Quotes eld
+\end_inset
+Multiband metallic frequency selective surface with wide range of band ratio,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 8, pp. 3747-3753, Aug. 2015
+ (DOI: 10.1109/TAP.2015.2438340).
+
+
+\layout Itemize
+
+[Mao.2015] C.-X. Mao, S. Gao, Y. Wang, F. Qin, and Q.-X. Chu, 
+\begin_inset Quotes eld
+\end_inset
+Multimode resonator-fed dual-polarized antenna array with enhanced bandwidth and selectivity,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 12, pp. 5492-5499, Dec. 2015
+ (DOI: 10.1109/TAP.2015.2496099).
+
+
+\layout Itemize
+
+[Lima.2019] E. B. Lima, J. R. Costa, and C. A. Fernandes, 
+\begin_inset Quotes eld
+\end_inset
+Multiple-Beam focal-plane dual-band fabry-p
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+{
+\backslash
+'{e}}
+\end_inset
+rot cavity antenna with reduced beam degradation,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 7, pp. 4348-4356, Jul. 2019
+ (DOI: 10.1109/TAP.2019.2911365).
+
+
+\layout Itemize
+
+[Wu.2018] G.-B. Wu, S.-W. Qu, Y.-X. Wang, and S. Yang, 
+\begin_inset Quotes eld
+\end_inset
+Nonuniform fss-backed reflectarray with synthesized phase and amplitude distribution,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 12, pp. 6883-6892, Dec. 2018
+ (DOI: 10.1109/TAP.2018.2871752).
+
+
+\layout Itemize
+
+[Camacho.2019] M. Camacho, R. R. Boix, and F. Medina, 
+\begin_inset Quotes eld
+\end_inset
+NUFFT for the efficient spectral domain MoM analysis of a wide variety of multilayered periodic structures,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 10, pp. 6551-6563, Oct. 2019
+ (DOI: 10.1109/TAP.2019.2920361).
+
+
+\layout Itemize
+
+[Ghayekhloo.2017] A. Ghayekhloo, A. Abdolali, and S. H. Mohseni Armaki, 
+\begin_inset Quotes eld
+\end_inset
+Observation of radar cross-section reduction using low-pressure plasma-arrayed coating structure,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 6, pp. 3058-3064, Jun. 2017
+ (DOI: 10.1109/TAP.2017.2690311).
+
+
+\layout Itemize
+
+[Chatterjee.2016] A. Chatterjee and S. K. Parui, 
+\begin_inset Quotes eld
+\end_inset
+Performance enhancement of a dual-band monopole antenna by using a frequency-selective surface-based corner reflector,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 6, pp. 2165-2171, Jun. 2016
+ (DOI: 10.1109/TAP.2016.2552543).
+
+
+\layout Itemize
+
+[Borja.2018] A. L. Borja, Y. Kabiri, A. Belenguer, and J. R. Kelly, 
+\begin_inset Quotes eld
+\end_inset
+Programmable multifunctional rf/microwave circuit for antenna and filter operation,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 8, pp. 3865-3876, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2835728).
 
 
 \layout Itemize
@@ -260,314 +929,14 @@ status Collapsed
 a-Vigueras, F. Medina, and J. R. Mosig, 
 \begin_inset Quotes eld
 \end_inset
-Simplified modal expansion to analyze frequency-selective surfaces: an equivalent circuit,
+Simplified modal expansion to analyze frequency-selective surfaces: an equivalent circuit approach,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 64, no. 3, pp. 1106-1111, Mar. 2016.
-
-
-
-\layout Itemize
-
-[Luo.2019] Q. Luo et al., 
-\begin_inset Quotes eld
-\end_inset
-A hybrid design method for thin-panel transmitarray,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 10, pp. 6473-6483, Oct. 2019.
-
-
-
-\layout Itemize
-
-[Zhang.2019] B. Zhang et al., 
-\begin_inset Quotes eld
-\end_inset
-A metallic 3-d printed airborne high-power handling magneto-electric dipole array with cooling,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 12, pp. 7368-7378, Dec. 2019.
-
-
-
-\layout Itemize
-
-[Cao.2018] Y. F. Cao and X. Y. Zhang, 
-\begin_inset Quotes eld
-\end_inset
-A wideband beam-steerable slot antenna using artificial magnetic conductors with simple,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 4, pp. 1685-1694, Apr. 2018.
-
-
-
-\layout Itemize
-
-[Yan.2016] M. Yan et al., 
-\begin_inset Quotes eld
-\end_inset
-A tri-band, highly selective, bandpass FSS using cascaded multilayer loop,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 5, pp. 2046-2049, May 2016.
-
-
-
-\layout Itemize
-
-[Liang.2016] L. Liang and S. Victor Hum, 
-\begin_inset Quotes eld
-\end_inset
-Design of a UWB reflectarray as an impedance surface using bessel,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 10, pp. 4242-4255, Oct. 2016.
-
-
-
-\layout Itemize
-
-[Barton.2015] J. H. Barton, C. R. Garcia, E. A. Berry, R. Salas, and R. C. Rumpf, 
-\begin_inset Quotes eld
-\end_inset
-3-D printed all-dielectric frequency selective surface with large bandwidth and field of,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 3, pp. 1032-1039, Mar. 2015.
-
-
-
-\layout Itemize
-
-[Hendry.2019] D. R. Hendry and A. M. Abbosh, 
-\begin_inset Quotes eld
-\end_inset
-Coupled-Resonator theory of isolation in multi-mode,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 9, pp. 5801-5811, Sep. 2019.
-
-
-
-\layout Itemize
-
-[Guo.2020] W.-L. Guo, K. Chen, G.-M. Wang, X.-Y. Luo, Y.-J. Feng, and C.-W. Qiu, 
-\begin_inset Quotes eld
-\end_inset
-Transmission-Reflection-Selective metasurface and its application to RCS reduction of high-gain reflector,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 68, no. 3, pp. 1426-1435, Mar. 2020.
-
-
-
-\layout Itemize
-
-[Ding.2020] C. Ding, H.-H. Sun, H. Zhu, and Y. Jay Guo, 
-\begin_inset Quotes eld
-\end_inset
-Achieving wider bandwidth with full-wavelength dipoles for 5G base,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 68, no. 2, pp. 1119-1127, Feb. 2020.
-
-
-
-\layout Itemize
-
-[Liang.2015] B. Liang, B. Sanz-Izquierdo, E. A. Parker, and J. C. Batchelor, 
-\begin_inset Quotes eld
-\end_inset
-Cylindrical slot FSS configuration for beam-switching,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 1, pp. 166-173, Jan. 2015.
-
-
-
-\layout Itemize
-
-[Wu.2018] G.-B. Wu, S.-W. Qu, Y.-X. Wang, and S. Yang, 
-\begin_inset Quotes eld
-\end_inset
-Nonuniform fss-backed reflectarray with synthesized phase and amplitude,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 12, pp. 6883-6892, Dec. 2018.
-
-
-
-\layout Itemize
-
-[Hassan.2018] T. Hassan, M. U. Khan, H. Attia, and M. S. Sharawi, 
-\begin_inset Quotes eld
-\end_inset
-An FSS based correlation reduction technique for MIMO,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 9, pp. 4900-4905, Sep. 2018.
-
-
-
-\layout Itemize
-
-[Deng.2017] R. Deng, F. Yang, S. Xu, and M. Li, 
-\begin_inset Quotes eld
-\end_inset
-An fss-backed 20/30-ghz dual-band circularly polarized reflectarray with suppressed mutual coupling and enhanced,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 2, pp. 926-931, Feb. 2017.
-
-
-
-\layout Itemize
-
-[Khan.2018] S. Khan and T. F. Eibert, 
-\begin_inset Quotes eld
-\end_inset
-A multifunctional metamaterial-based dual-band isotropic frequency-selective,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 8, pp. 4042-4051, Aug. 2018.
-
-
-
-\layout Itemize
-
-[Yetisir.2016] E. Yetisir, N. Ghalichechian, and J. L. Volakis, 
-\begin_inset Quotes eld
-\end_inset
-Ultrawideband array with 70° scanning using FSS,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 10, pp. 4256-4265, Oct. 2016.
-
-
-
-\layout Itemize
-
-[Huang.2018] C. Huang, C. Ji, X. Wu, J. Song, and X. Luo, 
-\begin_inset Quotes eld
-\end_inset
-Combining FSS and EBG surfaces for high-efficiency transmission and low-scattering,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 3, pp. 1628-1632, Mar. 2018.
-
-
-
-\layout Itemize
-
-[Costa.2018] F. Costa, D. Bianchi, A. Monorchio, and G. Manara, 
-\begin_inset Quotes eld
-\end_inset
-Linear fabry-perot/leaky-wave antennas excited by multiple,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 10, pp. 5150-5159, Oct. 2018.
-
-
-
-\layout Itemize
-
-[Momeni.2016] S. M. A. Momeni Hasan Abadi and N. Behdad, 
-\begin_inset Quotes eld
-\end_inset
-Broadband true-time-delay circularly polarized reflectarray with linearly polarized,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 11, pp. 4891-4896, Nov. 2016.
-
-
-
-\layout Itemize
-
-[Zhu.2018] D. Z. Zhu, M. D. Gregory, P. L. Werner, and D. H. Werner, 
-\begin_inset Quotes eld
-\end_inset
-Fabrication and characterization of multiband polarization independent 3-d-printed frequency selective structures with ultrawide fields of,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 11, pp. 6096-6105, Nov. 2018.
-
-
-
-\layout Itemize
-
-[Wu.2017] R. Y. Wu, Y. B. Li, W. Wu, C. B. Shi, and T. J. Cui, 
-\begin_inset Quotes eld
-\end_inset
-High-Gain dual-band,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 7, pp. 3481-3488, Jul. 2017.
-
+, vol. 64, no. 3, pp. 1106-1111, Mar. 2016
+ (DOI: 10.1109/TAP.2015.2513423).
 
 
 \layout Itemize
@@ -575,224 +944,29 @@ High-Gain dual-band,
 [Han.2017] Y. Han, W. Che, X. Xiu, W. Yang, and C. Christopoulos, 
 \begin_inset Quotes eld
 \end_inset
-Switchable low-profile broadband frequency-selective rasorber/absorber based on slot,
+Switchable low-profile broadband frequency-selective rasorber/absorber based on slot arrays,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 12, pp. 6998-7008, Dec. 2017.
-
+, vol. 65, no. 12, pp. 6998-7008, Dec. 2017
+ (DOI: 10.1109/TAP.2017.2759964).
 
 
 \layout Itemize
 
-[Delafkar.2018] H. Delafkar and A. Pirhadi, 
+[Guo.2020] W.-L. Guo, K. Chen, G.-M. Wang, X.-Y. Luo, Y.-J. Feng, and C.-W. Qiu, 
 \begin_inset Quotes eld
 \end_inset
-An accurate method for synthesis of reflecting elements to design wideband reflectarray,
+Transmission-Reflection-Selective metasurface and its application to RCS reduction of high-gain reflector antenna,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 5, pp. 2392-2400, May 2018.
-
-
-
-\layout Itemize
-
-[Chaharmir.2015] M. R. Chaharmir and J. Shaker, 
-\begin_inset Quotes eld
-\end_inset
-Design of a multilayer x-/ka-band frequency-selective surface-backed reflectarray for satellite,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 4, pp. 1255-1262, Apr. 2015.
-
-
-
-\layout Itemize
-
-[Fan.2017] C. Fan, W. Che, W. Yang, and S. He, 
-\begin_inset Quotes eld
-\end_inset
-A novel pramc-based ultralow-profile transmitarray antenna by using ray tracing,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 4, pp. 1779-1787, Apr. 2017.
-
-
-
-\layout Itemize
-
-[Rahmati.2015] B. Rahmati and H. R. Hassani, 
-\begin_inset Quotes eld
-\end_inset
-Multiband metallic frequency selective surface with wide range of band,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 8, pp. 3747-3753, Aug. 2015.
-
-
-
-\layout Itemize
-
-[Mao.2017] C.-X. Mao, S. Gao, Y. Wang, Q. Luo, and Q.-X. Chu, 
-\begin_inset Quotes eld
-\end_inset
-A shared-aperture dual-band dual-polarized filtering-antenna-array with improved frequency,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 4, pp. 1836-1844, Apr. 2017.
-
-
-
-\layout Itemize
-
-[Zhu.2019] Y. Zhu, Y. Chen, and S. Yang, 
-\begin_inset Quotes eld
-\end_inset
-Decoupling and low-profile design of dual-band dual-polarized base station antennas using frequency-selective,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 8, pp. 5272-5281, Aug. 2019.
-
-
-
-\layout Itemize
-
-[Deng.2018] R. Deng, S. Xu, F. Yang, and M. Li, 
-\begin_inset Quotes eld
-\end_inset
-An fss-backed ku/ka quad-band reflectarray antenna for satellite,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 8, pp. 4353-4358, Aug. 2018.
-
-
-
-\layout Itemize
-
-[Naseri.2018] P. Naseri, S. A. Matos, J. R. Costa, C. A. Fernandes, and N. J. G. Fonseca, 
-\begin_inset Quotes eld
-\end_inset
-Dual-Band dual-linear-to-circular polarization converter in transmission mode application to $k/ka$ -band satellite,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 12, pp. 7128-7137, Dec. 2018.
-
-
-
-\layout Itemize
-
-[Mahmud.2017] R. H. Mahmud and M. J. Lancaster, 
-\begin_inset Quotes eld
-\end_inset
-High-Gain and wide-bandwidth filtering planar antenna array-based solely on,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 5, pp. 2367-2375, May 2017.
-
-
-
-\layout Itemize
-
-[Momeni.2016] S. M. A. Momeni Hasan Abadi and N. Behdad, 
-\begin_inset Quotes eld
-\end_inset
-Wideband linear-to-circular polarization converters based on miniaturized-element frequency selective,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 2, pp. 525-534, Feb. 2016.
-
-
-
-\layout Itemize
-
-[Cheng.2020] Y.-F. Cheng, X. Ding, L. Peng, J. Feng, and C. Liao, 
-\begin_inset Quotes eld
-\end_inset
-Design and analysis of a wideband low-scattering endfire antenna using a moth tail-inspired metamaterial absorber and a surface,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 68, no. 3, pp. 1411-1418, Mar. 2020.
-
-
-
-\layout Itemize
-
-[Mao.2015] C.-X. Mao, S. Gao, Y. Wang, F. Qin, and Q.-X. Chu, 
-\begin_inset Quotes eld
-\end_inset
-Multimode resonator-fed dual-polarized antenna array with enhanced bandwidth and,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 12, pp. 5492-5499, Dec. 2015.
-
-
-
-\layout Itemize
-
-[Reis.2017] J. R. Reis, R. F. S. Caldeirinha, A. Hammoudeh, and N. Copner, 
-\begin_inset Quotes eld
-\end_inset
-Electronically reconfigurable fss-inspired transmitarray for 2-d,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 9, pp. 4880-4885, Sep. 2017.
-
-
-
-\layout Itemize
-
-[Li.2015] Y. Li, L. Li, Y. Zhang, and C. Zhao, 
-\begin_inset Quotes eld
-\end_inset
-Design and synthesis of multilayer frequency selective surface based on antenna-filter-antenna using Minkowski fractal,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 1, pp. 133-141, Jan. 2015.
-
+, vol. 68, no. 3, pp. 1426-1435, Mar. 2020
+ (DOI: 10.1109/TAP.2019.2948742).
 
 
 \layout Itemize
@@ -800,59 +974,14 @@ Design and synthesis of multilayer frequency selective surface based on antenna-
 [Hsu.2018] C.-Y. Hsu, L.-T. Hwang, T.-S. Horng, S.-M. Wang, F.-S. Chang, and C. N. Dorny, 
 \begin_inset Quotes eld
 \end_inset
-Transmitarray design with enhanced aperture efficiency using small frequency selective surface cells and discrete Jones matrix,
+Transmitarray design with enhanced aperture efficiency using small frequency selective surface cells and discrete Jones matrix analysis,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 8, pp. 3983-3994, Aug. 2018.
-
-
-
-\layout Itemize
-
-[Fartookzadeh.2016] M. Fartookzadeh and S. H. Mohseni Armaki, 
-\begin_inset Quotes eld
-\end_inset
-Dual-Band reflection-type circular polarizers based on anisotropic impedance,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 2, pp. 826-830, Feb. 2016.
-
-
-
-\layout Itemize
-
-[Hu.2017] H.-T. Hu, F.-C. Chen, J.-F. Qian, and Q.-X. Chu, 
-\begin_inset Quotes eld
-\end_inset
-A differential filtering microstrip antenna array with intrinsic common-mode,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 12, pp. 7361-7365, Dec. 2017.
-
-
-
-\layout Itemize
-
-[Momeni.2015] S. M. A. Momeni Hasan Abadi and N. Behdad, 
-\begin_inset Quotes eld
-\end_inset
-Inductively-Coupled miniaturized-element frequency selective surfaces with narrowband, high-order bandpass,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 11, pp. 4766-4774, Nov. 2015.
-
+, vol. 66, no. 8, pp. 3983-3994, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2839755).
 
 
 \layout Itemize
@@ -860,98 +989,29 @@ Inductively-Coupled miniaturized-element frequency selective surfaces with narro
 [Malakooti.2019] S.-A. Malakooti, S. M. H. Mousavi, and C. Fumeaux, 
 \begin_inset Quotes eld
 \end_inset
-Tunable bandpass-to-bandstop quasi-yagi-uda antenna with sum and difference radiation,
+Tunable bandpass-to-bandstop quasi-yagi-uda antenna with sum and difference radiation patterns,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 4, pp. 2260-2271, Apr. 2019.
-
+, vol. 67, no. 4, pp. 2260-2271, Apr. 2019
+ (DOI: 10.1109/TAP.2019.2891451).
 
 
 \layout Itemize
 
-[Borja.2018] A. L. Borja, Y. Kabiri, A. Belenguer, and J. R. Kelly, 
+[Yetisir.2016] E. Yetisir, N. Ghalichechian, and J. L. Volakis, 
 \begin_inset Quotes eld
 \end_inset
-Programmable multifunctional rf/microwave circuit for antenna and filter,
+Ultrawideband array with 70° scanning using FSS superstrate,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 8, pp. 3865-3876, Aug. 2018.
-
-
-
-\layout Itemize
-
-[Lima.2019] E. B. Lima, J. R. Costa, and C. A. Fernandes, 
-\begin_inset Quotes eld
-\end_inset
-Multiple-Beam focal-plane dual-band fabry-p
-\begin_inset ERT
-status Collapsed
-
-\layout Standard
-{
-\backslash
-'{e}}
-\end_inset
-rot cavity antenna with reduced beam,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 7, pp. 4348-4356, Jul. 2019.
-
-
-
-\layout Itemize
-
-[Ding.2019] X. Ding, Y.-F. Cheng, W. Shao, and B.-Z. Wang, 
-\begin_inset Quotes eld
-\end_inset
-Broadband low-rcs phased array with wide-angle scanning performance based on the switchable stacked artificial,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 10, pp. 6452-6460, Oct. 2019.
-
-
-
-\layout Itemize
-
-[Zhang.2019] J. F. Zhang, Y. J. Cheng, Y. R. Ding, and C. X. Bai, 
-\begin_inset Quotes eld
-\end_inset
-A dual-band shared-aperture antenna with large frequency ratio, high aperture reuse efficiency, and high channel,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 2, pp. 853-860, Feb. 2019.
-
-
-
-\layout Itemize
-
-[Wang.2018] C. Wang, Y. Chen, and S. Yang, 
-\begin_inset Quotes eld
-\end_inset
-Dual-Band dual-polarized antenna array with flat-top and sharp cutoff radiation patterns for 2g/3g/lte cellular,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 11, pp. 5907-5917, Nov. 2018.
-
+, vol. 64, no. 10, pp. 4256-4265, Oct. 2016
+ (DOI: 10.1109/TAP.2016.2594817).
 
 
 \layout Itemize
@@ -959,89 +1019,269 @@ Dual-Band dual-polarized antenna array with flat-top and sharp cutoff radiation 
 [Wang.2017] Z. Wang, P. S. Hall, J. R. Kelly, and P. Gardner, 
 \begin_inset Quotes eld
 \end_inset
-Wideband frequency-domain and space-domain pattern reconfigurable circular antenna,
+Wideband frequency-domain and space-domain pattern reconfigurable circular antenna array,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 10, pp. 5179-5189, Oct. 2017.
-
+, vol. 65, no. 10, pp. 5179-5189, Oct. 2017
+ (DOI: 10.1109/TAP.2017.2740969).
 
 
 \layout Itemize
 
-[Niroo.2016] M. Niroo Jazi, M. R. Chaharmir, J. Shaker, and A. R. Sebak, 
+[Momeni.2016] S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-Broadband transmitarray antenna design using polarization-insensitive frequency selective,
+Wideband linear-to-circular polarization converters based on miniaturized-element frequency selective surfaces,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 64, no. 1, pp. 99-108, Jan. 2016.
+, vol. 64, no. 2, pp. 525-534, Feb. 2016
+ (DOI: 10.1109/TAP.2015.2504999).
 
+\layout Bibliography
 
-
-\layout Itemize
-
-[Reis.2016] J. R. Reis et al., 
+\bibitem {Barton.2015}
+J. H. Barton, C. R. Garcia, E. A. Berry, R. Salas, and R. C. Rumpf, 
 \begin_inset Quotes eld
 \end_inset
-FSS-Inspired transmitarray for two-dimensional antenna,
+3-D printed all-dielectric frequency selective surface with large bandwidth and field of view,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 64, no. 6, pp. 2197-2206, Jun. 2016.
+, vol. 63, no. 3, pp. 1032-1039, Mar. 2015
+ (DOI: 10.1109/TAP.2015.2388541).
 
+\layout Bibliography
 
-
-\layout Itemize
-
-[Chatterjee.2016] A. Chatterjee and S. K. Parui, 
+\bibitem {Hu.2017}
+H.-T. Hu, F.-C. Chen, J.-F. Qian, and Q.-X. Chu, 
 \begin_inset Quotes eld
 \end_inset
-Performance enhancement of a dual-band monopole antenna by using a frequency-selective surface-based corner,
+A differential filtering microstrip antenna array with intrinsic common-mode rejection,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 64, no. 6, pp. 2165-2171, Jun. 2016.
+, vol. 65, no. 12, pp. 7361-7365, Dec. 2017
+ (DOI: 10.1109/TAP.2017.2764097).
 
+\layout Bibliography
 
-
-\layout Itemize
-
-[Zhong.2019] X. Zhong, H.-X. Xu, L. Chen, W. Li, H. Wang, and X. Shi, 
+\bibitem {Zhang.2019}
+J. F. Zhang, Y. J. Cheng, Y. R. Ding, and C. X. Bai, 
 \begin_inset Quotes eld
 \end_inset
-An fss-backed broadband phase-shifting surface array with multimode,
+A dual-band shared-aperture antenna with large frequency ratio, high aperture reuse efficiency, and high channel isolation,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 9, pp. 5974-5981, Sep. 2019.
+, vol. 67, no. 2, pp. 853-860, Feb. 2019
+ (DOI: 10.1109/TAP.2018.2882697).
 
+\layout Bibliography
 
-
-\layout Itemize
-
-[Wincza.2017] K. Wincza and S. Gruszczynski, 
+\bibitem {Luo.2019}
+Q. Luo et al., 
 \begin_inset Quotes eld
 \end_inset
-Frequency-Selective feeding network based on directional filter for constant-beamwidth scalable antenna,
+A hybrid design method for thin-panel transmitarray antennas,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 8, pp. 4346-4350, Aug. 2017.
+, vol. 67, no. 10, pp. 6473-6483, Oct. 2019
+ (DOI: 10.1109/TAP.2019.2923076).
 
+\layout Bibliography
+
+\bibitem {Zhang.2019}
+B. Zhang et al., 
+\begin_inset Quotes eld
+\end_inset
+A metallic 3-d printed airborne high-power handling magneto-electric dipole array with cooling channels,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 12, pp. 7368-7378, Dec. 2019
+ (DOI: 10.1109/TAP.2019.2935085).
+
+\layout Bibliography
+
+\bibitem {Khan.2018}
+S. Khan and T. F. Eibert, 
+\begin_inset Quotes eld
+\end_inset
+A multifunctional metamaterial-based dual-band isotropic frequency-selective surface,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 8, pp. 4042-4051, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2835667).
+
+\layout Bibliography
+
+\bibitem {Fan.2017}
+C. Fan, W. Che, W. Yang, and S. He, 
+\begin_inset Quotes eld
+\end_inset
+A novel pramc-based ultralow-profile transmitarray antenna by using ray tracing principle,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 4, pp. 1779-1787, Apr. 2017
+ (DOI: 10.1109/TAP.2017.2670600).
+
+\layout Bibliography
+
+\bibitem {Mao.2017}
+C.-X. Mao, S. Gao, Y. Wang, Q. Luo, and Q.-X. Chu, 
+\begin_inset Quotes eld
+\end_inset
+A shared-aperture dual-band dual-polarized filtering-antenna-array with improved frequency response,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 4, pp. 1836-1844, Apr. 2017
+ (DOI: 10.1109/TAP.2017.2670325).
+
+\layout Bibliography
+
+\bibitem {Yan.2016}
+M. Yan et al., 
+\begin_inset Quotes eld
+\end_inset
+A tri-band, highly selective, bandpass FSS using cascaded multilayer loop arrays,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 5, pp. 2046-2049, May 2016
+ (DOI: 10.1109/TAP.2016.2536175).
+
+\layout Bibliography
+
+\bibitem {Cao.2018}
+Y. F. Cao and X. Y. Zhang, 
+\begin_inset Quotes eld
+\end_inset
+A wideband beam-steerable slot antenna using artificial magnetic conductors with simple structure,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 4, pp. 1685-1694, Apr. 2018
+ (DOI: 10.1109/TAP.2018.2804480).
+
+\layout Bibliography
+
+\bibitem {Ding.2020}
+C. Ding, H.-H. Sun, H. Zhu, and Y. Jay Guo, 
+\begin_inset Quotes eld
+\end_inset
+Achieving wider bandwidth with full-wavelength dipoles for 5G base stations,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 68, no. 2, pp. 1119-1127, Feb. 2020
+ (DOI: 10.1109/TAP.2019.2950108).
+
+\layout Bibliography
+
+\bibitem {Delafkar.2018}
+H. Delafkar and A. Pirhadi, 
+\begin_inset Quotes eld
+\end_inset
+An accurate method for synthesis of reflecting elements to design wideband reflectarray antenna,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 5, pp. 2392-2400, May 2018
+ (DOI: 10.1109/TAP.2018.2816602).
+
+\layout Bibliography
+
+\bibitem {Hassan.2018}
+T. Hassan, M. U. Khan, H. Attia, and M. S. Sharawi, 
+\begin_inset Quotes eld
+\end_inset
+An FSS based correlation reduction technique for MIMO antennas,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 9, pp. 4900-4905, Sep. 2018
+ (DOI: 10.1109/TAP.2018.2842256).
+
+\layout Bibliography
+
+\bibitem {Deng.2017}
+R. Deng, F. Yang, S. Xu, and M. Li, 
+\begin_inset Quotes eld
+\end_inset
+An fss-backed 20/30-ghz dual-band circularly polarized reflectarray with suppressed mutual coupling and enhanced performance,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 2, pp. 926-931, Feb. 2017
+ (DOI: 10.1109/TAP.2016.2633159).
+
+\layout Bibliography
+
+\bibitem {Zhong.2019}
+X. Zhong, H.-X. Xu, L. Chen, W. Li, H. Wang, and X. Shi, 
+\begin_inset Quotes eld
+\end_inset
+An fss-backed broadband phase-shifting surface array with multimode operation,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 9, pp. 5974-5981, Sep. 2019
+ (DOI: 10.1109/TAP.2019.2916747).
+
+\layout Bibliography
+
+\bibitem {Deng.2018}
+R. Deng, S. Xu, F. Yang, and M. Li, 
+\begin_inset Quotes eld
+\end_inset
+An fss-backed ku/ka quad-band reflectarray antenna for satellite communications,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 8, pp. 4353-4358, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2835725).
 
 \layout Bibliography
 
@@ -1049,59 +1289,14 @@ Frequency-Selective feeding network based on directional filter for constant-bea
 P. Xu, W. X. Jiang, S. Y. Wang, and T. J. Cui, 
 \begin_inset Quotes eld
 \end_inset
-An ultrathin cross-polarization converter with near unity efficiency for transmitted,
+An ultrathin cross-polarization converter with near unity efficiency for transmitted waves,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 8, pp. 4370-4373, Aug. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Guyon.2019}
-F. Guyon, M. A. K. Othman, C. Guclu, and F. Capolino, 
-\begin_inset Quotes eld
-\end_inset
-Hyperbolic metamaterials at microwaves with stacked inductive coiled-wire,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 10, pp. 6494-6507, Oct. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Lansey.2015}
-E. Lansey, I. M. Mandel, I. R. Hooper, J. N. Gollub, A. P. Hibbins, and D. T. Crouse, 
-\begin_inset Quotes eld
-\end_inset
-Measurement of photon sorting at microwave frequencies in a cavity array,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 10, pp. 4521-4524, Oct. 2015.
-
-
-\layout Bibliography
-
-\bibitem {Ghayekhloo.2017}
-A. Ghayekhloo, A. Abdolali, and S. H. Mohseni Armaki, 
-\begin_inset Quotes eld
-\end_inset
-Observation of radar cross-section reduction using low-pressure plasma-arrayed coating,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 6, pp. 3058-3064, Jun. 2017.
-
+, vol. 66, no. 8, pp. 4370-4373, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2839972).
 
 \layout Bibliography
 
@@ -1118,74 +1313,74 @@ status Collapsed
 guez-Berral, F. Mesa, and F. Medina, 
 \begin_inset Quotes eld
 \end_inset
-Analytical multimodal network approach for 2-d arrays of planar patches/apertures embedded in a layered,
+Analytical multimodal network approach for 2-d arrays of planar patches/apertures embedded in a layered medium,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 63, no. 5, pp. 1969-1984, May 2015.
-
+, vol. 63, no. 5, pp. 1969-1984, May 2015
+ (DOI: 10.1109/TAP.2015.2406885).
 
 \layout Bibliography
 
-\bibitem {Camacho.2019}
-M. Camacho, R. R. Boix, and F. Medina, 
+\bibitem {Ding.2019}
+X. Ding, Y.-F. Cheng, W. Shao, and B.-Z. Wang, 
 \begin_inset Quotes eld
 \end_inset
-NUFFT for the efficient spectral domain MoM analysis of a wide variety of multilayered periodic,
+Broadband low-rcs phased array with wide-angle scanning performance based on the switchable stacked artificial structure,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 10, pp. 6551-6563, Oct. 2019.
-
+, vol. 67, no. 10, pp. 6452-6460, Oct. 2019
+ (DOI: 10.1109/TAP.2019.2925202).
 
 \layout Bibliography
 
-\bibitem {Zamani.2015}
-A. Zamani and A. Abbosh, 
+\bibitem {Niroo.2016}
+M. Niroo Jazi, M. R. Chaharmir, J. Shaker, and A. R. Sebak, 
 \begin_inset Quotes eld
 \end_inset
-Hybrid clutter rejection technique for improved microwave head,
+Broadband transmitarray antenna design using polarization-insensitive frequency selective surfaces,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 63, no. 11, pp. 4921-4931, Nov. 2015.
-
+, vol. 64, no. 1, pp. 99-108, Jan. 2016
+ (DOI: 10.1109/TAP.2015.2500230).
 
 \layout Bibliography
 
-\bibitem {Dickie.2017}
-R. Dickie et al., 
+\bibitem {Momeni.2016}
+S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-Low-Pass FSS for 50-230 GHz quasi-optical demultiplexing for the MetOp second-generation microwave sounder,
+Broadband true-time-delay circularly polarized reflectarray with linearly polarized feed,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 10, pp. 5312-5321, Oct. 2017.
-
+, vol. 64, no. 11, pp. 4891-4896, Nov. 2016
+ (DOI: 10.1109/TAP.2016.2596900).
 
 \layout Bibliography
 
-\bibitem {Baladi.2018}
-E. Baladi and A. K. Iyer, 
+\bibitem {Huang.2018}
+C. Huang, C. Ji, X. Wu, J. Song, and X. Luo, 
 \begin_inset Quotes eld
 \end_inset
-Far-Field magnification of subdiffraction conducting features using metamaterial-lined aperture,
+Combining FSS and EBG surfaces for high-efficiency transmission and low-scattering properties,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 7, pp. 3482-3490, Jul. 2018.
-
+, vol. 66, no. 3, pp. 1628-1632, Mar. 2018
+ (DOI: 10.1109/TAP.2018.2790430).
 
 \layout Bibliography
 
@@ -1202,29 +1397,149 @@ status Collapsed
 , C. Decroze, M. Mouhamadou, and T. Fromenteze, 
 \begin_inset Quotes eld
 \end_inset
-Computational imaging for compressive synthetic aperture interferometric,
+Computational imaging for compressive synthetic aperture interferometric radiometer,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 10, pp. 5546-5557, Oct. 2018.
-
+, vol. 66, no. 10, pp. 5546-5557, Oct. 2018
+ (DOI: 10.1109/TAP.2018.2858178).
 
 \layout Bibliography
 
-\bibitem {Zhong.2019}
-J. Zhong, A. Johnson, E. A. Alwan, and J. L. Volakis, 
+\bibitem {Hendry.2019}
+D. R. Hendry and A. M. Abbosh, 
 \begin_inset Quotes eld
 \end_inset
-Dual-Linear polarized phased array with 9:1 bandwidth and 60° scanning off,
+Coupled-Resonator theory of isolation in multi-mode antennas,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 3, pp. 1996-2001, Mar. 2019.
+, vol. 67, no. 9, pp. 5801-5811, Sep. 2019
+ (DOI: 10.1109/TAP.2019.2922551).
 
+\layout Bibliography
+
+\bibitem {Liang.2015}
+B. Liang, B. Sanz-Izquierdo, E. A. Parker, and J. C. Batchelor, 
+\begin_inset Quotes eld
+\end_inset
+Cylindrical slot FSS configuration for beam-switching applications,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 1, pp. 166-173, Jan. 2015
+ (DOI: 10.1109/TAP.2014.2367534).
+
+\layout Bibliography
+
+\bibitem {Zhu.2019}
+Y. Zhu, Y. Chen, and S. Yang, 
+\begin_inset Quotes eld
+\end_inset
+Decoupling and low-profile design of dual-band dual-polarized base station antennas using frequency-selective surface,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 8, pp. 5272-5281, Aug. 2019
+ (DOI: 10.1109/TAP.2019.2916730).
+
+\layout Bibliography
+
+\bibitem {Cheng.2020}
+Y.-F. Cheng, X. Ding, L. Peng, J. Feng, and C. Liao, 
+\begin_inset Quotes eld
+\end_inset
+Design and analysis of a wideband low-scattering endfire antenna using a moth tail-inspired metamaterial absorber and a surface waveguide,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 68, no. 3, pp. 1411-1418, Mar. 2020
+ (DOI: 10.1109/TAP.2020.2967310).
+
+\layout Bibliography
+
+\bibitem {Li.2015}
+Y. Li, L. Li, Y. Zhang, and C. Zhao, 
+\begin_inset Quotes eld
+\end_inset
+Design and synthesis of multilayer frequency selective surface based on antenna-filter-antenna using Minkowski fractal structures,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 1, pp. 133-141, Jan. 2015
+ (DOI: 10.1109/TAP.2014.2367523).
+
+\layout Bibliography
+
+\bibitem {Chaharmir.2015}
+M. R. Chaharmir and J. Shaker, 
+\begin_inset Quotes eld
+\end_inset
+Design of a multilayer x-/ka-band frequency-selective surface-backed reflectarray for satellite applications,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 4, pp. 1255-1262, Apr. 2015
+ (DOI: 10.1109/TAP.2015.2389838).
+
+\layout Bibliography
+
+\bibitem {Liang.2016}
+L. Liang and S. Victor Hum, 
+\begin_inset Quotes eld
+\end_inset
+Design of a UWB reflectarray as an impedance surface using bessel filters,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 10, pp. 4242-4255, Oct. 2016
+ (DOI: 10.1109/TAP.2016.2594056).
+
+\layout Bibliography
+
+\bibitem {Naseri.2018}
+P. Naseri, S. A. Matos, J. R. Costa, C. A. Fernandes, and N. J. G. Fonseca, 
+\begin_inset Quotes eld
+\end_inset
+Dual-Band dual-linear-to-circular polarization converter in transmission mode application to $k/ka$ -band satellite communications,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 12, pp. 7128-7137, Dec. 2018
+ (DOI: 10.1109/TAP.2018.2874680).
+
+\layout Bibliography
+
+\bibitem {Wang.2018}
+C. Wang, Y. Chen, and S. Yang, 
+\begin_inset Quotes eld
+\end_inset
+Dual-Band dual-polarized antenna array with flat-top and sharp cutoff radiation patterns for 2g/3g/lte cellular bands,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 11, pp. 5907-5917, Nov. 2018
+ (DOI: 10.1109/TAP.2018.2866596).
 
 \layout Bibliography
 
@@ -1232,14 +1547,119 @@ Dual-Linear polarized phased array with 9:1 bandwidth and 60° scanning off,
 J. A. Brown, S. Barth, B. P. Smyth, and A. K. Iyer, 
 \begin_inset Quotes eld
 \end_inset
-Dual-Band microstrip corporate feed network using an embedded metamaterial-based,
+Dual-Band microstrip corporate feed network using an embedded metamaterial-based EBG,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 11, pp. 7031-7039, Nov. 2019.
+, vol. 67, no. 11, pp. 7031-7039, Nov. 2019
+ (DOI: 10.1109/TAP.2019.2923074).
 
+\layout Bibliography
+
+\bibitem {Fartookzadeh.2016}
+M. Fartookzadeh and S. H. Mohseni Armaki, 
+\begin_inset Quotes eld
+\end_inset
+Dual-Band reflection-type circular polarizers based on anisotropic impedance surfaces,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 2, pp. 826-830, Feb. 2016
+ (DOI: 10.1109/TAP.2015.2511152).
+
+\layout Bibliography
+
+\bibitem {Zhong.2019}
+J. Zhong, A. Johnson, E. A. Alwan, and J. L. Volakis, 
+\begin_inset Quotes eld
+\end_inset
+Dual-Linear polarized phased array with 9:1 bandwidth and 60° scanning off broadside,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 3, pp. 1996-2001, Mar. 2019
+ (DOI: 10.1109/TAP.2019.2891607).
+
+\layout Bibliography
+
+\bibitem {Reis.2017}
+J. R. Reis, R. F. S. Caldeirinha, A. Hammoudeh, and N. Copner, 
+\begin_inset Quotes eld
+\end_inset
+Electronically reconfigurable fss-inspired transmitarray for 2-d beamsteering,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 9, pp. 4880-4885, Sep. 2017
+ (DOI: 10.1109/TAP.2017.2723087).
+
+\layout Bibliography
+
+\bibitem {Zhu.2018}
+D. Z. Zhu, M. D. Gregory, P. L. Werner, and D. H. Werner, 
+\begin_inset Quotes eld
+\end_inset
+Fabrication and characterization of multiband polarization independent 3-d-printed frequency selective structures with ultrawide fields of view,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 11, pp. 6096-6105, Nov. 2018
+ (DOI: 10.1109/TAP.2018.2866507).
+
+\layout Bibliography
+
+\bibitem {Baladi.2018}
+E. Baladi and A. K. Iyer, 
+\begin_inset Quotes eld
+\end_inset
+Far-Field magnification of subdiffraction conducting features using metamaterial-lined aperture arrays,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 7, pp. 3482-3490, Jul. 2018
+ (DOI: 10.1109/TAP.2018.2829822).
+
+\layout Bibliography
+
+\bibitem {Wincza.2017}
+K. Wincza and S. Gruszczynski, 
+\begin_inset Quotes eld
+\end_inset
+Frequency-Selective feeding network based on directional filter for constant-beamwidth scalable antenna arrays,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 8, pp. 4346-4350, Aug. 2017
+ (DOI: 10.1109/TAP.2017.2717962).
+
+\layout Bibliography
+
+\bibitem {Reis.2016}
+J. R. Reis et al., 
+\begin_inset Quotes eld
+\end_inset
+FSS-Inspired transmitarray for two-dimensional antenna beamsteering,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 6, pp. 2197-2206, Jun. 2016
+ (DOI: 10.1109/TAP.2016.2543802).
 
 \layout Bibliography
 
@@ -1247,14 +1667,263 @@ Dual-Band microstrip corporate feed network using an embedded metamaterial-based
 S. A. Matos et al., 
 \begin_inset Quotes eld
 \end_inset
-High gain dual-band beam-steering transmit array for satcom terminals at,
+High gain dual-band beam-steering transmit array for satcom terminals at ka-band,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 7, pp. 3528-3539, Jul. 2017.
+, vol. 65, no. 7, pp. 3528-3539, Jul. 2017
+ (DOI: 10.1109/TAP.2017.2702658).
 
+\layout Bibliography
+
+\bibitem {Mahmud.2017}
+R. H. Mahmud and M. J. Lancaster, 
+\begin_inset Quotes eld
+\end_inset
+High-Gain and wide-bandwidth filtering planar antenna array-based solely on resonators,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 5, pp. 2367-2375, May 2017
+ (DOI: 10.1109/TAP.2017.2670443).
+
+\layout Bibliography
+
+\bibitem {Wu.2017}
+R. Y. Wu, Y. B. Li, W. Wu, C. B. Shi, and T. J. Cui, 
+\begin_inset Quotes eld
+\end_inset
+High-Gain dual-band transmitarray,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 7, pp. 3481-3488, Jul. 2017
+ (DOI: 10.1109/TAP.2017.2705074).
+
+\layout Bibliography
+
+\bibitem {Zamani.2015}
+A. Zamani and A. Abbosh, 
+\begin_inset Quotes eld
+\end_inset
+Hybrid clutter rejection technique for improved microwave head imaging,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 11, pp. 4921-4931, Nov. 2015
+ (DOI: 10.1109/TAP.2015.2479238).
+
+\layout Bibliography
+
+\bibitem {Guyon.2019}
+F. Guyon, M. A. K. Othman, C. Guclu, and F. Capolino, 
+\begin_inset Quotes eld
+\end_inset
+Hyperbolic metamaterials at microwaves with stacked inductive coiled-wire arrays,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 10, pp. 6494-6507, Oct. 2019
+ (DOI: 10.1109/TAP.2019.2925141).
+
+\layout Bibliography
+
+\bibitem {Momeni.2015}
+S. M. A. Momeni Hasan Abadi and N. Behdad, 
+\begin_inset Quotes eld
+\end_inset
+Inductively-Coupled miniaturized-element frequency selective surfaces with narrowband, high-order bandpass responses,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 11, pp. 4766-4774, Nov. 2015
+ (DOI: 10.1109/TAP.2015.2477850).
+
+\layout Bibliography
+
+\bibitem {Costa.2018}
+F. Costa, D. Bianchi, A. Monorchio, and G. Manara, 
+\begin_inset Quotes eld
+\end_inset
+Linear fabry-perot/leaky-wave antennas excited by multiple sources,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 10, pp. 5150-5159, Oct. 2018
+ (DOI: 10.1109/TAP.2018.2860038).
+
+\layout Bibliography
+
+\bibitem {Dickie.2017}
+R. Dickie et al., 
+\begin_inset Quotes eld
+\end_inset
+Low-Pass FSS for 50-230 GHz quasi-optical demultiplexing for the MetOp second-generation microwave sounder instrument,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 10, pp. 5312-5321, Oct. 2017
+ (DOI: 10.1109/TAP.2017.2740978).
+
+\layout Bibliography
+
+\bibitem {Lansey.2015}
+E. Lansey, I. M. Mandel, I. R. Hooper, J. N. Gollub, A. P. Hibbins, and D. T. Crouse, 
+\begin_inset Quotes eld
+\end_inset
+Measurement of photon sorting at microwave frequencies in a cavity array metasurface,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 10, pp. 4521-4524, Oct. 2015
+ (DOI: 10.1109/TAP.2015.2458011).
+
+\layout Bibliography
+
+\bibitem {Rahmati.2015}
+B. Rahmati and H. R. Hassani, 
+\begin_inset Quotes eld
+\end_inset
+Multiband metallic frequency selective surface with wide range of band ratio,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 8, pp. 3747-3753, Aug. 2015
+ (DOI: 10.1109/TAP.2015.2438340).
+
+\layout Bibliography
+
+\bibitem {Mao.2015}
+C.-X. Mao, S. Gao, Y. Wang, F. Qin, and Q.-X. Chu, 
+\begin_inset Quotes eld
+\end_inset
+Multimode resonator-fed dual-polarized antenna array with enhanced bandwidth and selectivity,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 63, no. 12, pp. 5492-5499, Dec. 2015
+ (DOI: 10.1109/TAP.2015.2496099).
+
+\layout Bibliography
+
+\bibitem {Lima.2019}
+E. B. Lima, J. R. Costa, and C. A. Fernandes, 
+\begin_inset Quotes eld
+\end_inset
+Multiple-Beam focal-plane dual-band fabry-p
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+{
+\backslash
+'{e}}
+\end_inset
+rot cavity antenna with reduced beam degradation,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 7, pp. 4348-4356, Jul. 2019
+ (DOI: 10.1109/TAP.2019.2911365).
+
+\layout Bibliography
+
+\bibitem {Wu.2018}
+G.-B. Wu, S.-W. Qu, Y.-X. Wang, and S. Yang, 
+\begin_inset Quotes eld
+\end_inset
+Nonuniform fss-backed reflectarray with synthesized phase and amplitude distribution,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 12, pp. 6883-6892, Dec. 2018
+ (DOI: 10.1109/TAP.2018.2871752).
+
+\layout Bibliography
+
+\bibitem {Camacho.2019}
+M. Camacho, R. R. Boix, and F. Medina, 
+\begin_inset Quotes eld
+\end_inset
+NUFFT for the efficient spectral domain MoM analysis of a wide variety of multilayered periodic structures,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 67, no. 10, pp. 6551-6563, Oct. 2019
+ (DOI: 10.1109/TAP.2019.2920361).
+
+\layout Bibliography
+
+\bibitem {Ghayekhloo.2017}
+A. Ghayekhloo, A. Abdolali, and S. H. Mohseni Armaki, 
+\begin_inset Quotes eld
+\end_inset
+Observation of radar cross-section reduction using low-pressure plasma-arrayed coating structure,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 65, no. 6, pp. 3058-3064, Jun. 2017
+ (DOI: 10.1109/TAP.2017.2690311).
+
+\layout Bibliography
+
+\bibitem {Chatterjee.2016}
+A. Chatterjee and S. K. Parui, 
+\begin_inset Quotes eld
+\end_inset
+Performance enhancement of a dual-band monopole antenna by using a frequency-selective surface-based corner reflector,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 64, no. 6, pp. 2165-2171, Jun. 2016
+ (DOI: 10.1109/TAP.2016.2552543).
+
+\layout Bibliography
+
+\bibitem {Borja.2018}
+A. L. Borja, Y. Kabiri, A. Belenguer, and J. R. Kelly, 
+\begin_inset Quotes eld
+\end_inset
+Programmable multifunctional rf/microwave circuit for antenna and filter operation,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+\emph default
+, vol. 66, no. 8, pp. 3865-3876, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2835728).
 
 \layout Bibliography
 
@@ -1280,314 +1949,14 @@ status Collapsed
 a-Vigueras, F. Medina, and J. R. Mosig, 
 \begin_inset Quotes eld
 \end_inset
-Simplified modal expansion to analyze frequency-selective surfaces: an equivalent circuit,
+Simplified modal expansion to analyze frequency-selective surfaces: an equivalent circuit approach,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 64, no. 3, pp. 1106-1111, Mar. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Luo.2019}
-Q. Luo et al., 
-\begin_inset Quotes eld
-\end_inset
-A hybrid design method for thin-panel transmitarray,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 10, pp. 6473-6483, Oct. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Zhang.2019}
-B. Zhang et al., 
-\begin_inset Quotes eld
-\end_inset
-A metallic 3-d printed airborne high-power handling magneto-electric dipole array with cooling,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 12, pp. 7368-7378, Dec. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Cao.2018}
-Y. F. Cao and X. Y. Zhang, 
-\begin_inset Quotes eld
-\end_inset
-A wideband beam-steerable slot antenna using artificial magnetic conductors with simple,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 4, pp. 1685-1694, Apr. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Yan.2016}
-M. Yan et al., 
-\begin_inset Quotes eld
-\end_inset
-A tri-band, highly selective, bandpass FSS using cascaded multilayer loop,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 5, pp. 2046-2049, May 2016.
-
-
-\layout Bibliography
-
-\bibitem {Liang.2016}
-L. Liang and S. Victor Hum, 
-\begin_inset Quotes eld
-\end_inset
-Design of a UWB reflectarray as an impedance surface using bessel,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 10, pp. 4242-4255, Oct. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Barton.2015}
-J. H. Barton, C. R. Garcia, E. A. Berry, R. Salas, and R. C. Rumpf, 
-\begin_inset Quotes eld
-\end_inset
-3-D printed all-dielectric frequency selective surface with large bandwidth and field of,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 3, pp. 1032-1039, Mar. 2015.
-
-
-\layout Bibliography
-
-\bibitem {Hendry.2019}
-D. R. Hendry and A. M. Abbosh, 
-\begin_inset Quotes eld
-\end_inset
-Coupled-Resonator theory of isolation in multi-mode,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 9, pp. 5801-5811, Sep. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Guo.2020}
-W.-L. Guo, K. Chen, G.-M. Wang, X.-Y. Luo, Y.-J. Feng, and C.-W. Qiu, 
-\begin_inset Quotes eld
-\end_inset
-Transmission-Reflection-Selective metasurface and its application to RCS reduction of high-gain reflector,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 68, no. 3, pp. 1426-1435, Mar. 2020.
-
-
-\layout Bibliography
-
-\bibitem {Ding.2020}
-C. Ding, H.-H. Sun, H. Zhu, and Y. Jay Guo, 
-\begin_inset Quotes eld
-\end_inset
-Achieving wider bandwidth with full-wavelength dipoles for 5G base,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 68, no. 2, pp. 1119-1127, Feb. 2020.
-
-
-\layout Bibliography
-
-\bibitem {Liang.2015}
-B. Liang, B. Sanz-Izquierdo, E. A. Parker, and J. C. Batchelor, 
-\begin_inset Quotes eld
-\end_inset
-Cylindrical slot FSS configuration for beam-switching,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 1, pp. 166-173, Jan. 2015.
-
-
-\layout Bibliography
-
-\bibitem {Wu.2018}
-G.-B. Wu, S.-W. Qu, Y.-X. Wang, and S. Yang, 
-\begin_inset Quotes eld
-\end_inset
-Nonuniform fss-backed reflectarray with synthesized phase and amplitude,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 12, pp. 6883-6892, Dec. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Hassan.2018}
-T. Hassan, M. U. Khan, H. Attia, and M. S. Sharawi, 
-\begin_inset Quotes eld
-\end_inset
-An FSS based correlation reduction technique for MIMO,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 9, pp. 4900-4905, Sep. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Deng.2017}
-R. Deng, F. Yang, S. Xu, and M. Li, 
-\begin_inset Quotes eld
-\end_inset
-An fss-backed 20/30-ghz dual-band circularly polarized reflectarray with suppressed mutual coupling and enhanced,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 2, pp. 926-931, Feb. 2017.
-
-
-\layout Bibliography
-
-\bibitem {Khan.2018}
-S. Khan and T. F. Eibert, 
-\begin_inset Quotes eld
-\end_inset
-A multifunctional metamaterial-based dual-band isotropic frequency-selective,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 8, pp. 4042-4051, Aug. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Yetisir.2016}
-E. Yetisir, N. Ghalichechian, and J. L. Volakis, 
-\begin_inset Quotes eld
-\end_inset
-Ultrawideband array with 70° scanning using FSS,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 10, pp. 4256-4265, Oct. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Huang.2018}
-C. Huang, C. Ji, X. Wu, J. Song, and X. Luo, 
-\begin_inset Quotes eld
-\end_inset
-Combining FSS and EBG surfaces for high-efficiency transmission and low-scattering,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 3, pp. 1628-1632, Mar. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Costa.2018}
-F. Costa, D. Bianchi, A. Monorchio, and G. Manara, 
-\begin_inset Quotes eld
-\end_inset
-Linear fabry-perot/leaky-wave antennas excited by multiple,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 10, pp. 5150-5159, Oct. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Momeni.2016}
-S. M. A. Momeni Hasan Abadi and N. Behdad, 
-\begin_inset Quotes eld
-\end_inset
-Broadband true-time-delay circularly polarized reflectarray with linearly polarized,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 11, pp. 4891-4896, Nov. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Zhu.2018}
-D. Z. Zhu, M. D. Gregory, P. L. Werner, and D. H. Werner, 
-\begin_inset Quotes eld
-\end_inset
-Fabrication and characterization of multiband polarization independent 3-d-printed frequency selective structures with ultrawide fields of,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 11, pp. 6096-6105, Nov. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Wu.2017}
-R. Y. Wu, Y. B. Li, W. Wu, C. B. Shi, and T. J. Cui, 
-\begin_inset Quotes eld
-\end_inset
-High-Gain dual-band,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 7, pp. 3481-3488, Jul. 2017.
-
+, vol. 64, no. 3, pp. 1106-1111, Mar. 2016
+ (DOI: 10.1109/TAP.2015.2513423).
 
 \layout Bibliography
 
@@ -1595,224 +1964,29 @@ High-Gain dual-band,
 Y. Han, W. Che, X. Xiu, W. Yang, and C. Christopoulos, 
 \begin_inset Quotes eld
 \end_inset
-Switchable low-profile broadband frequency-selective rasorber/absorber based on slot,
+Switchable low-profile broadband frequency-selective rasorber/absorber based on slot arrays,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 12, pp. 6998-7008, Dec. 2017.
-
+, vol. 65, no. 12, pp. 6998-7008, Dec. 2017
+ (DOI: 10.1109/TAP.2017.2759964).
 
 \layout Bibliography
 
-\bibitem {Delafkar.2018}
-H. Delafkar and A. Pirhadi, 
+\bibitem {Guo.2020}
+W.-L. Guo, K. Chen, G.-M. Wang, X.-Y. Luo, Y.-J. Feng, and C.-W. Qiu, 
 \begin_inset Quotes eld
 \end_inset
-An accurate method for synthesis of reflecting elements to design wideband reflectarray,
+Transmission-Reflection-Selective metasurface and its application to RCS reduction of high-gain reflector antenna,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 5, pp. 2392-2400, May 2018.
-
-
-\layout Bibliography
-
-\bibitem {Chaharmir.2015}
-M. R. Chaharmir and J. Shaker, 
-\begin_inset Quotes eld
-\end_inset
-Design of a multilayer x-/ka-band frequency-selective surface-backed reflectarray for satellite,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 4, pp. 1255-1262, Apr. 2015.
-
-
-\layout Bibliography
-
-\bibitem {Fan.2017}
-C. Fan, W. Che, W. Yang, and S. He, 
-\begin_inset Quotes eld
-\end_inset
-A novel pramc-based ultralow-profile transmitarray antenna by using ray tracing,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 4, pp. 1779-1787, Apr. 2017.
-
-
-\layout Bibliography
-
-\bibitem {Rahmati.2015}
-B. Rahmati and H. R. Hassani, 
-\begin_inset Quotes eld
-\end_inset
-Multiband metallic frequency selective surface with wide range of band,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 8, pp. 3747-3753, Aug. 2015.
-
-
-\layout Bibliography
-
-\bibitem {Mao.2017}
-C.-X. Mao, S. Gao, Y. Wang, Q. Luo, and Q.-X. Chu, 
-\begin_inset Quotes eld
-\end_inset
-A shared-aperture dual-band dual-polarized filtering-antenna-array with improved frequency,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 4, pp. 1836-1844, Apr. 2017.
-
-
-\layout Bibliography
-
-\bibitem {Zhu.2019}
-Y. Zhu, Y. Chen, and S. Yang, 
-\begin_inset Quotes eld
-\end_inset
-Decoupling and low-profile design of dual-band dual-polarized base station antennas using frequency-selective,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 8, pp. 5272-5281, Aug. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Deng.2018}
-R. Deng, S. Xu, F. Yang, and M. Li, 
-\begin_inset Quotes eld
-\end_inset
-An fss-backed ku/ka quad-band reflectarray antenna for satellite,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 8, pp. 4353-4358, Aug. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Naseri.2018}
-P. Naseri, S. A. Matos, J. R. Costa, C. A. Fernandes, and N. J. G. Fonseca, 
-\begin_inset Quotes eld
-\end_inset
-Dual-Band dual-linear-to-circular polarization converter in transmission mode application to $k/ka$ -band satellite,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 12, pp. 7128-7137, Dec. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Mahmud.2017}
-R. H. Mahmud and M. J. Lancaster, 
-\begin_inset Quotes eld
-\end_inset
-High-Gain and wide-bandwidth filtering planar antenna array-based solely on,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 5, pp. 2367-2375, May 2017.
-
-
-\layout Bibliography
-
-\bibitem {Momeni.2016}
-S. M. A. Momeni Hasan Abadi and N. Behdad, 
-\begin_inset Quotes eld
-\end_inset
-Wideband linear-to-circular polarization converters based on miniaturized-element frequency selective,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 2, pp. 525-534, Feb. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Cheng.2020}
-Y.-F. Cheng, X. Ding, L. Peng, J. Feng, and C. Liao, 
-\begin_inset Quotes eld
-\end_inset
-Design and analysis of a wideband low-scattering endfire antenna using a moth tail-inspired metamaterial absorber and a surface,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 68, no. 3, pp. 1411-1418, Mar. 2020.
-
-
-\layout Bibliography
-
-\bibitem {Mao.2015}
-C.-X. Mao, S. Gao, Y. Wang, F. Qin, and Q.-X. Chu, 
-\begin_inset Quotes eld
-\end_inset
-Multimode resonator-fed dual-polarized antenna array with enhanced bandwidth and,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 12, pp. 5492-5499, Dec. 2015.
-
-
-\layout Bibliography
-
-\bibitem {Reis.2017}
-J. R. Reis, R. F. S. Caldeirinha, A. Hammoudeh, and N. Copner, 
-\begin_inset Quotes eld
-\end_inset
-Electronically reconfigurable fss-inspired transmitarray for 2-d,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 9, pp. 4880-4885, Sep. 2017.
-
-
-\layout Bibliography
-
-\bibitem {Li.2015}
-Y. Li, L. Li, Y. Zhang, and C. Zhao, 
-\begin_inset Quotes eld
-\end_inset
-Design and synthesis of multilayer frequency selective surface based on antenna-filter-antenna using Minkowski fractal,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 1, pp. 133-141, Jan. 2015.
-
+, vol. 68, no. 3, pp. 1426-1435, Mar. 2020
+ (DOI: 10.1109/TAP.2019.2948742).
 
 \layout Bibliography
 
@@ -1820,59 +1994,14 @@ Design and synthesis of multilayer frequency selective surface based on antenna-
 C.-Y. Hsu, L.-T. Hwang, T.-S. Horng, S.-M. Wang, F.-S. Chang, and C. N. Dorny, 
 \begin_inset Quotes eld
 \end_inset
-Transmitarray design with enhanced aperture efficiency using small frequency selective surface cells and discrete Jones matrix,
+Transmitarray design with enhanced aperture efficiency using small frequency selective surface cells and discrete Jones matrix analysis,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 8, pp. 3983-3994, Aug. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Fartookzadeh.2016}
-M. Fartookzadeh and S. H. Mohseni Armaki, 
-\begin_inset Quotes eld
-\end_inset
-Dual-Band reflection-type circular polarizers based on anisotropic impedance,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 2, pp. 826-830, Feb. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Hu.2017}
-H.-T. Hu, F.-C. Chen, J.-F. Qian, and Q.-X. Chu, 
-\begin_inset Quotes eld
-\end_inset
-A differential filtering microstrip antenna array with intrinsic common-mode,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 12, pp. 7361-7365, Dec. 2017.
-
-
-\layout Bibliography
-
-\bibitem {Momeni.2015}
-S. M. A. Momeni Hasan Abadi and N. Behdad, 
-\begin_inset Quotes eld
-\end_inset
-Inductively-Coupled miniaturized-element frequency selective surfaces with narrowband, high-order bandpass,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 63, no. 11, pp. 4766-4774, Nov. 2015.
-
+, vol. 66, no. 8, pp. 3983-3994, Aug. 2018
+ (DOI: 10.1109/TAP.2018.2839755).
 
 \layout Bibliography
 
@@ -1880,98 +2009,29 @@ Inductively-Coupled miniaturized-element frequency selective surfaces with narro
 S.-A. Malakooti, S. M. H. Mousavi, and C. Fumeaux, 
 \begin_inset Quotes eld
 \end_inset
-Tunable bandpass-to-bandstop quasi-yagi-uda antenna with sum and difference radiation,
+Tunable bandpass-to-bandstop quasi-yagi-uda antenna with sum and difference radiation patterns,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 67, no. 4, pp. 2260-2271, Apr. 2019.
-
+, vol. 67, no. 4, pp. 2260-2271, Apr. 2019
+ (DOI: 10.1109/TAP.2019.2891451).
 
 \layout Bibliography
 
-\bibitem {Borja.2018}
-A. L. Borja, Y. Kabiri, A. Belenguer, and J. R. Kelly, 
+\bibitem {Yetisir.2016}
+E. Yetisir, N. Ghalichechian, and J. L. Volakis, 
 \begin_inset Quotes eld
 \end_inset
-Programmable multifunctional rf/microwave circuit for antenna and filter,
+Ultrawideband array with 70° scanning using FSS superstrate,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 66, no. 8, pp. 3865-3876, Aug. 2018.
-
-
-\layout Bibliography
-
-\bibitem {Lima.2019}
-E. B. Lima, J. R. Costa, and C. A. Fernandes, 
-\begin_inset Quotes eld
-\end_inset
-Multiple-Beam focal-plane dual-band fabry-p
-\begin_inset ERT
-status Collapsed
-
-\layout Standard
-{
-\backslash
-'{e}}
-\end_inset
-rot cavity antenna with reduced beam,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 7, pp. 4348-4356, Jul. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Ding.2019}
-X. Ding, Y.-F. Cheng, W. Shao, and B.-Z. Wang, 
-\begin_inset Quotes eld
-\end_inset
-Broadband low-rcs phased array with wide-angle scanning performance based on the switchable stacked artificial,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 10, pp. 6452-6460, Oct. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Zhang.2019}
-J. F. Zhang, Y. J. Cheng, Y. R. Ding, and C. X. Bai, 
-\begin_inset Quotes eld
-\end_inset
-A dual-band shared-aperture antenna with large frequency ratio, high aperture reuse efficiency, and high channel,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 2, pp. 853-860, Feb. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Wang.2018}
-C. Wang, Y. Chen, and S. Yang, 
-\begin_inset Quotes eld
-\end_inset
-Dual-Band dual-polarized antenna array with flat-top and sharp cutoff radiation patterns for 2g/3g/lte cellular,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 66, no. 11, pp. 5907-5917, Nov. 2018.
-
+, vol. 64, no. 10, pp. 4256-4265, Oct. 2016
+ (DOI: 10.1109/TAP.2016.2594817).
 
 \layout Bibliography
 
@@ -1979,88 +2039,28 @@ Dual-Band dual-polarized antenna array with flat-top and sharp cutoff radiation 
 Z. Wang, P. S. Hall, J. R. Kelly, and P. Gardner, 
 \begin_inset Quotes eld
 \end_inset
-Wideband frequency-domain and space-domain pattern reconfigurable circular antenna,
+Wideband frequency-domain and space-domain pattern reconfigurable circular antenna array,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 65, no. 10, pp. 5179-5189, Oct. 2017.
-
+, vol. 65, no. 10, pp. 5179-5189, Oct. 2017
+ (DOI: 10.1109/TAP.2017.2740969).
 
 \layout Bibliography
 
-\bibitem {Niroo.2016}
-M. Niroo Jazi, M. R. Chaharmir, J. Shaker, and A. R. Sebak, 
+\bibitem {Momeni.2016}
+S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-Broadband transmitarray antenna design using polarization-insensitive frequency selective,
+Wideband linear-to-circular polarization converters based on miniaturized-element frequency selective surfaces,
 \begin_inset Quotes erd
 \end_inset
 \emph on
  IEEE Trans. Antennas Propag.
 \emph default
-, vol. 64, no. 1, pp. 99-108, Jan. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Reis.2016}
-J. R. Reis et al., 
-\begin_inset Quotes eld
-\end_inset
-FSS-Inspired transmitarray for two-dimensional antenna,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 6, pp. 2197-2206, Jun. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Chatterjee.2016}
-A. Chatterjee and S. K. Parui, 
-\begin_inset Quotes eld
-\end_inset
-Performance enhancement of a dual-band monopole antenna by using a frequency-selective surface-based corner,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 64, no. 6, pp. 2165-2171, Jun. 2016.
-
-
-\layout Bibliography
-
-\bibitem {Zhong.2019}
-X. Zhong, H.-X. Xu, L. Chen, W. Li, H. Wang, and X. Shi, 
-\begin_inset Quotes eld
-\end_inset
-An fss-backed broadband phase-shifting surface array with multimode,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 67, no. 9, pp. 5974-5981, Sep. 2019.
-
-
-\layout Bibliography
-
-\bibitem {Wincza.2017}
-K. Wincza and S. Gruszczynski, 
-\begin_inset Quotes eld
-\end_inset
-Frequency-Selective feeding network based on directional filter for constant-beamwidth scalable antenna,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEEE Trans. Antennas Propag.
-\emph default
-, vol. 65, no. 8, pp. 4346-4350, Aug. 2017.
-
+, vol. 64, no. 2, pp. 525-534, Feb. 2016
+ (DOI: 10.1109/TAP.2015.2504999).
 
 \the_end

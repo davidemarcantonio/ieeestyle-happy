@@ -60,18 +60,19 @@ def clean_ref(reference):
     str_tmp2 = str_tmp1.split("“")  # divide title from rest
     authors = str_tmp2[0]
     str_tmp3 = str_tmp2[1]
-    str_tmp4 = str_tmp3.split("”")
+    str_tmp4 = str_tmp3.split(",”")
     title = str_tmp4[0]
     str_tmp8  = str_tmp4[1].split(",")
     journal = str_tmp8[0]
-    rest = str_tmp4[1].replace(journal, "")
+    rest = str_tmp4[1].replace(journal, "").split(", doi: ")[0]
     abbr_journal = abbreviate(journal, abbr_fname)
    
-    # print("autors: ", authors)
-    # print("title: ", title)
-    # print("journal: ", journal)
-    # print("abbr journal: ", abbr_journal)
-    # print("rest: ", rest)
+    print(reference)
+    print("\tautors: ", authors)
+    print("\ttitle: ", title)
+    # print("\tjournal: ", journal)
+    print("\tabbr journal: ", abbr_journal)
+    print("\trest: ", rest)
 
     # extract first author's surname
     str_tmp5 = authors.split(" ")
@@ -79,8 +80,13 @@ def clean_ref(reference):
     for str_tmp in str_tmp5:
         if "." not in str_tmp and author == "":
             author = str_tmp.split(",")[0]
+
+    # Dec. 2018, doi: 10.1109/TAP.2018.2871752.
+
     # extract year
-    year = str_tmp4[1].split(".")[-2].split(" ")[-1]
+    year = str_tmp4[1].split(", doi: ")[0].split(" ")[-1]
+    doi = str_tmp4[1].split(", doi: ")[1].upper()
+    doi = doi[:-2]
     # generate naming [Surname.YEAR]
     naming = "%s.%s" %(author, year)
     
@@ -88,7 +94,7 @@ def clean_ref(reference):
     str_tmp6 = title.split(" ")
     lower_title = str_tmp6[0]
     
-    for str_tmp in str_tmp6[1:-1]:
+    for str_tmp in str_tmp6[1:]:
         lower = True
         file_lower_tabu = open(do_not_lower_fname, 'r')
         for line in file_lower_tabu:
@@ -111,6 +117,7 @@ def clean_ref(reference):
     to_ret += " %s\n" %abbr_journal
     to_ret += "\\emph default\n"
     to_ret += "%s\n" %rest
+    to_ret += " (DOI: %s).\n" %doi
     return simplify_naming(naming), to_ret
 
 # processing part
