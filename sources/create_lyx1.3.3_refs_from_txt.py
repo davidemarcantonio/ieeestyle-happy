@@ -163,5 +163,3 @@ file_out.write("\\the_end\n")
 # end document - do not modify 
 
 file_out.close()
-
-

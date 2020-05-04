@@ -22,12 +22,14 @@
 #
 # ====================================================
 
-#
+set -ue
+export LC_NUMERIC=en_US.utf8
+export LC_ALL=C
+
 # PATHS
 # ====================================================
-SOURCE_PATH=$HOME'/Utilities/ieee-stylehappy'
+SOURCE_PATH=$HOME'/Utilities/ieee-stylehappy/sources'
 
-#
 # PARAMETERS
 # ====================================================
 FILENAME_INPUT_FROM_ZOTERO='zotero_refs.txt'
@@ -35,24 +37,22 @@ FILENAME_INPUT_NON_LOWERCASE='non_lowercase_words.txt'
 FILENAME_INPUT_ABBREVIATIONS='journal_abbreviations.txt'
 FILENAME_OUTPUT='output.lyx'
 
-#
 # EXE
 # =======================================
+echo $SOURCE_PATH'/create_lyx1.3.3_refs_from_txt.py'
 cp $SOURCE_PATH'/create_lyx1.3.3_refs_from_txt.py' .
 
-#
 # EXECUTION 
 # =======================================
-echo $FILENAME_INPUT_FROM_ZOTERO    >  in.Compute.Benchmark
-echo $FILENAME_INPUT_NON_LOWERCASE  >> in.Compute.Benchmark
-echo $FILENAME_INPUT_ABBREVIATIONS  >> in.Compute.Benchmark
-echo $FILENAME_OUTPUT               >> in.Compute.Benchmark
+echo $FILENAME_INPUT_FROM_ZOTERO    >  in.create_lyx
+echo $FILENAME_INPUT_NON_LOWERCASE  >> in.create_lyx
+echo $FILENAME_INPUT_ABBREVIATIONS  >> in.create_lyx
+echo $FILENAME_OUTPUT               >> in.create_lyx
 
-time ./create_lyx_refs_from_txt.py < in.create_lyx > out.create_lyx
+time ./create_lyx.exe < in.create_lyx > out.create_lyx
 
-#
 # CLEAN
 # =======================================
-rm create_lyx_refs_from_txt.py 
+rm create_lyx.exe 
 rm in.create_lyx 
 rm out.create_lyx 
