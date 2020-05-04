@@ -23,8 +23,6 @@
 # ====================================================
 
 set -ue
-export LC_NUMERIC=en_US.utf8
-export LC_ALL=C
 
 # PATHS
 # ====================================================
@@ -48,10 +46,10 @@ echo $FILENAME_INPUT_NON_LOWERCASE  >> in.create_lyx
 echo $FILENAME_INPUT_ABBREVIATIONS  >> in.create_lyx
 echo $FILENAME_OUTPUT               >> in.create_lyx
 
-python3 create_lyx.py in.create_lyx > out.create_lyx
+./create_lyx.py in.create_lyx > out.create_lyx
 
 # CLEAN
 # =======================================
-# rm create_lyx.exe 
-# rm in.create_lyx 
+rm create_lyx.py 
+rm in.create_lyx 
 # rm out.create_lyx 
