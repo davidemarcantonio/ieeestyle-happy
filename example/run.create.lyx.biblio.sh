@@ -28,7 +28,7 @@ export LC_ALL=C
 
 # PATHS
 # ====================================================
-SOURCE_PATH=$HOME'/Utilities/ieee-stylehappy/sources'
+SOURCE_PATH=$HOME'/Utilities/ieeestyle-happy/sources/'
 
 # PARAMETERS
 # ====================================================
@@ -39,8 +39,7 @@ FILENAME_OUTPUT='output.lyx'
 
 # EXE
 # =======================================
-echo $SOURCE_PATH'/create_lyx1.3.3_refs_from_txt.py'
-cp $SOURCE_PATH'/create_lyx1.3.3_refs_from_txt.py' .
+cp $SOURCE_PATH"/create_lyx1.3.3_refs_from_txt.py" create_lyx.exe
 
 # EXECUTION 
 # =======================================
@@ -49,10 +48,10 @@ echo $FILENAME_INPUT_NON_LOWERCASE  >> in.create_lyx
 echo $FILENAME_INPUT_ABBREVIATIONS  >> in.create_lyx
 echo $FILENAME_OUTPUT               >> in.create_lyx
 
-time ./create_lyx.exe < in.create_lyx > out.create_lyx
+time ./create_lyx.exe in.create_lyx > out.create_lyx
 
 # CLEAN
 # =======================================
-rm create_lyx.exe 
-rm in.create_lyx 
-rm out.create_lyx 
+# rm create_lyx.exe 
+# rm in.create_lyx 
+# rm out.create_lyx 
