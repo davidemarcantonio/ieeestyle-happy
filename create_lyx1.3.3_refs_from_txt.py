@@ -1,15 +1,16 @@
 #!/usr/bin/python3.6 
 
 import re
+import sys
 
 # TODOs 
 # - check multiple namings
 # - rename files flag
 
-txt_refs_fname = "refs_from_zotero.txt"
-abbr_fname = "abbreviations.txt"
-do_not_lower_fname = "do_not_lower_list.txt"
-output_lyx_fname = "reference_from_zotero.lyx"
+txt_refs_fname = sys.argv[1]
+do_not_lower_fname = sys.argv[2]
+abbr_fname = sys.argv[3]
+output_lyx_fname = sys.argv[4]
 
 # function definition
 def abbreviate(journal, abbr_file):
