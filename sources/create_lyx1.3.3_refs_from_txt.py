@@ -44,17 +44,21 @@ def fix_accent(name):
     str_tmp = str_tmp.replace("ù", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{u}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ú", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{u}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{u}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("Ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{U}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ğ", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {g}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ı", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\ni}\n\\end_inset\n")
-    
+    #×
     str_tmp = str_tmp.replace("°", "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n") 
     return str_tmp
 
 def fix_math(name):
-    content = re.search(r"\$.*\$", name).group(0).replace("$","")
-    str_tmp = re.sub(r"\$.*\$", '__PLACEHOLDER__', name)
-    str_tmp = str_tmp.replace("__PLACEHOLDER__", "\n\\begin_inset Formula\n$%s$\n\\end_inset\n" %content)
-    return str_tmp
+    if "$" in name:
+        content = re.search(r"\$.*\$", name).group(0).replace("$","")
+        str_tmp = re.sub(r"\$.*\$", '__PLACEHOLDER__', name)
+        str_tmp = str_tmp.replace("__PLACEHOLDER__", "\n\\begin_inset Formula\n$%s$\n\\end_inset\n" %content)
+        return str_tmp
+    else:
+        return name
 
 def simplify_naming(name):
     str_tmp = name.replace("à", "a")
@@ -69,7 +73,9 @@ def simplify_naming(name):
     str_tmp = str_tmp.replace("ù", "u")
     str_tmp = str_tmp.replace("ú", "u")
     str_tmp = str_tmp.replace("ü", "u")
+    str_tmp = str_tmp.replace("Ü", "u")
     str_tmp = str_tmp.replace("ğ", "g")
+    
     str_tmp = str_tmp.replace(" ", "")
     return str_tmp
 
