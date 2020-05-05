@@ -140,7 +140,7 @@ def clean_ref(reference):
             if str_tmp in line:
                 lower = False
         file_lower_tabu.close()
-        if lower:
+        if lower and not "$" in str_tmp:
             lower_title += " %s" %str_tmp.lower()
         else:
             lower_title += " %s" %str_tmp
@@ -150,13 +150,13 @@ def clean_ref(reference):
     to_ret += "\\end_inset\n"
 
     if flag_reply:
-        to_ret += "Reply to ‘Comments on \n"
+        to_ret += "Reply to 'Comments on \n"
         to_ret += "\\begin_inset Quotes eld\n"
         to_ret += "\\end_inset\n"
         to_ret += "%s,\n" %fix_accent(fix_math(lower_title))
         to_ret += "\\begin_inset Quotes erd\n"
         to_ret += "\\end_inset\n"
-        to_ret += "’\n"
+        to_ret += "'\n"
     else:
         to_ret += "%s,\n" %fix_accent(fix_math(lower_title))
     
@@ -215,11 +215,11 @@ for line in file_in:
 file_in.close()
 
 # end document - do not modify 
-# for r in refs_for_biblio:
-#     name = r[0]
-#     file_out.write("\\layout Bibliography\n\n")
-#     file_out.write("\\bibitem {%s}\n" %name)
-#     file_out.write("%s\n" %r[1])
+for r in refs_for_biblio:
+    name = r[0]
+    file_out.write("\\layout Bibliography\n\n")
+    file_out.write("\\bibitem {%s}\n" %name)
+    file_out.write("%s\n" %r[1])
 file_out.write("\\the_end\n")
 # end document - do not modify 
 

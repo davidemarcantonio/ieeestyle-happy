@@ -57,7 +57,7 @@ echo $FILENAME_INPUT_ABBREVIATIONS  >> in.create_lyx
 echo $FILENAME_OUTPUT               >> in.create_lyx
 
 ./create_lyx.py in.create_lyx > out.create_lyx
-exit
+
 # CLEAN
 # =======================================
 rm create_lyx.py 
