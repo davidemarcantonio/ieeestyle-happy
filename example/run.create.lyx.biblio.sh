@@ -18,7 +18,8 @@
 # ====================================================
 #
 # Creation:        04/05/2020
-# Updates:         04/05/2020 - added Test 1D
+# Updates:         04/05/2020 - Fix accents
+#                  05/05/2020 - Rename pdf files
 #
 # ====================================================
 
@@ -38,11 +39,11 @@ FILENAME_OUTPUT='output.lyx'
 # Optional (Rename PDF files correctly)
 #-----------------------------------------------------
 ENABLE_PDF_RENAMING=1  # 1:ON, 0:OFF
-ZOTERO_EXPORT_FOLDER_NAME="ExportedItems"
+ZOTERO_EXPORT_FOLDER_NAME="../ExportedItems/"
 
 if [ $ENABLE_PDF_RENAMING -eq 1 ]; then
-    echo "Renaming PDFs..."
-    #find $ZOTERO_EXPORT_FOLDER_NAME"/" -type f -name "*.pdf" > _pdf_file_list.txt
+    find $ZOTERO_EXPORT_FOLDER_NAME -type f -name "*.pdf" > _pdf_file_list.txt
+    mkdir -p "Renamed-PDFs"
 fi
 
 # EXE
@@ -55,6 +56,7 @@ echo $FILENAME_INPUT_FROM_ZOTERO    >  in.create_lyx
 echo $FILENAME_INPUT_NON_LOWERCASE  >> in.create_lyx
 echo $FILENAME_INPUT_ABBREVIATIONS  >> in.create_lyx
 echo $FILENAME_OUTPUT               >> in.create_lyx
+echo $ENABLE_PDF_RENAMING           >> in.create_lyx
 
 ./create_lyx.py in.create_lyx > out.create_lyx
 
@@ -63,3 +65,4 @@ echo $FILENAME_OUTPUT               >> in.create_lyx
 rm create_lyx.py 
 rm in.create_lyx 
 # rm out.create_lyx 
+rm -f _pdf_file_list.txt

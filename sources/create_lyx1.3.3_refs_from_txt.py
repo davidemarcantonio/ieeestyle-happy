@@ -2,6 +2,7 @@
 
 import re
 import sys
+from shutil import copyfile
 
 # TODOs 
 # - check multiple namings
@@ -14,6 +15,16 @@ txt_refs_fname     = lines[0]
 do_not_lower_fname = lines[1]
 abbr_fname         = lines[2]
 output_lyx_fname   = lines[3]
+
+rename_PDF = lines[4] == '1'
+
+done_refs = []
+
+if rename_PDF:
+    print("Renaming PDFs...")
+    PDF_file_path = "_pdf_file_list.txt"
+else:
+    print("NOT Renaming PDFs...")
 
 print('Creating Biblio from:\n\t%s'          %txt_refs_fname)
 print('Keep Uppercase Word List from:\n\t%s' %do_not_lower_fname)
@@ -82,24 +93,23 @@ def simplify_naming(name):
     return str_tmp
 
 def clean_ref(reference):
-    str_tmp = reference.replace("–", "-")
-    str_tmp1 = str_tmp.split("]")[1]  # remove number [1], [2], etc.
+    str_tmp1 = reference.split("]")[1]  # remove number [1], [2], etc.
 
     if "“Reply to ‘Comments on “" in str_tmp1:
         flag_reply = True
         str_tmp2 = str_tmp1.split("“Reply to ‘Comments on “")  # divide title from rest
         authors = str_tmp2[0]
         str_tmp3 = str_tmp2[1]
-        str_tmp4 = str_tmp3.split(",”’”")  
-        title = str_tmp4[0]
+        str_tmp4 = str_tmp3.split(",”’”")
     else:
         flag_reply = False
         str_tmp2 = str_tmp1.split("“")  # divide title from rest
         authors = str_tmp2[0]
         str_tmp3 = str_tmp2[1]
         str_tmp4 = str_tmp3.split(",”")  
-        title = str_tmp4[0]
-
+        
+    bare_title = str_tmp4[0]
+    title = bare_title.replace("–", "-")
     str_tmp8  = str_tmp4[1].split(",")
     journal = str_tmp8[0]
     rest = str_tmp4[1].replace(journal, "").split(", doi: ")[0]
@@ -126,7 +136,16 @@ def clean_ref(reference):
     doi = str_tmp4[1].split(", doi: ")[1].upper()
     doi = doi[:-2]
     # generate naming [Surname.YEAR]
-    naming = "%s.%s" %(author, year)
+    naming = "%s.%s" %(simplify_naming(author), year)
+
+    if naming in done_refs:
+        letters = ['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
+        counter = 0
+        while "%s.%s" %(naming, letters[counter]) in done_refs:
+            counter += 1
+        naming = "%s.%s" %(naming, letters[counter])
+
+    done_refs.append(naming)
     
     # make title lower case
     str_tmp6 = title.split(" ")
@@ -167,7 +186,7 @@ def clean_ref(reference):
     to_ret += "\\emph default\n"
     to_ret += "%s\n" %rest
     to_ret += " (DOI: %s).\n" %doi
-    return simplify_naming(naming), to_ret
+    return naming, to_ret, title, author, year
 
 # processing part
 file_in = open(txt_refs_fname, 'r')
@@ -205,21 +224,40 @@ file_out.write("\n")
 refs_for_biblio = []
 for line in file_in:
     if '[' in line:
-        name, ref = clean_ref(line)
+        name, ref, tit, auth, year = clean_ref(line)
         print(name)
         file_out.write("\n\\layout Itemize\n\n")
         file_out.write("[%s] %s\n" %(name, ref))
-        refs_for_biblio.append([name, ref])
+        refs_for_biblio.append([name, ref, tit, auth, year])
 # end references part
 
 file_in.close()
 
 # end document - do not modify 
+done_copy = []
 for r in refs_for_biblio:
     name = r[0]
+    title = r[2]
+    auth = r[3]
+    year = r[4]
     file_out.write("\\layout Bibliography\n\n")
     file_out.write("\\bibitem {%s}\n" %name)
     file_out.write("%s\n" %r[1])
+    if rename_PDF:
+        file_pdfs = open("_pdf_file_list.txt", 'r')
+        found = False
+        for line in file_pdfs:
+            path = line.replace(" ", " ")
+            path = path[:-1]
+            print(line)
+            print(title)
+            if title[:10] in line and auth in line and year in line:
+                found = True
+                copyfile('%s' %path, './Renamed-PDFs/%s.pdf' %name)
+                done_copy.append(name)
+
+        file_pdfs.close()
+        print("File %s NOT FOUND" %name)
 file_out.write("\\the_end\n")
 # end document - do not modify 
 
