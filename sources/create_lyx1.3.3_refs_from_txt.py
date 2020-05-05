@@ -47,7 +47,8 @@ def fix_accent(name):
     str_tmp = str_tmp.replace("Ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{U}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ğ", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {g}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ı", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\ni}\n\\end_inset\n")
-    #×
+    str_tmp = str_tmp.replace("’", "'")
+    str_tmp = str_tmp.replace("×", "\n\\begin_inset Formula $\\times$\n\\end_inset\n")
     str_tmp = str_tmp.replace("°", "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n") 
     return str_tmp
 
@@ -77,6 +78,7 @@ def simplify_naming(name):
     str_tmp = str_tmp.replace("ğ", "g")
     
     str_tmp = str_tmp.replace(" ", "")
+    str_tmp = str_tmp.replace("’", "")
     return str_tmp
 
 def clean_ref(reference):
@@ -151,12 +153,12 @@ def clean_ref(reference):
         to_ret += "Reply to ‘Comments on \n"
         to_ret += "\\begin_inset Quotes eld\n"
         to_ret += "\\end_inset\n"
-        to_ret += "%s,\n" %fix_math(fix_accent(lower_title))
+        to_ret += "%s,\n" %fix_accent(fix_math(lower_title))
         to_ret += "\\begin_inset Quotes erd\n"
         to_ret += "\\end_inset\n"
         to_ret += "’\n"
     else:
-        to_ret += "%s,\n" %fix_math(fix_accent(lower_title))
+        to_ret += "%s,\n" %fix_accent(fix_math(lower_title))
     
     to_ret += "\\begin_inset Quotes erd\n"
     to_ret += "\\end_inset\n"

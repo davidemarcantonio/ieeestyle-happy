@@ -41,8 +41,8 @@ ENABLE_PDF_RENAMING=1  # 1:ON, 0:OFF
 ZOTERO_EXPORT_FOLDER_NAME="ExportedItems"
 
 if [ $ENABLE_PDF_RENAMING -eq 1 ]; then
-    echo "Renaming PDFs"
-    find $ZOTERO_EXPORT_FOLDER_NAME"/" -type f -name "*.pdf" > _pdf_file_list.txt
+    echo "Renaming PDFs..."
+    #find $ZOTERO_EXPORT_FOLDER_NAME"/" -type f -name "*.pdf" > _pdf_file_list.txt
 fi
 
 # EXE
