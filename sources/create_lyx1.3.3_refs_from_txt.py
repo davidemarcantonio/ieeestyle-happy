@@ -34,23 +34,42 @@ def abbreviate(journal, abbr_file):
 
 def fix_accent(name):
     str_tmp = name.replace("à", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{a}}\n\\end_inset\n")
+    str_tmp = name.replace("á", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{a}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("è", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{e}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("é", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{e}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ì", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{i}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("í", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{i}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ò", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{o}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ó", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{o}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ù", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{u}}\n\\end_inset\n")
-    #°
+    str_tmp = str_tmp.replace("ú", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{u}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{u}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ğ", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {g}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ı", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\ni}\n\\end_inset\n")
+    
+    str_tmp = str_tmp.replace("°", "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n") 
+    return str_tmp
+
+def fix_math(name):
+    content = re.search(r"\$.*\$", name).group(0).replace("$","")
+    str_tmp = re.sub(r"\$.*\$", '__PLACEHOLDER__', name)
+    str_tmp = str_tmp.replace("__PLACEHOLDER__", "\n\\begin_inset Formula\n$%s$\n\\end_inset\n" %content)
     return str_tmp
 
 def simplify_naming(name):
     str_tmp = name.replace("à", "a")
+    str_tmp = str_tmp.replace("á", "a")
     str_tmp = str_tmp.replace("è", "e")
     str_tmp = str_tmp.replace("é", "e")
     str_tmp = str_tmp.replace("ì", "i")
     str_tmp = str_tmp.replace("í", "i") 
+    str_tmp = str_tmp.replace("ı", "i") 
     str_tmp = str_tmp.replace("ò", "o")
+    str_tmp = str_tmp.replace("ó", "o")
     str_tmp = str_tmp.replace("ù", "u")
+    str_tmp = str_tmp.replace("ú", "u")
+    str_tmp = str_tmp.replace("ü", "u")
+    str_tmp = str_tmp.replace("ğ", "g")
     str_tmp = str_tmp.replace(" ", "")
     return str_tmp
 
@@ -126,13 +145,12 @@ def clean_ref(reference):
         to_ret += "Reply to ‘Comments on \n"
         to_ret += "\\begin_inset Quotes eld\n"
         to_ret += "\\end_inset\n"
-        to_ret += "%s,\n" %fix_accent(lower_title)
+        to_ret += "%s,\n" %fix_math(fix_accent(lower_title))
         to_ret += "\\begin_inset Quotes erd\n"
         to_ret += "\\end_inset\n"
         to_ret += "’\n"
     else:
-        to_ret += "%s,\n" %fix_accent(lower_title)
-    
+        to_ret += "%s,\n" %fix_math(fix_accent(lower_title))
     
     to_ret += "\\begin_inset Quotes erd\n"
     to_ret += "\\end_inset\n"
@@ -189,11 +207,11 @@ for line in file_in:
 file_in.close()
 
 # end document - do not modify 
-for r in refs_for_biblio:
-    name = r[0]
-    file_out.write("\\layout Bibliography\n\n")
-    file_out.write("\\bibitem {%s}\n" %name)
-    file_out.write("%s\n" %r[1])
+# for r in refs_for_biblio:
+#     name = r[0]
+#     file_out.write("\\layout Bibliography\n\n")
+#     file_out.write("\\bibitem {%s}\n" %name)
+#     file_out.write("%s\n" %r[1])
 file_out.write("\\the_end\n")
 # end document - do not modify 
 

@@ -1,1 +1,6 @@
 IEEE Transactions on Antennas and Propagation | IEEE Trans. Antennas Propag.
+IEEE Transactions on Microwave Theory and Techniques | IEEE Trans. Microw. Theory Techn.
+IEEE Antennas and Wireless Propagation Letters | IEEE Antennas Wireless Propag. Lett.
+IEEE Access | IEEE Access
+IEEE Antennas and Propagation Magazine | IEEE Antennas Propag. Mag.
+Antennas Propagation IET Microwaves | IET Microw. Antennas Propag.

@@ -35,6 +35,16 @@ FILENAME_INPUT_NON_LOWERCASE='non_lowercase_words.txt'
 FILENAME_INPUT_ABBREVIATIONS='journal_abbreviations.txt'
 FILENAME_OUTPUT='output.lyx'
 
+# Optional (Rename PDF files correctly)
+#-----------------------------------------------------
+ENABLE_PDF_RENAMING=1  # 1:ON, 0:OFF
+ZOTERO_EXPORT_FOLDER_NAME="ExportedItems"
+
+if [ $ENABLE_PDF_RENAMING -eq 1 ]; then
+    echo "Renaming PDFs"
+    find $ZOTERO_EXPORT_FOLDER_NAME"/" -type f -name "*.pdf" > _pdf_file_list.txt
+fi
+
 # EXE
 # =======================================
 cp $SOURCE_PATH"/create_lyx1.3.3_refs_from_txt.py" create_lyx.py
@@ -47,7 +57,7 @@ echo $FILENAME_INPUT_ABBREVIATIONS  >> in.create_lyx
 echo $FILENAME_OUTPUT               >> in.create_lyx
 
 ./create_lyx.py in.create_lyx > out.create_lyx
-
+exit
 # CLEAN
 # =======================================
 rm create_lyx.py 
