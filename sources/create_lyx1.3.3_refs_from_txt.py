@@ -57,22 +57,33 @@ def simplify_naming(name):
 def clean_ref(reference):
     str_tmp = reference.replace("–", "-")
     str_tmp1 = str_tmp.split("]")[1]  # remove number [1], [2], etc.
-    str_tmp2 = str_tmp1.split("“")  # divide title from rest
-    authors = str_tmp2[0]
-    str_tmp3 = str_tmp2[1]
-    str_tmp4 = str_tmp3.split(",”")
-    title = str_tmp4[0]
+
+    if "“Reply to ‘Comments on “" in str_tmp1:
+        flag_reply = True
+        str_tmp2 = str_tmp1.split("“Reply to ‘Comments on “")  # divide title from rest
+        authors = str_tmp2[0]
+        str_tmp3 = str_tmp2[1]
+        str_tmp4 = str_tmp3.split(",”’”")  
+        title = str_tmp4[0]
+    else:
+        flag_reply = False
+        str_tmp2 = str_tmp1.split("“")  # divide title from rest
+        authors = str_tmp2[0]
+        str_tmp3 = str_tmp2[1]
+        str_tmp4 = str_tmp3.split(",”")  
+        title = str_tmp4[0]
+
     str_tmp8  = str_tmp4[1].split(",")
     journal = str_tmp8[0]
     rest = str_tmp4[1].replace(journal, "").split(", doi: ")[0]
     abbr_journal = abbreviate(journal, abbr_fname)
    
-    print(reference)
-    print("\tautors: ", authors)
-    print("\ttitle: ", title)
+    # print(reference)
+    # print("\tautors: ", authors)
+    # print("\ttitle: ", title)
     # print("\tjournal: ", journal)
-    print("\tabbr journal: ", abbr_journal)
-    print("\trest: ", rest)
+    # print("\tabbr journal: ", abbr_journal)
+    # print("\trest: ", rest)
 
     # extract first author's surname
     str_tmp5 = authors.split(" ")
@@ -110,7 +121,19 @@ def clean_ref(reference):
     to_ret  = "%s\n" %fix_accent(authors)
     to_ret += "\\begin_inset Quotes eld\n"
     to_ret += "\\end_inset\n"
-    to_ret += "%s,\n" %fix_accent(lower_title)
+
+    if flag_reply:
+        to_ret += "Reply to ‘Comments on \n"
+        to_ret += "\\begin_inset Quotes eld\n"
+        to_ret += "\\end_inset\n"
+        to_ret += "%s,\n" %fix_accent(lower_title)
+        to_ret += "\\begin_inset Quotes erd\n"
+        to_ret += "\\end_inset\n"
+        to_ret += "’\n"
+    else:
+        to_ret += "%s,\n" %fix_accent(lower_title)
+    
+    
     to_ret += "\\begin_inset Quotes erd\n"
     to_ret += "\\end_inset\n"
     to_ret += "\\emph on\n"
