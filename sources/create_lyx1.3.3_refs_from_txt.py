@@ -144,11 +144,12 @@ def clean_ref(reference):
     # extract first author's surname
     str_tmp5 = authors.split(" ")
     author = ""
+    finished = False
     for str_tmp in str_tmp5:
-        if "." not in str_tmp and author == "":
-            author = str_tmp.split(",")[0]
-
-    # Dec. 2018, doi: 10.1109/TAP.2018.2871752.
+        if "." not in str_tmp and not finished:
+            if "," in str_tmp:
+                finished = True
+            author += str_tmp.split(",")[0]
 
     # extract year
     year = str_tmp4[1].split(", doi: ")[0].split(" ")[-1]
