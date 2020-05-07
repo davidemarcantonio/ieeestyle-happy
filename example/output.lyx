@@ -26,7 +26,7 @@
 
 \layout Itemize
 
-[Riggs.1988] L. S. Riggs and R. G. Smith, 
+[Riggsand.1988] L. S. Riggs and R. G. Smith, 
 \begin_inset Quotes eld
 \end_inset
 Efficient current expansion modes for the triarm frequency-selective surface,
@@ -58,7 +58,7 @@ Frequency-scanned gratings consisting of photo-etched arrays,
 
 \layout Itemize
 
-[Gurel.1990] L. Gurel and W. C. Chew, 
+[Gureland.1990] L. Gurel and W. C. Chew, 
 \begin_inset Quotes eld
 \end_inset
 Recursive algorithms for calculating the scattering from N strips or patches,
@@ -74,7 +74,7 @@ Recursive algorithms for calculating the scattering from N strips or patches,
 
 \layout Itemize
 
-[Grounds.1991] P. W. Grounds and K. J. Webb, 
+[Groundsand.1991] P. W. Grounds and K. J. Webb, 
 \begin_inset Quotes eld
 \end_inset
 Numerical analysis of finite frequency selective surfaces with rectangular patches of various aspect ratios,
@@ -90,7 +90,7 @@ Numerical analysis of finite frequency selective surfaces with rectangular patch
 
 \layout Itemize
 
-[Pous.1991] R. Pous and D. M. Pozar, 
+[Pousand.1991] R. Pous and D. M. Pozar, 
 \begin_inset Quotes eld
 \end_inset
 A frequency-selective surface using aperture-coupled microstrip patches,
@@ -122,7 +122,7 @@ Tri-band frequency selective surface with circular ring elements,
 
 \layout Itemize
 
-[Costa.1995] J. C. W. A. Costa and A. J. Giarola, 
+[Costaand.1995] J. C. W. A. Costa and A. J. Giarola, 
 \begin_inset Quotes eld
 \end_inset
 Analysis of the selective behavior of multilayer structures with a dielectric grating,
@@ -138,7 +138,7 @@ Analysis of the selective behavior of multilayer structures with a dielectric gr
 
 \layout Itemize
 
-[Shin-Lin.2000] Shin-Lin Wang, Young-Huang Chou, and Shyh-Jong Chung, 
+[Shin-LinWang.2000] Shin-Lin Wang, Young-Huang Chou, and Shyh-Jong Chung, 
 \begin_inset Quotes eld
 \end_inset
 A distributed-feedback antenna oscillator,
@@ -154,7 +154,7 @@ A distributed-feedback antenna oscillator,
 
 \layout Itemize
 
-[de.2003] P. de Maagt, R. Gonzalo, Y. C. Vardaxoglou, and J.-M. Baracco, 
+[deMaagt.2003] P. de Maagt, R. Gonzalo, Y. C. Vardaxoglou, and J.-M. Baracco, 
 \begin_inset Quotes eld
 \end_inset
 Electromagnetic bandgap antennas and components for microwave and (sub)millimeter wave applications,
@@ -202,7 +202,7 @@ Antenna-filter-antenna arrays as a class of bandpass frequency-selective surface
 
 \layout Itemize
 
-[Chakravarty.2004] S. Chakravarty and R. Mittra, 
+[Chakravartyand.2004] S. Chakravarty and R. Mittra, 
 \begin_inset Quotes eld
 \end_inset
 Reply to 'Comments on 
@@ -240,7 +240,7 @@ Design of a 5.8-ghz rectenna incorporating a new patch antenna,
 
 \layout Itemize
 
-[Guo.2005] Guo Qing Luo et al., 
+[GuoQingLuoet.2005] Guo Qing Luo et al., 
 \begin_inset Quotes eld
 \end_inset
 Theory and experiment of novel frequency selective surface based on substrate integrated waveguide technology,
@@ -256,7 +256,7 @@ Theory and experiment of novel frequency selective surface based on substrate in
 
 \layout Itemize
 
-[Shiwen.2005] Shiwen Yang and Zaiping Nie, 
+[ShiwenYangand.2005] Shiwen Yang and Zaiping Nie, 
 \begin_inset Quotes eld
 \end_inset
 Mutual coupling compensation in time modulated linear antenna arrays,
@@ -272,7 +272,7 @@ Mutual coupling compensation in time modulated linear antenna arrays,
 
 \layout Itemize
 
-[Cheng.2006] C.-C. Cheng and A. Abbaspour-Tamijani, 
+[Chengand.2006] C.-C. Cheng and A. Abbaspour-Tamijani, 
 \begin_inset Quotes eld
 \end_inset
 Study of 2-bit antenna-filter-antenna elements for reconfigurable millimeter-wave lens arrays,
@@ -304,7 +304,7 @@ Phase conjugating wire FSS lens,
 
 \layout Itemize
 
-[Tennant.2006] A. Tennant and B. Chambers, 
+[Tennantand.2006] A. Tennant and B. Chambers, 
 \begin_inset Quotes eld
 \end_inset
 SSB-type frequency scattering from a single-layer pss with interlaced element modulation,
@@ -350,7 +350,7 @@ Design of novel thin frequency selective surface superstrates for dual-band dire
 
 \layout Itemize
 
-[Sarabandi.2007] K. Sarabandi and N. Behdad, 
+[Sarabandiand.2007] K. Sarabandi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
 A frequency selective surface with miniaturized elements,
@@ -366,7 +366,7 @@ A frequency selective surface with miniaturized elements,
 
 \layout Itemize
 
-[Wickenden.2007] D. K. Wickenden et al., 
+[Wickendenet.2007] D. K. Wickenden et al., 
 \begin_inset Quotes eld
 \end_inset
 Polarization properties of frequency-selective surfaces comprised of spiral resonators,
@@ -397,7 +397,7 @@ Ultra-wideband bandpass filter with hybrid quasi-lumped elements and defected gr
 
 \layout Itemize
 
-[Bayatpur.2008] F. Bayatpur and K. Sarabandi, 
+[Bayatpurand.2008] F. Bayatpur and K. Sarabandi, 
 \begin_inset Quotes eld
 \end_inset
 Multipole spatial filters using metamaterial-based miniaturized-element frequency-selective surfaces,
@@ -413,7 +413,7 @@ Multipole spatial filters using metamaterial-based miniaturized-element frequenc
 
 \layout Itemize
 
-[Bayatpur.2008.a] F. Bayatpur and K. Sarabandi, 
+[Bayatpurand.2008.a] F. Bayatpur and K. Sarabandi, 
 \begin_inset Quotes eld
 \end_inset
 Single-layer high-order miniaturized-element frequency-selective surfaces,
@@ -429,7 +429,7 @@ Single-layer high-order miniaturized-element frequency-selective surfaces,
 
 \layout Itemize
 
-[Silva.2008] P. H. F. Silva and A. L. P. S. Campos, 
+[Silvaand.2008] P. H. F. Silva and A. L. P. S. Campos, 
 \begin_inset Quotes eld
 \end_inset
 Fast and accurate modelling of frequencyselective surfaces using a new modular neural network configuration of multilayer perceptrons,
@@ -490,7 +490,7 @@ Efficient and accurate design of substrate-integrated waveguide circuits synthes
 
 \layout Itemize
 
-[Al-Joumayly.2009] M. Al-Joumayly and N. Behdad, 
+[Al-Joumaylyand.2009] M. Al-Joumayly and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
 A new technique for design of low-profile, second-order, bandpass frequency selective surfaces,
@@ -506,7 +506,7 @@ A new technique for design of low-profile, second-order, bandpass frequency sele
 
 \layout Itemize
 
-[Bayatpur.2009] F. Bayatpur and K. Sarabandi, 
+[Bayatpurand.2009] F. Bayatpur and K. Sarabandi, 
 \begin_inset Quotes eld
 \end_inset
 Tuning performance of metamaterial-based frequency selective surfaces,
@@ -522,7 +522,7 @@ Tuning performance of metamaterial-based frequency selective surfaces,
 
 \layout Itemize
 
-[Cheng.2009] C.-C. Cheng and A. Abbaspour-Tamijani, 
+[Chengand.2009] C.-C. Cheng and A. Abbaspour-Tamijani, 
 \begin_inset Quotes eld
 \end_inset
 Evaluation of a novel topology for mems programmable reflectarray antennas,
@@ -617,7 +617,7 @@ Multiple frequency band microwave photonic receiver,
 
 \layout Itemize
 
-[OKane.2009] S. M. O'Kane and V. F. Fusco, 
+[OKaneand.2009] S. M. O'Kane and V. F. Fusco, 
 \begin_inset Quotes eld
 \end_inset
 Circularly polarized curl antenna lens with manual tilt properties,
@@ -689,7 +689,7 @@ Design of a dual-frequency retrodirective array,
 
 \layout Itemize
 
-[Chreim.2010] H. Chreim et al., 
+[Chreimet.2010] H. Chreim et al., 
 \begin_inset Quotes eld
 \end_inset
 An enhanced 
@@ -740,7 +740,7 @@ Compound diffractive lens consisting of fresnel zone plate and frequency selecti
 
 \layout Itemize
 
-[Goussetis.2010] G. Goussetis and A. P. Feresidis, 
+[Goussetisand.2010] G. Goussetis and A. P. Feresidis, 
 \begin_inset Quotes eld
 \end_inset
 Perturbed frequency selective surfaces for multiband high impedance surfaces,
@@ -755,7 +755,7 @@ Perturbed frequency selective surfaces for multiband high impedance surfaces,
 
 \layout Itemize
 
-[Kazantsev.2010] Y. N. Kazantsev et al., 
+[Kazantsevet.2010] Y. N. Kazantsev et al., 
 \begin_inset Quotes eld
 \end_inset
 Broadening of operating frequency band of magnetic-type radio absorbers by FSS incorporation,
@@ -771,7 +771,7 @@ Broadening of operating frequency band of magnetic-type radio absorbers by FSS i
 
 \layout Itemize
 
-[Kazemzadeh.2010] A. Kazemzadeh and A. Karlsson, 
+[Kazemzadehand.2010] A. Kazemzadeh and A. Karlsson, 
 \begin_inset Quotes eld
 \end_inset
 On the absorption mechanism of ultra thin absorbers,
@@ -843,7 +843,7 @@ Vertically integrated three-pole filter/antennas for array applications,
 
 \layout Itemize
 
-[Lin.2011] C.-K. Lin and S.-J. Chung, 
+[Linand.2011] C.-K. Lin and S.-J. Chung, 
 \begin_inset Quotes eld
 \end_inset
 A filtering microstrip antenna array,
@@ -875,7 +875,7 @@ A dual-band high-gain resonant cavity antenna with orthogonal polarizations,
 
 \layout Itemize
 
-[Naghshvarian-Jahromi.2011] M. Naghshvarian-Jahromi and M. Tayarani, 
+[Naghshvarian-Jahromiand.2011] M. Naghshvarian-Jahromi and M. Tayarani, 
 \begin_inset Quotes eld
 \end_inset
 Defected ground structure band-stop filter by semicomplementary split ring resonators,
@@ -890,7 +890,7 @@ Defected ground structure band-stop filter by semicomplementary split ring reson
 
 \layout Itemize
 
-[Neinhus.2011] M. Neinh
+[Neinhusand.2011] M. Neinh
 \begin_inset ERT
 status Collapsed
 
@@ -946,7 +946,7 @@ A planar dualband antenna array,
 
 \layout Itemize
 
-[Van.2011] D. Van Orden and V. Lomakin, 
+[VanOrdenand.2011] D. Van Orden and V. Lomakin, 
 \begin_inset Quotes eld
 \end_inset
 Fundamental electromagnetic properties of twisted periodic arrays,
@@ -1030,7 +1030,7 @@ A novel polarization-independent, free-space, microwave beam splitter utilizing 
 
 \layout Itemize
 
-[de.2012] M. E. de Cos, Y. Alvarez, and F. Las-Heras, 
+[deCos.2012] M. E. de Cos, Y. Alvarez, and F. Las-Heras, 
 \begin_inset Quotes eld
 \end_inset
 Reply to 'Comments on 
@@ -1132,7 +1132,7 @@ A novel frequency selective structure with quasi-elliptic bandpass response,
 
 \layout Itemize
 
-[Li.2012] M. Li and N. Behdad, 
+[Liand.2012] M. Li and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
 Fluidically tunable frequency selective/phase shifting surfaces for high-power microwave applications,
@@ -1148,7 +1148,7 @@ Fluidically tunable frequency selective/phase shifting surfaces for high-power m
 
 \layout Itemize
 
-[Liu.2012] L. Liu and S. Matitsine, 
+[Liuand.2012] L. Liu and S. Matitsine, 
 \begin_inset Quotes eld
 \end_inset
 Tunable transmittivity and effective permittivity of a smart surface loaded by varactor diodes,
@@ -1163,7 +1163,7 @@ Tunable transmittivity and effective permittivity of a smart surface loaded by v
 
 \layout Itemize
 
-[Sazegar.2012] M. Sazegar et al., 
+[Sazegaret.2012] M. Sazegar et al., 
 \begin_inset Quotes eld
 \end_inset
 Beam steering transmitarray using tunable frequency selective surface with integrated ferroelectric varactors,
@@ -1243,7 +1243,7 @@ Dual-band crossed-dipole reflectarray with dual-band frequency selective surface
 
 \layout Itemize
 
-[da.2013] M. R. da Silva, C. de Lucena N
+[daSilva.2013] M. R. da Silva, C. de Lucena N
 \begin_inset ERT
 status Collapsed
 
@@ -1291,7 +1291,7 @@ Zigzag metallic conductors as frequency selective surfaces,
 
 \layout Itemize
 
-[Li.2013] B. Li and Z. Shen, 
+[Liand.2013] B. Li and Z. Shen, 
 \begin_inset Quotes eld
 \end_inset
 Synthesis of quasi-elliptic bandpass frequency-selective surface using cascaded loop arrays,
@@ -1307,7 +1307,7 @@ Synthesis of quasi-elliptic bandpass frequency-selective surface using cascaded 
 
 \layout Itemize
 
-[Li.2013.a] M. Li, M. A. Al-Joumayly, and N. Behdad, 
+[Li.2013] M. Li, M. A. Al-Joumayly, and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
 Broadband true-time-delay microwave lenses based on miniaturized element frequency selective surfaces,
@@ -1386,7 +1386,7 @@ Co-designed substrate-integrated waveguide filters with patch antennas,
 
 \layout Itemize
 
-[Zelenchuk.2013] D. Zelenchuk and V. Fusco, 
+[Zelenchukand.2013] D. Zelenchuk and V. Fusco, 
 \begin_inset Quotes eld
 \end_inset
 Split-ring FSS spiral phase plate,
@@ -1402,7 +1402,7 @@ Split-ring FSS spiral phase plate,
 
 \layout Itemize
 
-[Abadi.2014] S. M. A. M. H. Abadi and N. Behdad, 
+[Abadiand.2014] S. M. A. M. H. Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
 Design of wideband, fss-based multibeam antennas using the effective medium approach,
@@ -1514,7 +1514,7 @@ Chiral frequency selective surfaces comprised of multiple conducting strips per 
 
 \layout Itemize
 
-[Edalati.2014] A. Edalati and K. Sarabandi, 
+[Edalatiand.2014] A. Edalati and K. Sarabandi, 
 \begin_inset Quotes eld
 \end_inset
 Reflectarray antenna based on grounded loop-wire miniaturised-element frequency selective surfaces,
@@ -1529,7 +1529,7 @@ Reflectarray antenna based on grounded loop-wire miniaturised-element frequency 
 
 \layout Itemize
 
-[Li.2014] B. Li and Z. Shen, 
+[Liand.2014] B. Li and Z. Shen, 
 \begin_inset Quotes eld
 \end_inset
 Bandpass frequency selective structure with wideband spurious rejection,
@@ -1624,7 +1624,7 @@ Polarisation independent resistively loaded frequency selective surface absorber
 
 \layout Itemize
 
-[Chaharmir.2015] M. R. Chaharmir and J. Shaker, 
+[Chaharmirand.2015] M. R. Chaharmir and J. Shaker, 
 \begin_inset Quotes eld
 \end_inset
 Design of a multilayer x-/ka-band frequency-selective surface-backed reflectarray for satellite applications,
@@ -1655,7 +1655,7 @@ High-efficiency scheme and optimisation technique for design of fragment-type is
 
 \layout Itemize
 
-[Ketterl.2015] T. P. Ketterl et al., 
+[Ketterlet.2015] T. P. Ketterl et al., 
 \begin_inset Quotes eld
 \end_inset
 A 2.45 GHz phased array antenna unit cell fabricated using 3-d multi-layer direct digital manufacturing,
@@ -1735,7 +1735,7 @@ Multimode resonator-fed dual-polarized antenna array with enhanced bandwidth and
 
 \layout Itemize
 
-[Momeni.2015] S. M. A. Momeni Hasan Abadi and N. Behdad, 
+[MomeniHasanAbadiand.2015] S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
 Inductively-coupled miniaturized-element frequency selective surfaces with narrowband, high-order bandpass responses,
@@ -1751,7 +1751,7 @@ Inductively-coupled miniaturized-element frequency selective surfaces with narro
 
 \layout Itemize
 
-[Rahmati.2015] B. Rahmati and H. R. Hassani, 
+[Rahmatiand.2015] B. Rahmati and H. R. Hassani, 
 \begin_inset Quotes eld
 \end_inset
 Multiband metallic frequency selective surface with wide range of band ratio,
@@ -1792,7 +1792,7 @@ Analytical multimodal network approach for 2-d arrays of planar patches/aperture
 
 \layout Itemize
 
-[Yan.2015] M. Yan et al., 
+[Yanet.2015] M. Yan et al., 
 \begin_inset Quotes eld
 \end_inset
 A miniaturized dual-band FSS with second-order response and large band separation,
@@ -1808,7 +1808,7 @@ A miniaturized dual-band FSS with second-order response and large band separatio
 
 \layout Itemize
 
-[Zamani.2015] A. Zamani and A. Abbosh, 
+[Zamaniand.2015] A. Zamani and A. Abbosh, 
 \begin_inset Quotes eld
 \end_inset
 Hybrid clutter rejection technique for improved microwave head imaging,
@@ -1871,7 +1871,7 @@ A low-cost dual-band cpw-fed printed lpda for wireless communications,
 
 \layout Itemize
 
-[Chatterjee.2016] A. Chatterjee and S. K. Parui, 
+[Chatterjeeand.2016] A. Chatterjee and S. K. Parui, 
 \begin_inset Quotes eld
 \end_inset
 Performance enhancement of a dual-band monopole antenna by using a frequency-selective surface-based corner reflector,
@@ -1903,7 +1903,7 @@ A wideband and reconfigurable filtering slot antenna,
 
 \layout Itemize
 
-[Fartookzadeh.2016] M. Fartookzadeh and S. H. Mohseni Armaki, 
+[Fartookzadehand.2016] M. Fartookzadeh and S. H. Mohseni Armaki, 
 \begin_inset Quotes eld
 \end_inset
 Dual-band reflection-type circular polarizers based on anisotropic impedance surfaces,
@@ -1955,7 +1955,7 @@ $K/Ka$
 
 \layout Itemize
 
-[Liang.2016] L. Liang and S. Victor Hum, 
+[Liangand.2016] L. Liang and S. Victor Hum, 
 \begin_inset Quotes eld
 \end_inset
 Design of a UWB reflectarray as an impedance surface using bessel filters,
@@ -1971,7 +1971,7 @@ Design of a UWB reflectarray as an impedance surface using bessel filters,
 
 \layout Itemize
 
-[Mao.2016] C.-X. Mao et al., 
+[Maoet.2016] C.-X. Mao et al., 
 \begin_inset Quotes eld
 \end_inset
 An integrated filtering antenna array with high selectivity and harmonics suppression,
@@ -2021,7 +2021,7 @@ Simplified modal expansion to analyze frequency-selective surfaces: an equivalen
 
 \layout Itemize
 
-[Momeni.2016] S. M. A. Momeni Hasan Abadi and N. Behdad, 
+[MomeniHasanAbadiand.2016] S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
 Broadband true-time-delay circularly polarized reflectarray with linearly polarized feed,
@@ -2037,7 +2037,7 @@ Broadband true-time-delay circularly polarized reflectarray with linearly polari
 
 \layout Itemize
 
-[Momeni.2016.a] S. M. A. Momeni Hasan Abadi and N. Behdad, 
+[MomeniHasanAbadiand.2016.a] S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
 Wideband linear-to-circular polarization converters based on miniaturized-element frequency selective surfaces,
@@ -2053,7 +2053,7 @@ Wideband linear-to-circular polarization converters based on miniaturized-elemen
 
 \layout Itemize
 
-[Niroo.2016] M. Niroo Jazi, M. R. Chaharmir, J. Shaker, and A. R. Sebak, 
+[NirooJazi.2016] M. Niroo Jazi, M. R. Chaharmir, J. Shaker, and A. R. Sebak, 
 \begin_inset Quotes eld
 \end_inset
 Broadband transmitarray antenna design using polarization-insensitive frequency selective surfaces,
@@ -2069,7 +2069,7 @@ Broadband transmitarray antenna design using polarization-insensitive frequency 
 
 \layout Itemize
 
-[Reis.2016] J. R. Reis et al., 
+[Reiset.2016] J. R. Reis et al., 
 \begin_inset Quotes eld
 \end_inset
 FSS-inspired transmitarray for two-dimensional antenna beamsteering,
@@ -2085,7 +2085,7 @@ FSS-inspired transmitarray for two-dimensional antenna beamsteering,
 
 \layout Itemize
 
-[Yan.2016] M. Yan et al., 
+[Yanet.2016] M. Yan et al., 
 \begin_inset Quotes eld
 \end_inset
 A tri-band, highly selective, bandpass FSS using cascaded multilayer loop arrays,
@@ -2101,7 +2101,7 @@ A tri-band, highly selective, bandpass FSS using cascaded multilayer loop arrays
 
 \layout Itemize
 
-[Yan.2016.a] M. Yan et al., 
+[Yanet.2016.a] M. Yan et al., 
 \begin_inset Quotes eld
 \end_inset
 Highly-selective, closely-spaced, dual-band FSS with second-order characteristic,
@@ -2151,7 +2151,7 @@ Ka-band linear to circular polarization converter based on multilayer slab with 
 
 \layout Itemize
 
-[Ashraf.2017] M. A. Ashraf et al., 
+[Ashrafet.2017] M. A. Ashraf et al., 
 \begin_inset Quotes eld
 \end_inset
 Design and analysis of multi-resonators loaded broadband antipodal tapered slot antenna for chipless rfid applications,
@@ -2214,7 +2214,7 @@ An fss-backed 20/30-ghz dual-band circularly polarized reflectarray with suppres
 
 \layout Itemize
 
-[Dickie.2017] R. Dickie et al., 
+[Dickieet.2017] R. Dickie et al., 
 \begin_inset Quotes eld
 \end_inset
 Low-pass FSS for 50-230 GHz quasi-optical demultiplexing for the MetOp second-generation microwave sounder instrument,
@@ -2278,7 +2278,7 @@ Switchable low-profile broadband frequency-selective rasorber/absorber based on 
 
 \layout Itemize
 
-[Hannachi.2017] C. Hannachi and S. O. Tatu, 
+[Hannachiand.2017] C. Hannachi and S. O. Tatu, 
 \begin_inset Quotes eld
 \end_inset
 Performance comparison of 60 GHz printed patch antennas with different geometrical shapes using miniature hybrid microwave integrated circuits technology,
@@ -2325,7 +2325,7 @@ A low-profile miniaturized second-order bandpass frequency selective surface,
 
 \layout Itemize
 
-[Khajeh.2017] R. Khajeh Mohammad Lou and M. Naser-Moghadasi, 
+[KhajehMohammadLouand.2017] R. Khajeh Mohammad Lou and M. Naser-Moghadasi, 
 \begin_inset Quotes eld
 \end_inset
 Wideband aperture-coupled antenna array based on fabry-perot resonator for c-band applications,
@@ -2388,7 +2388,7 @@ A coding diffuse metasurface for RCS reduction,
 
 \layout Itemize
 
-[Liu.2017.b] Z.-G. Liu and W.-B. Lu, 
+[Liuand.2017] Z.-G. Liu and W.-B. Lu, 
 \begin_inset Quotes eld
 \end_inset
 Low-profile design of broadband high gain circularly polarized fabry-perot resonator antenna and its array with linearly polarized feed,
@@ -2404,7 +2404,7 @@ Low-profile design of broadband high gain circularly polarized fabry-perot reson
 
 \layout Itemize
 
-[Mahmud.2017] R. H. Mahmud and M. J. Lancaster, 
+[Mahmudand.2017] R. H. Mahmud and M. J. Lancaster, 
 \begin_inset Quotes eld
 \end_inset
 High-gain and wide-bandwidth filtering planar antenna array-based solely on resonators,
@@ -2436,7 +2436,7 @@ A shared-aperture dual-band dual-polarized filtering-antenna-array with improved
 
 \layout Itemize
 
-[Matos.2017] S. A. Matos et al., 
+[Matoset.2017] S. A. Matos et al., 
 \begin_inset Quotes eld
 \end_inset
 High gain dual-band beam-steering transmit array for satcom terminals at ka-band,
@@ -2527,7 +2527,7 @@ Annular apertures in metallic screens as extraordinary transmission and frequenc
 
 \layout Itemize
 
-[Tak.2017] J. Tak and J. Choi, 
+[Takand.2017] J. Tak and J. Choi, 
 \begin_inset Quotes eld
 \end_inset
 A wearable metamaterial microwave absorber,
@@ -2574,7 +2574,7 @@ Wideband frequency-domain and space-domain pattern reconfigurable circular anten
 
 \layout Itemize
 
-[Wincza.2017] K. Wincza and S. Gruszczynski, 
+[Winczaand.2017] K. Wincza and S. Gruszczynski, 
 \begin_inset Quotes eld
 \end_inset
 Frequency-selective feeding network based on directional filter for constant-beamwidth scalable antenna arrays,
@@ -2622,7 +2622,7 @@ Broadband microwave absorption properties of ultrathin composites containing edg
 
 \layout Itemize
 
-[Zamanifekri.2017] A. Zamanifekri et al., 
+[Zamanifekriet.2017] A. Zamanifekri et al., 
 \begin_inset Quotes eld
 \end_inset
 An active ka-band shared-aperture antenna with 50 db isolation for satellite communication,
@@ -2638,7 +2638,7 @@ An active ka-band shared-aperture antenna with 50 db isolation for satellite com
 
 \layout Itemize
 
-[Baladi.2018] E. Baladi and A. K. Iyer, 
+[Baladiand.2018] E. Baladi and A. K. Iyer, 
 \begin_inset Quotes eld
 \end_inset
 Far-field magnification of subdiffraction conducting features using metamaterial-lined aperture arrays,
@@ -2654,7 +2654,7 @@ Far-field magnification of subdiffraction conducting features using metamaterial
 
 \layout Itemize
 
-[Bojja.2018] S. Bojja Venkatakrishnan, E. A. Alwan, and J. L. Volakis, 
+[BojjaVenkatakrishnan.2018] S. Bojja Venkatakrishnan, E. A. Alwan, and J. L. Volakis, 
 \begin_inset Quotes eld
 \end_inset
 Wideband RF self-interference cancellation circuit for phased array simultaneous transmit and receive systems,
@@ -2670,7 +2670,7 @@ Wideband RF self-interference cancellation circuit for phased array simultaneous
 
 \layout Itemize
 
-[Borhani.2018] M. Borhani Kakhki, M. Mantash, A. Kesavan, M. M. Tahseen, and T. A. Denidni, 
+[BorhaniKakhki.2018] M. Borhani Kakhki, M. Mantash, A. Kesavan, M. M. Tahseen, and T. A. Denidni, 
 \begin_inset Quotes eld
 \end_inset
 Millimeter-wave beam-tilting vivaldi antenna with gain enhancement using multilayer FSS,
@@ -2702,7 +2702,7 @@ Programmable multifunctional rf/microwave circuit for antenna and filter operati
 
 \layout Itemize
 
-[Cao.2018] Y. F. Cao and X. Y. Zhang, 
+[Caoand.2018] Y. F. Cao and X. Y. Zhang, 
 \begin_inset Quotes eld
 \end_inset
 A wideband beam-steerable slot antenna using artificial magnetic conductors with simple structure,
@@ -2750,7 +2750,7 @@ Linear fabry-perot/leaky-wave antennas excited by multiple sources,
 
 \layout Itemize
 
-[de.2018] M. R. T. de Oliveira, M. T. de Melo, I. Llamas-Garro, and A. G. Neto, 
+[deOliveira.2018] M. R. T. de Oliveira, M. T. de Melo, I. Llamas-Garro, and A. G. Neto, 
 \begin_inset Quotes eld
 \end_inset
 Reconfigurable cross dipole: hash frequency selective surface,
@@ -2765,7 +2765,7 @@ Reconfigurable cross dipole: hash frequency selective surface,
 
 \layout Itemize
 
-[Delafkar.2018] H. Delafkar and A. Pirhadi, 
+[Delafkarand.2018] H. Delafkar and A. Pirhadi, 
 \begin_inset Quotes eld
 \end_inset
 An accurate method for synthesis of reflecting elements to design wideband reflectarray antenna,
@@ -2940,7 +2940,7 @@ Beam-switching millimetre-wave antenna using cantilever-based fsss,
 
 \layout Itemize
 
-[Khan.2018] S. Khan and T. F. Eibert, 
+[Khanand.2018] S. Khan and T. F. Eibert, 
 \begin_inset Quotes eld
 \end_inset
 A multifunctional metamaterial-based dual-band isotropic frequency-selective surface,
@@ -2997,7 +2997,7 @@ A planar balanced-to-balanced power divider with wideband filtering responses an
 
 \layout Itemize
 
-[Li.2018.a] T. Li and X. Gong, 
+[Liand.2018] T. Li and X. Gong, 
 \begin_inset Quotes eld
 \end_inset
 Vertical integration of high- 
@@ -3017,7 +3017,7 @@ $Q$
 
 \layout Itemize
 
-[Li.2018.b] W. Li, Y. Hei, P. M. Grubb, X. Shi, and R. T. Chen, 
+[Li.2018.a] W. Li, Y. Hei, P. M. Grubb, X. Shi, and R. T. Chen, 
 \begin_inset Quotes eld
 \end_inset
 Compact inkjet-printed flexible MIMO antenna for UWB applications,
@@ -3081,7 +3081,7 @@ Wideband transmitarray with reduced profile,
 
 \layout Itemize
 
-[Mao.2018] C.-X. Mao et al., 
+[Maoet.2018] C.-X. Mao et al., 
 \begin_inset Quotes eld
 \end_inset
 Integrated dual-band filtering/duplexing antennas,
@@ -3117,7 +3117,7 @@ $K/Ka$
 
 \layout Itemize
 
-[Rabbani.2018] M. S. Rabbani and H. Ghafouri-Shiraz, 
+[Rabbaniand.2018] M. S. Rabbani and H. Ghafouri-Shiraz, 
 \begin_inset Quotes eld
 \end_inset
 Dual-layer partially reflective surface antennas based on extended size unit cells for 60 GHz band wlan/wpan,
@@ -3132,7 +3132,7 @@ Dual-layer partially reflective surface antennas based on extended size unit cel
 
 \layout Itemize
 
-[Ramezani.2018] A. Ramezani Varkani, Z. Hossein Firouzeh, and A. Zeidaabadi Nezhad, 
+[RamezaniVarkani.2018] A. Ramezani Varkani, Z. Hossein Firouzeh, and A. Zeidaabadi Nezhad, 
 \begin_inset Quotes eld
 \end_inset
 Equivalent circuit model for array of circular loop FSS structures at oblique angles of incidence,
@@ -3147,7 +3147,7 @@ Equivalent circuit model for array of circular loop FSS structures at oblique an
 
 \layout Itemize
 
-[Salem.2018] S. Salem Hesari and J. Bornemann, 
+[SalemHesariand.2018] S. Salem Hesari and J. Bornemann, 
 \begin_inset Quotes eld
 \end_inset
 Frequency-selective substrate integrated waveguide front-end system for tracking applications,
@@ -3162,7 +3162,7 @@ Frequency-selective substrate integrated waveguide front-end system for tracking
 
 \layout Itemize
 
-[Varikuntla.2018] K. K. Varikuntla and R. Singaravelu, 
+[Varikuntlaand.2018] K. K. Varikuntla and R. Singaravelu, 
 \begin_inset Quotes eld
 \end_inset
 Ultrathin design and implementation of planar and conformal polarisation rotating frequency selective surface based on siw technology,
@@ -3193,7 +3193,7 @@ Dual-band dual-polarized antenna array with flat-top and sharp cutoff radiation 
 
 \layout Itemize
 
-[Wang.2018.a] Z. Wang et al., 
+[Wanget.2018] Z. Wang et al., 
 \begin_inset Quotes eld
 \end_inset
 A high-transmittance frequency-selective rasorber based on dipole arrays,
@@ -3209,7 +3209,7 @@ A high-transmittance frequency-selective rasorber based on dipole arrays,
 
 \layout Itemize
 
-[Wen.2018] L.-H. Wen et al., 
+[Wenet.2018] L.-H. Wen et al., 
 \begin_inset Quotes eld
 \end_inset
 A balanced feed filtering antenna with novel coupling structure for low-sidelobe radar applications,
@@ -3257,7 +3257,7 @@ An ultrathin cross-polarization converter with near unity efficiency for transmi
 
 \layout Itemize
 
-[Yang.2018] Y. Yang et al., 
+[Yanget.2018] Y. Yang et al., 
 \begin_inset Quotes eld
 \end_inset
 A 5.8 GHz circularly polarized rectenna with harmonic suppression and rectenna array for wireless power transfer,
@@ -3273,7 +3273,7 @@ A 5.8 GHz circularly polarized rectenna with harmonic suppression and rectenna a
 
 \layout Itemize
 
-[Yang.2018.a] Y. Yang et al., 
+[Yanget.2018.a] Y. Yang et al., 
 \begin_inset Quotes eld
 \end_inset
 A circularly polarized rectenna array based on substrate integrated waveguide structure with harmonic suppression,
@@ -3289,7 +3289,7 @@ A circularly polarized rectenna array based on substrate integrated waveguide st
 
 \layout Itemize
 
-[Yong.2018] W. Y. Yong et al., 
+[Yonget.2018] W. Y. Yong et al., 
 \begin_inset Quotes eld
 \end_inset
 Flexible convoluted ring shaped FSS for x-band screening application,
@@ -3415,7 +3415,7 @@ Miniaturised frequency selective surface based on fractal arrays with square slo
 
 \layout Itemize
 
-[Bartlett.2019] C. Bartlett and J. Bornemann, 
+[Bartlettand.2019] C. Bartlett and J. Bornemann, 
 \begin_inset Quotes eld
 \end_inset
 Cross-configuration substrate integrated waveguide beamforming network for 1d and 2d beam patterns,
@@ -3559,7 +3559,7 @@ Hyperbolic metamaterials at microwaves with stacked inductive coiled-wire arrays
 
 \layout Itemize
 
-[Hendry.2019] D. R. Hendry and A. M. Abbosh, 
+[Hendryand.2019] D. R. Hendry and A. M. Abbosh, 
 \begin_inset Quotes eld
 \end_inset
 Coupled-resonator theory of isolation in multi-mode antennas,
@@ -3732,7 +3732,7 @@ Design of a low profile flexible tri-band frequency surface applied in x-band, k
 
 \layout Itemize
 
-[Luo.2019] Q. Luo et al., 
+[Luoet.2019] Q. Luo et al., 
 \begin_inset Quotes eld
 \end_inset
 A hybrid design method for thin-panel transmitarray antennas,
@@ -3794,7 +3794,7 @@ Resistively loaded ultra-thin FSS absorbers for radio-frequency enhancement of s
 
 \layout Itemize
 
-[Malakooti.2019] S.-A. Malakooti and C. Fumeaux, 
+[Malakootiand.2019] S.-A. Malakooti and C. Fumeaux, 
 \begin_inset Quotes eld
 \end_inset
 Pattern-reconfigurable antenna with switchable wideband to frequency-agile bandpass/bandstop filtering operation,
@@ -3810,7 +3810,7 @@ Pattern-reconfigurable antenna with switchable wideband to frequency-agile bandp
 
 \layout Itemize
 
-[Malakooti.2019.a] S.-A. Malakooti, S. M. H. Mousavi, and C. Fumeaux, 
+[Malakooti.2019] S.-A. Malakooti, S. M. H. Mousavi, and C. Fumeaux, 
 \begin_inset Quotes eld
 \end_inset
 Tunable bandpass-to-bandstop quasi-yagi-uda antenna with sum and difference radiation patterns,
@@ -3826,7 +3826,7 @@ Tunable bandpass-to-bandstop quasi-yagi-uda antenna with sum and difference radi
 
 \layout Itemize
 
-[Mathur.2019] P. Mathur and G. Kumar, 
+[Mathurand.2019] P. Mathur and G. Kumar, 
 \begin_inset Quotes eld
 \end_inset
 Dual-frequency dual-polarised shared-aperture microstrip antenna array with suppressed higher order modes,
@@ -3841,7 +3841,7 @@ Dual-frequency dual-polarised shared-aperture microstrip antenna array with supp
 
 \layout Itemize
 
-[Nguyen.2019] B. D. Nguyen and C. Pichot, 
+[Nguyenand.2019] B. D. Nguyen and C. Pichot, 
 \begin_inset Quotes eld
 \end_inset
 Unit-cell loaded with pin diodes for 1-bit linearly polarized reconfigurable transmitarrays,
@@ -3873,7 +3873,7 @@ Wideband direction-of-arrival estimation with arbitrary array via coherent annih
 
 \layout Itemize
 
-[Qian.2019] G. Qian et al., 
+[Qianet.2019] G. Qian et al., 
 \begin_inset Quotes eld
 \end_inset
 Switchable broadband dual-polarized frequency-selective rasorber/absorber,
@@ -3968,7 +3968,7 @@ Tunable frequency-selective rasorber based on varactor-embedded square-loop arra
 
 \layout Itemize
 
-[Wang.2019.c] Z. Wang and Y. Dong, 
+[Wangand.2019] Z. Wang and Y. Dong, 
 \begin_inset Quotes eld
 \end_inset
 Circularly polarized antennas inspired by dual-mode siw cavities,
@@ -3984,7 +3984,7 @@ Circularly polarized antennas inspired by dual-mode siw cavities,
 
 \layout Itemize
 
-[Wang.2019.d] Z. Wang, J. Fu, Q. Zeng, M. Song, and T. A. Denidni, 
+[Wang.2019.c] Z. Wang, J. Fu, Q. Zeng, M. Song, and T. A. Denidni, 
 \begin_inset Quotes eld
 \end_inset
 Wideband transmissive frequency-selective absorber,
@@ -4069,7 +4069,7 @@ UWB dual-polarised dipole array with dielectric and FSS superstrate and 65
 
 \layout Itemize
 
-[Yoon.2019] I. Yoon and J. Oh, 
+[Yoonand.2019] I. Yoon and J. Oh, 
 \begin_inset Quotes eld
 \end_inset
 Millimeter-wave thin lens using multi-patch incorporated unit cells for polarization-dependent beam shaping,
@@ -4147,7 +4147,7 @@ Dual-band transmission-type circular polariser based on frequency selective surf
 
 \layout Itemize
 
-[Zhang.2019] B. Zhang et al., 
+[Zhanget.2019] B. Zhang et al., 
 \begin_inset Quotes eld
 \end_inset
 A metallic 3-d printed airborne high-power handling magneto-electric dipole array with cooling channels,
@@ -4163,7 +4163,7 @@ A metallic 3-d printed airborne high-power handling magneto-electric dipole arra
 
 \layout Itemize
 
-[Zhang.2019.a] J. F. Zhang, Y. J. Cheng, Y. R. Ding, and C. X. Bai, 
+[Zhang.2019] J. F. Zhang, Y. J. Cheng, Y. R. Ding, and C. X. Bai, 
 \begin_inset Quotes eld
 \end_inset
 A dual-band shared-aperture antenna with large frequency ratio, high aperture reuse efficiency, and high channel isolation,
@@ -4230,7 +4230,7 @@ Decoupling and low-profile design of dual-band dual-polarized base station anten
 
 \layout Itemize
 
-[Borhani.2020] M. Borhani Kakhki, A. Dadgarpour, A.-R. Sebak, and T. A. Denidni, 
+[BorhaniKakhki.2020] M. Borhani Kakhki, A. Dadgarpour, A.-R. Sebak, and T. A. Denidni, 
 \begin_inset Quotes eld
 \end_inset
 Twenty-eight-gigahertz beam-switching ridge gap dielectric resonator antenna based on FSS for 5G applications,
@@ -4371,7 +4371,7 @@ Analysis and design of reflectarray antennas based on delay lines: a filter pers
 
 \layout Bibliography
 
-\bibitem {Riggs.1988}
+\bibitem {Riggsand.1988}
 L. S. Riggs and R. G. Smith, 
 \begin_inset Quotes eld
 \end_inset
@@ -4403,7 +4403,7 @@ Frequency-scanned gratings consisting of photo-etched arrays,
 
 \layout Bibliography
 
-\bibitem {Gurel.1990}
+\bibitem {Gureland.1990}
 L. Gurel and W. C. Chew, 
 \begin_inset Quotes eld
 \end_inset
@@ -4419,7 +4419,7 @@ Recursive algorithms for calculating the scattering from N strips or patches,
 
 \layout Bibliography
 
-\bibitem {Grounds.1991}
+\bibitem {Groundsand.1991}
 P. W. Grounds and K. J. Webb, 
 \begin_inset Quotes eld
 \end_inset
@@ -4435,7 +4435,7 @@ Numerical analysis of finite frequency selective surfaces with rectangular patch
 
 \layout Bibliography
 
-\bibitem {Pous.1991}
+\bibitem {Pousand.1991}
 R. Pous and D. M. Pozar, 
 \begin_inset Quotes eld
 \end_inset
@@ -4467,7 +4467,7 @@ Tri-band frequency selective surface with circular ring elements,
 
 \layout Bibliography
 
-\bibitem {Costa.1995}
+\bibitem {Costaand.1995}
 J. C. W. A. Costa and A. J. Giarola, 
 \begin_inset Quotes eld
 \end_inset
@@ -4483,7 +4483,7 @@ Analysis of the selective behavior of multilayer structures with a dielectric gr
 
 \layout Bibliography
 
-\bibitem {Shin-Lin.2000}
+\bibitem {Shin-LinWang.2000}
 Shin-Lin Wang, Young-Huang Chou, and Shyh-Jong Chung, 
 \begin_inset Quotes eld
 \end_inset
@@ -4499,7 +4499,7 @@ A distributed-feedback antenna oscillator,
 
 \layout Bibliography
 
-\bibitem {de.2003}
+\bibitem {deMaagt.2003}
 P. de Maagt, R. Gonzalo, Y. C. Vardaxoglou, and J.-M. Baracco, 
 \begin_inset Quotes eld
 \end_inset
@@ -4547,7 +4547,7 @@ Antenna-filter-antenna arrays as a class of bandpass frequency-selective surface
 
 \layout Bibliography
 
-\bibitem {Chakravarty.2004}
+\bibitem {Chakravartyand.2004}
 S. Chakravarty and R. Mittra, 
 \begin_inset Quotes eld
 \end_inset
@@ -4585,7 +4585,7 @@ Design of a 5.8-ghz rectenna incorporating a new patch antenna,
 
 \layout Bibliography
 
-\bibitem {Guo.2005}
+\bibitem {GuoQingLuoet.2005}
 Guo Qing Luo et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -4601,7 +4601,7 @@ Theory and experiment of novel frequency selective surface based on substrate in
 
 \layout Bibliography
 
-\bibitem {Shiwen.2005}
+\bibitem {ShiwenYangand.2005}
 Shiwen Yang and Zaiping Nie, 
 \begin_inset Quotes eld
 \end_inset
@@ -4617,7 +4617,7 @@ Mutual coupling compensation in time modulated linear antenna arrays,
 
 \layout Bibliography
 
-\bibitem {Cheng.2006}
+\bibitem {Chengand.2006}
 C.-C. Cheng and A. Abbaspour-Tamijani, 
 \begin_inset Quotes eld
 \end_inset
@@ -4649,7 +4649,7 @@ Phase conjugating wire FSS lens,
 
 \layout Bibliography
 
-\bibitem {Tennant.2006}
+\bibitem {Tennantand.2006}
 A. Tennant and B. Chambers, 
 \begin_inset Quotes eld
 \end_inset
@@ -4695,7 +4695,7 @@ Design of novel thin frequency selective surface superstrates for dual-band dire
 
 \layout Bibliography
 
-\bibitem {Sarabandi.2007}
+\bibitem {Sarabandiand.2007}
 K. Sarabandi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
@@ -4711,7 +4711,7 @@ A frequency selective surface with miniaturized elements,
 
 \layout Bibliography
 
-\bibitem {Wickenden.2007}
+\bibitem {Wickendenet.2007}
 D. K. Wickenden et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -4742,7 +4742,7 @@ Ultra-wideband bandpass filter with hybrid quasi-lumped elements and defected gr
 
 \layout Bibliography
 
-\bibitem {Bayatpur.2008}
+\bibitem {Bayatpurand.2008}
 F. Bayatpur and K. Sarabandi, 
 \begin_inset Quotes eld
 \end_inset
@@ -4758,7 +4758,7 @@ Multipole spatial filters using metamaterial-based miniaturized-element frequenc
 
 \layout Bibliography
 
-\bibitem {Bayatpur.2008.a}
+\bibitem {Bayatpurand.2008.a}
 F. Bayatpur and K. Sarabandi, 
 \begin_inset Quotes eld
 \end_inset
@@ -4774,7 +4774,7 @@ Single-layer high-order miniaturized-element frequency-selective surfaces,
 
 \layout Bibliography
 
-\bibitem {Silva.2008}
+\bibitem {Silvaand.2008}
 P. H. F. Silva and A. L. P. S. Campos, 
 \begin_inset Quotes eld
 \end_inset
@@ -4835,7 +4835,7 @@ Efficient and accurate design of substrate-integrated waveguide circuits synthes
 
 \layout Bibliography
 
-\bibitem {Al-Joumayly.2009}
+\bibitem {Al-Joumaylyand.2009}
 M. Al-Joumayly and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
@@ -4851,7 +4851,7 @@ A new technique for design of low-profile, second-order, bandpass frequency sele
 
 \layout Bibliography
 
-\bibitem {Bayatpur.2009}
+\bibitem {Bayatpurand.2009}
 F. Bayatpur and K. Sarabandi, 
 \begin_inset Quotes eld
 \end_inset
@@ -4867,7 +4867,7 @@ Tuning performance of metamaterial-based frequency selective surfaces,
 
 \layout Bibliography
 
-\bibitem {Cheng.2009}
+\bibitem {Chengand.2009}
 C.-C. Cheng and A. Abbaspour-Tamijani, 
 \begin_inset Quotes eld
 \end_inset
@@ -4962,7 +4962,7 @@ Multiple frequency band microwave photonic receiver,
 
 \layout Bibliography
 
-\bibitem {OKane.2009}
+\bibitem {OKaneand.2009}
 S. M. O'Kane and V. F. Fusco, 
 \begin_inset Quotes eld
 \end_inset
@@ -5034,7 +5034,7 @@ Design of a dual-frequency retrodirective array,
 
 \layout Bibliography
 
-\bibitem {Chreim.2010}
+\bibitem {Chreimet.2010}
 H. Chreim et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -5085,7 +5085,7 @@ Compound diffractive lens consisting of fresnel zone plate and frequency selecti
 
 \layout Bibliography
 
-\bibitem {Goussetis.2010}
+\bibitem {Goussetisand.2010}
 G. Goussetis and A. P. Feresidis, 
 \begin_inset Quotes eld
 \end_inset
@@ -5100,7 +5100,7 @@ Perturbed frequency selective surfaces for multiband high impedance surfaces,
 
 \layout Bibliography
 
-\bibitem {Kazantsev.2010}
+\bibitem {Kazantsevet.2010}
 Y. N. Kazantsev et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -5116,7 +5116,7 @@ Broadening of operating frequency band of magnetic-type radio absorbers by FSS i
 
 \layout Bibliography
 
-\bibitem {Kazemzadeh.2010}
+\bibitem {Kazemzadehand.2010}
 A. Kazemzadeh and A. Karlsson, 
 \begin_inset Quotes eld
 \end_inset
@@ -5188,7 +5188,7 @@ Vertically integrated three-pole filter/antennas for array applications,
 
 \layout Bibliography
 
-\bibitem {Lin.2011}
+\bibitem {Linand.2011}
 C.-K. Lin and S.-J. Chung, 
 \begin_inset Quotes eld
 \end_inset
@@ -5220,7 +5220,7 @@ A dual-band high-gain resonant cavity antenna with orthogonal polarizations,
 
 \layout Bibliography
 
-\bibitem {Naghshvarian-Jahromi.2011}
+\bibitem {Naghshvarian-Jahromiand.2011}
 M. Naghshvarian-Jahromi and M. Tayarani, 
 \begin_inset Quotes eld
 \end_inset
@@ -5235,7 +5235,7 @@ Defected ground structure band-stop filter by semicomplementary split ring reson
 
 \layout Bibliography
 
-\bibitem {Neinhus.2011}
+\bibitem {Neinhusand.2011}
 M. Neinh
 \begin_inset ERT
 status Collapsed
@@ -5291,7 +5291,7 @@ A planar dualband antenna array,
 
 \layout Bibliography
 
-\bibitem {Van.2011}
+\bibitem {VanOrdenand.2011}
 D. Van Orden and V. Lomakin, 
 \begin_inset Quotes eld
 \end_inset
@@ -5375,7 +5375,7 @@ A novel polarization-independent, free-space, microwave beam splitter utilizing 
 
 \layout Bibliography
 
-\bibitem {de.2012}
+\bibitem {deCos.2012}
 M. E. de Cos, Y. Alvarez, and F. Las-Heras, 
 \begin_inset Quotes eld
 \end_inset
@@ -5477,7 +5477,7 @@ A novel frequency selective structure with quasi-elliptic bandpass response,
 
 \layout Bibliography
 
-\bibitem {Li.2012}
+\bibitem {Liand.2012}
 M. Li and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
@@ -5493,7 +5493,7 @@ Fluidically tunable frequency selective/phase shifting surfaces for high-power m
 
 \layout Bibliography
 
-\bibitem {Liu.2012}
+\bibitem {Liuand.2012}
 L. Liu and S. Matitsine, 
 \begin_inset Quotes eld
 \end_inset
@@ -5508,7 +5508,7 @@ Tunable transmittivity and effective permittivity of a smart surface loaded by v
 
 \layout Bibliography
 
-\bibitem {Sazegar.2012}
+\bibitem {Sazegaret.2012}
 M. Sazegar et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -5588,7 +5588,7 @@ Dual-band crossed-dipole reflectarray with dual-band frequency selective surface
 
 \layout Bibliography
 
-\bibitem {da.2013}
+\bibitem {daSilva.2013}
 M. R. da Silva, C. de Lucena N
 \begin_inset ERT
 status Collapsed
@@ -5636,7 +5636,7 @@ Zigzag metallic conductors as frequency selective surfaces,
 
 \layout Bibliography
 
-\bibitem {Li.2013}
+\bibitem {Liand.2013}
 B. Li and Z. Shen, 
 \begin_inset Quotes eld
 \end_inset
@@ -5652,7 +5652,7 @@ Synthesis of quasi-elliptic bandpass frequency-selective surface using cascaded 
 
 \layout Bibliography
 
-\bibitem {Li.2013.a}
+\bibitem {Li.2013}
 M. Li, M. A. Al-Joumayly, and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
@@ -5731,7 +5731,7 @@ Co-designed substrate-integrated waveguide filters with patch antennas,
 
 \layout Bibliography
 
-\bibitem {Zelenchuk.2013}
+\bibitem {Zelenchukand.2013}
 D. Zelenchuk and V. Fusco, 
 \begin_inset Quotes eld
 \end_inset
@@ -5747,7 +5747,7 @@ Split-ring FSS spiral phase plate,
 
 \layout Bibliography
 
-\bibitem {Abadi.2014}
+\bibitem {Abadiand.2014}
 S. M. A. M. H. Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
@@ -5859,7 +5859,7 @@ Chiral frequency selective surfaces comprised of multiple conducting strips per 
 
 \layout Bibliography
 
-\bibitem {Edalati.2014}
+\bibitem {Edalatiand.2014}
 A. Edalati and K. Sarabandi, 
 \begin_inset Quotes eld
 \end_inset
@@ -5874,7 +5874,7 @@ Reflectarray antenna based on grounded loop-wire miniaturised-element frequency 
 
 \layout Bibliography
 
-\bibitem {Li.2014}
+\bibitem {Liand.2014}
 B. Li and Z. Shen, 
 \begin_inset Quotes eld
 \end_inset
@@ -5969,7 +5969,7 @@ J. H. Barton, C. R. Garcia, E. A. Berry, R. Salas, and R. C. Rumpf,
 
 \layout Bibliography
 
-\bibitem {Chaharmir.2015}
+\bibitem {Chaharmirand.2015}
 M. R. Chaharmir and J. Shaker, 
 \begin_inset Quotes eld
 \end_inset
@@ -6000,7 +6000,7 @@ High-efficiency scheme and optimisation technique for design of fragment-type is
 
 \layout Bibliography
 
-\bibitem {Ketterl.2015}
+\bibitem {Ketterlet.2015}
 T. P. Ketterl et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6080,7 +6080,7 @@ Multimode resonator-fed dual-polarized antenna array with enhanced bandwidth and
 
 \layout Bibliography
 
-\bibitem {Momeni.2015}
+\bibitem {MomeniHasanAbadiand.2015}
 S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
@@ -6096,7 +6096,7 @@ Inductively-coupled miniaturized-element frequency selective surfaces with narro
 
 \layout Bibliography
 
-\bibitem {Rahmati.2015}
+\bibitem {Rahmatiand.2015}
 B. Rahmati and H. R. Hassani, 
 \begin_inset Quotes eld
 \end_inset
@@ -6137,7 +6137,7 @@ Analytical multimodal network approach for 2-d arrays of planar patches/aperture
 
 \layout Bibliography
 
-\bibitem {Yan.2015}
+\bibitem {Yanet.2015}
 M. Yan et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6153,7 +6153,7 @@ A miniaturized dual-band FSS with second-order response and large band separatio
 
 \layout Bibliography
 
-\bibitem {Zamani.2015}
+\bibitem {Zamaniand.2015}
 A. Zamani and A. Abbosh, 
 \begin_inset Quotes eld
 \end_inset
@@ -6216,7 +6216,7 @@ A low-cost dual-band cpw-fed printed lpda for wireless communications,
 
 \layout Bibliography
 
-\bibitem {Chatterjee.2016}
+\bibitem {Chatterjeeand.2016}
 A. Chatterjee and S. K. Parui, 
 \begin_inset Quotes eld
 \end_inset
@@ -6248,7 +6248,7 @@ A wideband and reconfigurable filtering slot antenna,
 
 \layout Bibliography
 
-\bibitem {Fartookzadeh.2016}
+\bibitem {Fartookzadehand.2016}
 M. Fartookzadeh and S. H. Mohseni Armaki, 
 \begin_inset Quotes eld
 \end_inset
@@ -6300,7 +6300,7 @@ $K/Ka$
 
 \layout Bibliography
 
-\bibitem {Liang.2016}
+\bibitem {Liangand.2016}
 L. Liang and S. Victor Hum, 
 \begin_inset Quotes eld
 \end_inset
@@ -6316,7 +6316,7 @@ Design of a UWB reflectarray as an impedance surface using bessel filters,
 
 \layout Bibliography
 
-\bibitem {Mao.2016}
+\bibitem {Maoet.2016}
 C.-X. Mao et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6366,7 +6366,7 @@ Simplified modal expansion to analyze frequency-selective surfaces: an equivalen
 
 \layout Bibliography
 
-\bibitem {Momeni.2016}
+\bibitem {MomeniHasanAbadiand.2016}
 S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
@@ -6382,7 +6382,7 @@ Broadband true-time-delay circularly polarized reflectarray with linearly polari
 
 \layout Bibliography
 
-\bibitem {Momeni.2016.a}
+\bibitem {MomeniHasanAbadiand.2016.a}
 S. M. A. Momeni Hasan Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
@@ -6398,7 +6398,7 @@ Wideband linear-to-circular polarization converters based on miniaturized-elemen
 
 \layout Bibliography
 
-\bibitem {Niroo.2016}
+\bibitem {NirooJazi.2016}
 M. Niroo Jazi, M. R. Chaharmir, J. Shaker, and A. R. Sebak, 
 \begin_inset Quotes eld
 \end_inset
@@ -6414,7 +6414,7 @@ Broadband transmitarray antenna design using polarization-insensitive frequency 
 
 \layout Bibliography
 
-\bibitem {Reis.2016}
+\bibitem {Reiset.2016}
 J. R. Reis et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6430,7 +6430,7 @@ FSS-inspired transmitarray for two-dimensional antenna beamsteering,
 
 \layout Bibliography
 
-\bibitem {Yan.2016}
+\bibitem {Yanet.2016}
 M. Yan et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6446,7 +6446,7 @@ A tri-band, highly selective, bandpass FSS using cascaded multilayer loop arrays
 
 \layout Bibliography
 
-\bibitem {Yan.2016.a}
+\bibitem {Yanet.2016.a}
 M. Yan et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6496,7 +6496,7 @@ Ka-band linear to circular polarization converter based on multilayer slab with 
 
 \layout Bibliography
 
-\bibitem {Ashraf.2017}
+\bibitem {Ashrafet.2017}
 M. A. Ashraf et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6559,7 +6559,7 @@ An fss-backed 20/30-ghz dual-band circularly polarized reflectarray with suppres
 
 \layout Bibliography
 
-\bibitem {Dickie.2017}
+\bibitem {Dickieet.2017}
 R. Dickie et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6623,7 +6623,7 @@ Switchable low-profile broadband frequency-selective rasorber/absorber based on 
 
 \layout Bibliography
 
-\bibitem {Hannachi.2017}
+\bibitem {Hannachiand.2017}
 C. Hannachi and S. O. Tatu, 
 \begin_inset Quotes eld
 \end_inset
@@ -6670,7 +6670,7 @@ A low-profile miniaturized second-order bandpass frequency selective surface,
 
 \layout Bibliography
 
-\bibitem {Khajeh.2017}
+\bibitem {KhajehMohammadLouand.2017}
 R. Khajeh Mohammad Lou and M. Naser-Moghadasi, 
 \begin_inset Quotes eld
 \end_inset
@@ -6733,7 +6733,7 @@ A coding diffuse metasurface for RCS reduction,
 
 \layout Bibliography
 
-\bibitem {Liu.2017.b}
+\bibitem {Liuand.2017}
 Z.-G. Liu and W.-B. Lu, 
 \begin_inset Quotes eld
 \end_inset
@@ -6749,7 +6749,7 @@ Low-profile design of broadband high gain circularly polarized fabry-perot reson
 
 \layout Bibliography
 
-\bibitem {Mahmud.2017}
+\bibitem {Mahmudand.2017}
 R. H. Mahmud and M. J. Lancaster, 
 \begin_inset Quotes eld
 \end_inset
@@ -6781,7 +6781,7 @@ A shared-aperture dual-band dual-polarized filtering-antenna-array with improved
 
 \layout Bibliography
 
-\bibitem {Matos.2017}
+\bibitem {Matoset.2017}
 S. A. Matos et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6872,7 +6872,7 @@ Annular apertures in metallic screens as extraordinary transmission and frequenc
 
 \layout Bibliography
 
-\bibitem {Tak.2017}
+\bibitem {Takand.2017}
 J. Tak and J. Choi, 
 \begin_inset Quotes eld
 \end_inset
@@ -6919,7 +6919,7 @@ Wideband frequency-domain and space-domain pattern reconfigurable circular anten
 
 \layout Bibliography
 
-\bibitem {Wincza.2017}
+\bibitem {Winczaand.2017}
 K. Wincza and S. Gruszczynski, 
 \begin_inset Quotes eld
 \end_inset
@@ -6967,7 +6967,7 @@ Broadband microwave absorption properties of ultrathin composites containing edg
 
 \layout Bibliography
 
-\bibitem {Zamanifekri.2017}
+\bibitem {Zamanifekriet.2017}
 A. Zamanifekri et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -6983,7 +6983,7 @@ An active ka-band shared-aperture antenna with 50 db isolation for satellite com
 
 \layout Bibliography
 
-\bibitem {Baladi.2018}
+\bibitem {Baladiand.2018}
 E. Baladi and A. K. Iyer, 
 \begin_inset Quotes eld
 \end_inset
@@ -6999,7 +6999,7 @@ Far-field magnification of subdiffraction conducting features using metamaterial
 
 \layout Bibliography
 
-\bibitem {Bojja.2018}
+\bibitem {BojjaVenkatakrishnan.2018}
 S. Bojja Venkatakrishnan, E. A. Alwan, and J. L. Volakis, 
 \begin_inset Quotes eld
 \end_inset
@@ -7015,7 +7015,7 @@ Wideband RF self-interference cancellation circuit for phased array simultaneous
 
 \layout Bibliography
 
-\bibitem {Borhani.2018}
+\bibitem {BorhaniKakhki.2018}
 M. Borhani Kakhki, M. Mantash, A. Kesavan, M. M. Tahseen, and T. A. Denidni, 
 \begin_inset Quotes eld
 \end_inset
@@ -7047,7 +7047,7 @@ Programmable multifunctional rf/microwave circuit for antenna and filter operati
 
 \layout Bibliography
 
-\bibitem {Cao.2018}
+\bibitem {Caoand.2018}
 Y. F. Cao and X. Y. Zhang, 
 \begin_inset Quotes eld
 \end_inset
@@ -7095,7 +7095,7 @@ Linear fabry-perot/leaky-wave antennas excited by multiple sources,
 
 \layout Bibliography
 
-\bibitem {de.2018}
+\bibitem {deOliveira.2018}
 M. R. T. de Oliveira, M. T. de Melo, I. Llamas-Garro, and A. G. Neto, 
 \begin_inset Quotes eld
 \end_inset
@@ -7110,7 +7110,7 @@ Reconfigurable cross dipole: hash frequency selective surface,
 
 \layout Bibliography
 
-\bibitem {Delafkar.2018}
+\bibitem {Delafkarand.2018}
 H. Delafkar and A. Pirhadi, 
 \begin_inset Quotes eld
 \end_inset
@@ -7285,7 +7285,7 @@ Beam-switching millimetre-wave antenna using cantilever-based fsss,
 
 \layout Bibliography
 
-\bibitem {Khan.2018}
+\bibitem {Khanand.2018}
 S. Khan and T. F. Eibert, 
 \begin_inset Quotes eld
 \end_inset
@@ -7342,7 +7342,7 @@ A planar balanced-to-balanced power divider with wideband filtering responses an
 
 \layout Bibliography
 
-\bibitem {Li.2018.a}
+\bibitem {Liand.2018}
 T. Li and X. Gong, 
 \begin_inset Quotes eld
 \end_inset
@@ -7362,7 +7362,7 @@ $Q$
 
 \layout Bibliography
 
-\bibitem {Li.2018.b}
+\bibitem {Li.2018.a}
 W. Li, Y. Hei, P. M. Grubb, X. Shi, and R. T. Chen, 
 \begin_inset Quotes eld
 \end_inset
@@ -7426,7 +7426,7 @@ Wideband transmitarray with reduced profile,
 
 \layout Bibliography
 
-\bibitem {Mao.2018}
+\bibitem {Maoet.2018}
 C.-X. Mao et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -7462,7 +7462,7 @@ $K/Ka$
 
 \layout Bibliography
 
-\bibitem {Rabbani.2018}
+\bibitem {Rabbaniand.2018}
 M. S. Rabbani and H. Ghafouri-Shiraz, 
 \begin_inset Quotes eld
 \end_inset
@@ -7477,7 +7477,7 @@ Dual-layer partially reflective surface antennas based on extended size unit cel
 
 \layout Bibliography
 
-\bibitem {Ramezani.2018}
+\bibitem {RamezaniVarkani.2018}
 A. Ramezani Varkani, Z. Hossein Firouzeh, and A. Zeidaabadi Nezhad, 
 \begin_inset Quotes eld
 \end_inset
@@ -7492,7 +7492,7 @@ Equivalent circuit model for array of circular loop FSS structures at oblique an
 
 \layout Bibliography
 
-\bibitem {Salem.2018}
+\bibitem {SalemHesariand.2018}
 S. Salem Hesari and J. Bornemann, 
 \begin_inset Quotes eld
 \end_inset
@@ -7507,7 +7507,7 @@ Frequency-selective substrate integrated waveguide front-end system for tracking
 
 \layout Bibliography
 
-\bibitem {Varikuntla.2018}
+\bibitem {Varikuntlaand.2018}
 K. K. Varikuntla and R. Singaravelu, 
 \begin_inset Quotes eld
 \end_inset
@@ -7538,7 +7538,7 @@ Dual-band dual-polarized antenna array with flat-top and sharp cutoff radiation 
 
 \layout Bibliography
 
-\bibitem {Wang.2018.a}
+\bibitem {Wanget.2018}
 Z. Wang et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -7554,7 +7554,7 @@ A high-transmittance frequency-selective rasorber based on dipole arrays,
 
 \layout Bibliography
 
-\bibitem {Wen.2018}
+\bibitem {Wenet.2018}
 L.-H. Wen et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -7602,7 +7602,7 @@ An ultrathin cross-polarization converter with near unity efficiency for transmi
 
 \layout Bibliography
 
-\bibitem {Yang.2018}
+\bibitem {Yanget.2018}
 Y. Yang et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -7618,7 +7618,7 @@ A 5.8 GHz circularly polarized rectenna with harmonic suppression and rectenna a
 
 \layout Bibliography
 
-\bibitem {Yang.2018.a}
+\bibitem {Yanget.2018.a}
 Y. Yang et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -7634,7 +7634,7 @@ A circularly polarized rectenna array based on substrate integrated waveguide st
 
 \layout Bibliography
 
-\bibitem {Yong.2018}
+\bibitem {Yonget.2018}
 W. Y. Yong et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -7760,7 +7760,7 @@ Miniaturised frequency selective surface based on fractal arrays with square slo
 
 \layout Bibliography
 
-\bibitem {Bartlett.2019}
+\bibitem {Bartlettand.2019}
 C. Bartlett and J. Bornemann, 
 \begin_inset Quotes eld
 \end_inset
@@ -7904,7 +7904,7 @@ Hyperbolic metamaterials at microwaves with stacked inductive coiled-wire arrays
 
 \layout Bibliography
 
-\bibitem {Hendry.2019}
+\bibitem {Hendryand.2019}
 D. R. Hendry and A. M. Abbosh, 
 \begin_inset Quotes eld
 \end_inset
@@ -8077,7 +8077,7 @@ Design of a low profile flexible tri-band frequency surface applied in x-band, k
 
 \layout Bibliography
 
-\bibitem {Luo.2019}
+\bibitem {Luoet.2019}
 Q. Luo et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -8139,7 +8139,7 @@ Resistively loaded ultra-thin FSS absorbers for radio-frequency enhancement of s
 
 \layout Bibliography
 
-\bibitem {Malakooti.2019}
+\bibitem {Malakootiand.2019}
 S.-A. Malakooti and C. Fumeaux, 
 \begin_inset Quotes eld
 \end_inset
@@ -8155,7 +8155,7 @@ Pattern-reconfigurable antenna with switchable wideband to frequency-agile bandp
 
 \layout Bibliography
 
-\bibitem {Malakooti.2019.a}
+\bibitem {Malakooti.2019}
 S.-A. Malakooti, S. M. H. Mousavi, and C. Fumeaux, 
 \begin_inset Quotes eld
 \end_inset
@@ -8171,7 +8171,7 @@ Tunable bandpass-to-bandstop quasi-yagi-uda antenna with sum and difference radi
 
 \layout Bibliography
 
-\bibitem {Mathur.2019}
+\bibitem {Mathurand.2019}
 P. Mathur and G. Kumar, 
 \begin_inset Quotes eld
 \end_inset
@@ -8186,7 +8186,7 @@ Dual-frequency dual-polarised shared-aperture microstrip antenna array with supp
 
 \layout Bibliography
 
-\bibitem {Nguyen.2019}
+\bibitem {Nguyenand.2019}
 B. D. Nguyen and C. Pichot, 
 \begin_inset Quotes eld
 \end_inset
@@ -8218,7 +8218,7 @@ Wideband direction-of-arrival estimation with arbitrary array via coherent annih
 
 \layout Bibliography
 
-\bibitem {Qian.2019}
+\bibitem {Qianet.2019}
 G. Qian et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -8313,7 +8313,7 @@ Tunable frequency-selective rasorber based on varactor-embedded square-loop arra
 
 \layout Bibliography
 
-\bibitem {Wang.2019.c}
+\bibitem {Wangand.2019}
 Z. Wang and Y. Dong, 
 \begin_inset Quotes eld
 \end_inset
@@ -8329,7 +8329,7 @@ Circularly polarized antennas inspired by dual-mode siw cavities,
 
 \layout Bibliography
 
-\bibitem {Wang.2019.d}
+\bibitem {Wang.2019.c}
 Z. Wang, J. Fu, Q. Zeng, M. Song, and T. A. Denidni, 
 \begin_inset Quotes eld
 \end_inset
@@ -8414,7 +8414,7 @@ UWB dual-polarised dipole array with dielectric and FSS superstrate and 65
 
 \layout Bibliography
 
-\bibitem {Yoon.2019}
+\bibitem {Yoonand.2019}
 I. Yoon and J. Oh, 
 \begin_inset Quotes eld
 \end_inset
@@ -8492,7 +8492,7 @@ Dual-band transmission-type circular polariser based on frequency selective surf
 
 \layout Bibliography
 
-\bibitem {Zhang.2019}
+\bibitem {Zhanget.2019}
 B. Zhang et al., 
 \begin_inset Quotes eld
 \end_inset
@@ -8508,7 +8508,7 @@ A metallic 3-d printed airborne high-power handling magneto-electric dipole arra
 
 \layout Bibliography
 
-\bibitem {Zhang.2019.a}
+\bibitem {Zhang.2019}
 J. F. Zhang, Y. J. Cheng, Y. R. Ding, and C. X. Bai, 
 \begin_inset Quotes eld
 \end_inset
@@ -8575,7 +8575,7 @@ Decoupling and low-profile design of dual-band dual-polarized base station anten
 
 \layout Bibliography
 
-\bibitem {Borhani.2020}
+\bibitem {BorhaniKakhki.2020}
 M. Borhani Kakhki, A. Dadgarpour, A.-R. Sebak, and T. A. Denidni, 
 \begin_inset Quotes eld
 \end_inset

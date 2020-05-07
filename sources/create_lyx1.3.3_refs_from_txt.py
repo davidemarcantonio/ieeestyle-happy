@@ -147,7 +147,7 @@ def clean_ref(reference):
     finished = False
     for str_tmp in str_tmp5:
         if "." not in str_tmp and not finished:
-            if "," in str_tmp:
+            if "," in str_tmp or "and" == str_tmp:
                 finished = True
             author += str_tmp.split(",")[0]
 
