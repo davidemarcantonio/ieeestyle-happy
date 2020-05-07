@@ -1,7 +1,7 @@
 #!/bin/bash
 # ====================================================
 #
-# CREATE A LYX DOCUMENT (V.1.3.3) WITH A LIST OF 
+# CREATE A LYX (V.1.3.3) DOCUMENT WITH A LIST OF 
 # REFERENCE IN THE STANDARD FORMAT OF IEEE-TAP
 #
 # ====================================================
@@ -14,12 +14,6 @@
 # OUTPUTs:
 # - .lyx file with a list (itemize) of reference and
 #   consistent bibliography 
-#
-# ====================================================
-#
-# Creation:        04/05/2020
-# Updates:         04/05/2020 - Fix accents
-#                  05/05/2020 - Rename pdf files
 #
 # ====================================================
 
@@ -38,7 +32,7 @@ FILENAME_OUTPUT='output.lyx'
 
 # Optional (Rename PDF files correctly)
 #-----------------------------------------------------
-ENABLE_PDF_RENAMING=1  # 1:ON, 0:OFF
+ENABLE_PDF_RENAMING=0  # 1:ON, 0:OFF
 ZOTERO_EXPORT_FOLDER_NAME="../ExportedItems/"
 
 if [ $ENABLE_PDF_RENAMING -eq 1 ]; then

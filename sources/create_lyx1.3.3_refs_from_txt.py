@@ -73,21 +73,40 @@ def fix_math(name):
         return name
 
 def simplify_naming(name):
-    str_tmp = name.replace("à", "a")
+    str_tmp =    name.replace("à", "a")
     str_tmp = str_tmp.replace("á", "a")
+    str_tmp = str_tmp.replace("ä", "a")
+    str_tmp = str_tmp.replace("Ä", "a")
+    str_tmp = str_tmp.replace("å", "a")
+    str_tmp = str_tmp.replace("Å", "a") 	
+
     str_tmp = str_tmp.replace("è", "e")
     str_tmp = str_tmp.replace("é", "e")
+    str_tmp = str_tmp.replace("ë", "e")
+    str_tmp = str_tmp.replace("Ë", "E")
+
     str_tmp = str_tmp.replace("ì", "i")
     str_tmp = str_tmp.replace("í", "i") 
+    str_tmp = str_tmp.replace("ï", "i")
     str_tmp = str_tmp.replace("ı", "i") 
+    str_tmp = str_tmp.replace("Ï", "I")
+
     str_tmp = str_tmp.replace("ò", "o")
     str_tmp = str_tmp.replace("ó", "o")
+    str_tmp = str_tmp.replace("ö", "o")
+    str_tmp = str_tmp.replace("Ö", "O")
+    str_tmp = str_tmp.replace("ø", "o")
+    str_tmp = str_tmp.replace("Ø", "O")
+
     str_tmp = str_tmp.replace("ù", "u")
     str_tmp = str_tmp.replace("ú", "u")
     str_tmp = str_tmp.replace("ü", "u")
     str_tmp = str_tmp.replace("Ü", "u")
+
     str_tmp = str_tmp.replace("ğ", "g")
-    
+    str_tmp = str_tmp.replace("Ÿ", "Y")
+    str_tmp = str_tmp.replace("ÿ", "y")
+            
     str_tmp = str_tmp.replace(" ", "")
     str_tmp = str_tmp.replace("’", "")
     return str_tmp
@@ -111,8 +130,8 @@ def clean_ref(reference):
     bare_title = str_tmp4[0]
     title = bare_title.replace("–", "-")
     str_tmp8  = str_tmp4[1].split(",")
-    journal = str_tmp8[0]
-    rest = str_tmp4[1].replace(journal, "").split(", doi: ")[0]
+    journal = str_tmp8[0].replace("–", "-")
+    rest = str_tmp4[1].replace("–", "-").replace(journal, "").split(", doi: ")[0]
     abbr_journal = abbreviate(journal, abbr_fname)
    
     # print(reference)
@@ -139,7 +158,7 @@ def clean_ref(reference):
     naming = "%s.%s" %(simplify_naming(author), year)
 
     if naming in done_refs:
-        letters = ['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
+        letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
         counter = 0
         while "%s.%s" %(naming, letters[counter]) in done_refs:
             counter += 1
@@ -149,7 +168,21 @@ def clean_ref(reference):
     
     # make title lower case
     str_tmp6 = title.split(" ")
-    lower_title = str_tmp6[0]
+    lower_tit = str_tmp6[0]
+    lower_tit_divided = str_tmp6[0].split("-")
+    lower_title = lower_tit_divided[0]
+    for str_tmp in lower_tit_divided[1:]:
+        lower = True
+        file_lower_tabu = open(do_not_lower_fname, 'r')
+        for line in file_lower_tabu:
+            # print(line)
+            if str_tmp in line:
+                lower = False
+        file_lower_tabu.close()
+        if lower and not "$" in str_tmp:
+            lower_title += "-%s" %str_tmp.lower()
+        else:
+            lower_title += "-%s" %str_tmp
     
     for str_tmp in str_tmp6[1:]:
         lower = True
