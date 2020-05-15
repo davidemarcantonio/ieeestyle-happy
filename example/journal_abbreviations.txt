@@ -4,3 +4,10 @@ IEEE Antennas and Wireless Propagation Letters | IEEE Antennas Wireless Propag. 
 IEEE Access | IEEE Access
 IEEE Antennas and Propagation Magazine | IEEE Antennas Propag. Mag.
 Antennas Propagation IET Microwaves | IET Microw. Antennas Propag.
+Proceedings of the IEEE | Proc. IEEE
+IEEE Transactions on Terahertz Science and Technology | IEEE Trans. THz Sci. Technol.
+IEEE Transactions on Electromagnetic Compatibility | IEEE Trans. Electromagn. Compat.
+IEEE Transactions on Components and Packaging Technologies | IEEE Trans. Compon. Packag. Technol.
+IEEE Microwave and Wireless Components Letters | IEEE Microw. Wireless Compon. Lett.
+Electronics Letters | Electron. Lett.
+Antennas Propagation IET Microwaves | IET Microw. Antenna P.

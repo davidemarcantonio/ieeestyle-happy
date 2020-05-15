@@ -57,10 +57,14 @@ def fix_accent(name):
     str_tmp = str_tmp.replace("ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{u}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("Ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{U}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ğ", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {g}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ç", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {c}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("Ç", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {C}}\n\\end_inset\n")
+    
     str_tmp = str_tmp.replace("ı", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\ni}\n\\end_inset\n")
     str_tmp = str_tmp.replace("’", "'")
     str_tmp = str_tmp.replace("×", "\n\\begin_inset Formula $\\times$\n\\end_inset\n")
     str_tmp = str_tmp.replace("°", "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n") 
+    str_tmp = str_tmp.replace("ã", "\n\\begin_inset Formula $\\tilde{a}$\n\\end_inset\n")
     return str_tmp
 
 def fix_math(name):
@@ -79,6 +83,7 @@ def simplify_naming(name):
     str_tmp = str_tmp.replace("Ä", "a")
     str_tmp = str_tmp.replace("å", "a")
     str_tmp = str_tmp.replace("Å", "a") 	
+    str_tmp = str_tmp.replace("ã", "a")
 
     str_tmp = str_tmp.replace("è", "e")
     str_tmp = str_tmp.replace("é", "e")
@@ -106,32 +111,41 @@ def simplify_naming(name):
     str_tmp = str_tmp.replace("ğ", "g")
     str_tmp = str_tmp.replace("Ÿ", "Y")
     str_tmp = str_tmp.replace("ÿ", "y")
-            
+    str_tmp = str_tmp.replace("Ç", "C")
+    str_tmp = str_tmp.replace("ç", "c")
+
     str_tmp = str_tmp.replace(" ", "")
     str_tmp = str_tmp.replace("’", "")
     return str_tmp
 
 def clean_ref(reference):
-    str_tmp1 = reference.split("]")[1]  # remove number [1], [2], etc.
+    str_tmp1 = reference.split("]")[1:]  # remove number [1], [2], etc.
+    new_tmp = ""
+    for str_tmp in str_tmp1:
+        new_tmp += str_tmp
 
-    if "“Reply to ‘Comments on “" in str_tmp1:
-        flag_reply = True
-        str_tmp2 = str_tmp1.split("“Reply to ‘Comments on “")  # divide title from rest
-        authors = str_tmp2[0]
-        str_tmp3 = str_tmp2[1]
-        str_tmp4 = str_tmp3.split(",”’”")
-    else:
-        flag_reply = False
-        str_tmp2 = str_tmp1.split("“")  # divide title from rest
-        authors = str_tmp2[0]
-        str_tmp3 = str_tmp2[1]
-        str_tmp4 = str_tmp3.split(",”")  
+    # if "“Reply to ‘Comments on “" in str_tmp1:
+    #     flag_reply = True
+    #     str_tmp2 = str_tmp1.split("“Reply to ‘Comments on “")  # divide title from rest
+    #     authors = str_tmp2[0]
+    #     str_tmp3 = str_tmp2[1]
+    #     str_tmp4 = str_tmp3.split(",”’”")
+    # else:
+    flag_reply = False
+    str_tmp2 = new_tmp.split("“")  # divide title from rest
+    authors = str_tmp2[0]
+    str_tmp3 = str_tmp2[1:]
+    new_tmp = ""
+    for str_tmp in str_tmp3:
+        new_tmp += str_tmp
+    str_tmp4 = new_tmp.split(",”")    
         
+    # print(str_tmp4)
     bare_title = str_tmp4[0]
-    title = bare_title.replace("–", "-")
+    title = bare_title.replace("–", "-").replace("—", "-")
     str_tmp8  = str_tmp4[1].split(",")
     journal = str_tmp8[0].replace("–", "-")
-    rest = str_tmp4[1].replace("–", "-").replace(journal, "").split(", doi: ")[0]
+    rest = str_tmp4[1].replace("–", "-").replace("—", "-").replace(journal, "").split(", doi: ")[0]
     abbr_journal = abbreviate(journal, abbr_fname)
    
     # print(reference)
@@ -149,7 +163,8 @@ def clean_ref(reference):
         if "." not in str_tmp and not finished:
             if "," in str_tmp or "and" == str_tmp:
                 finished = True
-            author += str_tmp.split(",")[0]
+            if "and" != str_tmp:
+                author += str_tmp.split(",")[0]
 
     # extract year
     year = str_tmp4[1].split(", doi: ")[0].split(" ")[-1]
@@ -206,12 +221,12 @@ def clean_ref(reference):
         to_ret += "Reply to 'Comments on \n"
         to_ret += "\\begin_inset Quotes eld\n"
         to_ret += "\\end_inset\n"
-        to_ret += "%s,\n" %fix_accent(fix_math(lower_title))
+        to_ret += "%s,\n" %fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-")))
         to_ret += "\\begin_inset Quotes erd\n"
         to_ret += "\\end_inset\n"
         to_ret += "'\n"
     else:
-        to_ret += "%s,\n" %fix_accent(fix_math(lower_title))
+        to_ret += "%s,\n" %fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-")))
     
     to_ret += "\\begin_inset Quotes erd\n"
     to_ret += "\\end_inset\n"
