@@ -19,6 +19,45 @@ output_lyx_fname   = lines[3]
 rename_PDF = lines[4] == '1'
 
 done_refs = []
+years = set()
+wors_per_year = {
+    1981 : [] ,
+    1982 : [],
+    1984 : [],
+    1986 : [], 
+    1987 : [], 
+    1988 : [], 
+    1989 : [], 
+    1991 : [], 
+    1992 : [], 
+    1993 : [], 
+    1994 : [], 
+    1995 : [], 
+    1996 : [], 
+    1997 : [], 
+    1998 : [], 
+    1999 : [], 
+    2000 : [], 
+    2001 : [], 
+    2002 : [], 
+    2003 : [], 
+    2004 : [], 
+    2005 : [], 
+    2006 : [], 
+    2007 : [], 
+    2008 : [], 
+    2009 : [], 
+    2010 : [], 
+    2011 : [], 
+    2012 : [], 
+    2013 : [], 
+    2014 : [], 
+    2015 : [], 
+    2016 : [], 
+    2017 : [], 
+    2018 : [], 
+    2019 : [], 
+    2020 : []}
 
 if rename_PDF:
     print("Renaming PDFs...")
@@ -168,6 +207,9 @@ def clean_ref(reference):
 
     # extract year
     year = str_tmp4[1].split(", doi: ")[0].split(" ")[-1]
+
+    
+
     doi = str_tmp4[1].split(", doi: ")[1].upper()
     doi = doi[:-2]
     # generate naming [Surname.YEAR]
@@ -235,6 +277,10 @@ def clean_ref(reference):
     to_ret += "\\emph default\n"
     to_ret += "%s\n" %rest
     to_ret += " (DOI: %s).\n" %doi
+
+    years.add(int(year))
+    wors_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
+
     return naming, to_ret, title, author, year
 
 # processing part
@@ -279,8 +325,20 @@ for line in file_in:
         file_out.write("[%s] %s\n" %(name, ref))
         refs_for_biblio.append([name, ref, tit, auth, year])
 # end references part
-
 file_in.close()
+
+
+print(years)
+for y in years:
+    file_out.write("\n\\layout Subsubsection\n\n")
+    file_out.write("Year %d\n" %y)
+    
+    for item in wors_per_year[y]:
+        file_out.write("\n\\layout Itemize\n\n")
+        file_out.write("%s\n" %item)
+
+
+
 
 # end document - do not modify 
 done_copy = []
