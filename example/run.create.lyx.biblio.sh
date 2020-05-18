@@ -32,7 +32,7 @@ FILENAME_OUTPUT='output.lyx'
 
 # Optional (Rename PDF files correctly)
 #-----------------------------------------------------
-ENABLE_PDF_RENAMING=0  # 1:ON, 0:OFF
+ENABLE_PDF_RENAMING=1  # 1:ON, 0:OFF
 ZOTERO_EXPORT_FOLDER_NAME="../pdfs/"
 
 if [ $ENABLE_PDF_RENAMING -eq 1 ]; then

@@ -5,8 +5,10 @@ import sys
 from shutil import copyfile
 
 # TODOs 
-# - check multiple namings
-# - rename files flag
+# - if journals not in list leave ref as is
+# - check "comments"/ reply papers handling
+# - complete strange letters list
+# - refactor and clean 
 
 input_fname = sys.argv[1]
 with open(input_fname) as file_in:
@@ -21,43 +23,51 @@ rename_PDF = lines[4] == '1'
 done_refs = []
 years = set()
 wors_per_year = {
-    1981 : [] ,
+    1980 : [],
+    1981 : [],
     1982 : [],
+    1983 : [],
     1984 : [],
-    1986 : [], 
-    1987 : [], 
-    1988 : [], 
-    1989 : [], 
-    1991 : [], 
-    1992 : [], 
-    1993 : [], 
-    1994 : [], 
-    1995 : [], 
-    1996 : [], 
-    1997 : [], 
-    1998 : [], 
-    1999 : [], 
-    2000 : [], 
-    2001 : [], 
-    2002 : [], 
-    2003 : [], 
-    2004 : [], 
-    2005 : [], 
-    2006 : [], 
-    2007 : [], 
-    2008 : [], 
-    2009 : [], 
-    2010 : [], 
-    2011 : [], 
-    2012 : [], 
-    2013 : [], 
-    2014 : [], 
-    2015 : [], 
-    2016 : [], 
-    2017 : [], 
-    2018 : [], 
-    2019 : [], 
-    2020 : []}
+    1985 : [],
+    1986 : [],
+    1987 : [],
+    1988 : [],
+    1989 : [],
+    1990 : [],
+    1991 : [],
+    1992 : [],
+    1993 : [],
+    1994 : [],
+    1995 : [],
+    1996 : [],
+    1997 : [],
+    1998 : [],
+    1999 : [],
+    2000 : [],
+    2001 : [],
+    2002 : [],
+    2003 : [],
+    2004 : [],
+    2005 : [],
+    2006 : [],
+    2007 : [],
+    2008 : [],
+    2009 : [],
+    2010 : [],
+    2011 : [],
+    2012 : [],
+    2013 : [],
+    2014 : [],
+    2015 : [],
+    2016 : [],
+    2017 : [],
+    2018 : [],
+    2019 : [],
+    2020 : [],
+    2021 : [],
+    2022 : [],
+    2023 : [],
+    2024 : []}
 
 if rename_PDF:
     print("Renaming PDFs...")
@@ -101,11 +111,8 @@ def fix_accent(name):
     str_tmp = str_tmp.replace("č", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {c}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ă", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {a}}\n\\end_inset\n")
     
-    
-    
     str_tmp = str_tmp.replace("ç", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {c}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("Ç", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {C}}\n\\end_inset\n")
-    
     str_tmp = str_tmp.replace("ı", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\ni}\n\\end_inset\n")
     str_tmp = str_tmp.replace("’", "'")
     str_tmp = str_tmp.replace("×", "\n\\begin_inset Formula $\\times$\n\\end_inset\n")
@@ -210,9 +217,12 @@ def clean_ref(reference):
     # extract first author's surname
     str_tmp5 = authors.split(" ")
     author = ""
+    bare_author = ""
     finished = False
     for str_tmp in str_tmp5:
         if "." not in str_tmp and not finished:
+            if bare_author == "":
+                bare_author = str_tmp.split(",")[0]
             if "," in str_tmp or "and" == str_tmp:
                 finished = True
             if "and" != str_tmp:
@@ -220,8 +230,6 @@ def clean_ref(reference):
 
     # extract year
     year = str_tmp4[1].split(", doi: ")[0].split(" ")[-1]
-
-    
 
     doi = str_tmp4[1].split(", doi: ")[1].upper()
     doi = doi[:-2]
@@ -294,7 +302,12 @@ def clean_ref(reference):
     years.add(int(year))
     wors_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
 
-    return naming, to_ret, title, author, year
+    str_tmp10 = ""
+    for str_tmp in bare_title.split('$'):
+        if len(str_tmp) > len(str_tmp10):
+            str_tmp10 = str_tmp
+
+    return naming, to_ret, title, author, year, bare_author, str_tmp10
 
 # processing part
 file_in = open(txt_refs_fname, 'r')
@@ -332,33 +345,30 @@ file_out.write("\n")
 refs_for_biblio = []
 for line in file_in:
     if '[' in line:
-        name, ref, tit, auth, year = clean_ref(line)
+        name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line)
         print(name)
         file_out.write("\n\\layout Itemize\n\n")
         file_out.write("[%s] %s\n" %(name, ref))
-        refs_for_biblio.append([name, ref, tit, auth, year])
+        refs_for_biblio.append([name, ref, tit, auth, year, bare_auth, bare_tit])
 # end references part
 file_in.close()
 
-
-print(sorted(years, reverse=True))
+# print(sorted(years, reverse=True))
 for y in sorted(years, reverse=True):
-    file_out.write("\n\\layout Subsubsection\n\n")
-    file_out.write("Year %d\n" %y)
-    
-    for item in wors_per_year[y]:
-        file_out.write("\n\\layout Itemize\n\n")
-        file_out.write("%s\n" %item)
-
-
-
+    if not y:
+        file_out.write("\n\\layout Subsubsection\n\n")
+        file_out.write("Year %d\n" %y)
+        
+        for item in wors_per_year[y]:
+            file_out.write("\n\\layout Itemize\n\n")
+            file_out.write("%s\n" %item)
 
 # end document - do not modify 
 done_copy = []
 for r in refs_for_biblio:
     name = r[0]
-    title = r[2]
-    auth = r[3]
+    title = r[6]
+    auth = r[5]
     year = r[4]
     file_out.write("\\layout Bibliography\n\n")
     file_out.write("\\bibitem {%s}\n" %name)
@@ -366,18 +376,22 @@ for r in refs_for_biblio:
     if rename_PDF:
         file_pdfs = open("_pdf_file_list.txt", 'r')
         found = False
+        print("Looking for %s '%s'" %(auth, title))
         for line in file_pdfs:
             path = line.replace(" ", " ")
             path = path[:-1]
-            print(line)
-            print(title)
+            #print(line)
+            
             if title[:10] in line and auth in line and year in line:
                 found = True
                 copyfile('%s' %path, './Renamed-PDFs/%s.pdf' %name)
                 done_copy.append(name)
 
         file_pdfs.close()
-        print("File %s NOT FOUND" %name)
+        if not found:
+            print("\tfile %s NOT FOUND\n" %name)
+        else:
+            print("\tOK! %s\n" %name)
 file_out.write("\\the_end\n")
 # end document - do not modify 
 

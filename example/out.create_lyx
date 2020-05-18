@@ -1,4 +1,4 @@
-NOT Renaming PDFs...
+Renaming PDFs...
 Creating Biblio from:
 	zotero_refs.txt
 Keep Uppercase Word List from:
@@ -327,4 +327,963 @@ Zhu.2018
 Zhu.2018.a
 Zhu.2011
 Zhu.2019
-[2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1997, 1996, 1995, 1994, 1993, 1992, 1991, 1989, 1988, 1987, 1986, 1984, 1982, 1981]
+Looking for Abadi 'Design of Wideband, FSS-Based MultiBeam Antennas Using the Effective Medium Approach'
+	OK! Abadi.2014
+
+Looking for Abbaspour-Tamijani 'Antenna-filter-antenna arrays as a class of bandpass frequency-selective surfaces'
+	OK! Abbaspour-Tamijani.2004
+
+Looking for Abbaspour-Tamijani 'A millimetre-wave bandpass filter-lens array'
+	OK! Abbaspour-Tamijani.2007
+
+Looking for Akbari 'Ka-Band Linear to Circular Polarization Converter Based on Multilayer Slab With Broadband Performance'
+	OK! Akbari.2017
+
+Looking for Al-Joumayly 'A New Technique for Design of Low-Profile, Second-Order, Bandpass Frequency Selective Surfaces'
+	OK! Al-Joumayly.2009
+
+Looking for Antonopoulos 'Multilayer frequency-selective surfaces for millimetre and submillimetre wave applications'
+	OK! Antonopoulos.1997
+
+Looking for Anwar 'Miniaturised frequency selective surface based on fractal arrays with square slots for enhanced bandwidth'
+	OK! Anwar.2019
+
+Looking for Anyonopoulos 'Design procedure for FSS with wide transmission band and rapid rolloff'
+	OK! Anyonopoulos.1998
+
+Looking for Archer 'Scattering of arbitrarily polarised, arbitrarily directed incident plane waves by frequency-selective surfaces'
+	OK! Archer.1987
+
+Looking for Archer 'Polygon subdomain basis-function model for the ring element in FSS arrays'
+	OK! Archer.1997
+
+Looking for Azemi '3D-tapered resonators for FSSs with incident angle independence'
+	OK! Azemi.2017
+
+Looking for Bakir 'U-shaped frequency selective surfaces for single- and dual-band applications together with absorber and sensor configurations'
+	OK! Bakir.2016
+
+Looking for Bartlett 'Cross-Configuration Substrate Integrated Waveguide Beamforming Network for 1D and 2D Beam Patterns'
+	OK! Bartlett.2019
+
+Looking for Barton '3-D Printed All-Dielectric Frequency Selective Surface With Large Bandwidth and Field of View'
+	OK! Barton.2015
+
+Looking for Bashiri 'WiMAX, WLAN, and X-Band Filtering Mechanism: Simple-Structured Triple-Band Frequency Selective Surface'
+	OK! Bashiri.2017
+
+Looking for Bayatpur 'Single-Layer High-Order Miniaturized-Element Frequency-Selective Surfaces'
+	OK! Bayatpur.2008
+
+Looking for Bayatpur 'Multipole Spatial Filters Using Metamaterial-Based Miniaturized-Element Frequency-Selective Surfaces'
+	OK! Bayatpur.2008.a
+
+Looking for Bayatpur 'Tuning Performance of Metamaterial-Based Frequency Selective Surfaces'
+	OK! Bayatpur.2009
+
+Looking for Bayatpur 'Miniaturized FSS and Patch Antenna Array Coupling for Angle-Independent, High-Order Spatial Filtering'
+	OK! Bayatpur.2010
+
+Looking for Behdad 'A Generalized Synthesis Procedure for Low-Profile, Frequency Selective Surfaces With Odd-Order Bandpass Responses'
+	OK! Behdad.2010
+
+Looking for Belmessaoud 'Broadband planar slot antenna using a simple single-layer FSS stopband'
+	OK! Belmessaoud.2020
+
+Looking for Beruete 'Increase of the transmission in cut-off metallic hole arrays'
+	OK! Beruete.2005
+
+Looking for Biginton 'Microwave Transmission Through an Array of Ring Slots in a Metal Sheet Capped With Concentric Metal Rings'
+	OK! Biginton.2013
+
+Looking for Borhani 'Twenty-eight-gigahertz beam-switching ridge gap dielectric resonator antenna based on FSS for 5G applications'
+	OK! BorhaniKakhki.2020
+
+Looking for Borhani 'Millimeter-Wave Beam-Tilting Vivaldi Antenna With Gain Enhancement Using Multilayer FSS'
+	OK! BorhaniKakhki.2018
+
+Looking for Bornemann 'Computer-aided design of multilayered dielectric frequency-selective surfaces for circularly polarized millimeter-wave applications'
+	OK! Bornemann.1993
+
+Looking for Bossard 'The design and fabrication of planar multiband metallodielectric frequency selective surfaces for infrared applications'
+	OK! Bossardet.2006
+
+Looking for Boutayeb 'Dispersion Characteristics of a Cylindrical Electromagnetic Band Gap Structure'
+	OK! Boutayeb.2006
+
+Looking for Brown 'Dual-Band Microstrip Corporate Feed Network Using an Embedded Metamaterial-Based EBG'
+	OK! Brown.2019
+
+Looking for Bukhari 'Equivalent Circuit Model for Coupled Complementary Metasurfaces'
+	OK! Bukhari.2018
+
+Looking for Bukhari 'Dipole-slot-dipole metasurfaces'
+	OK! Bukhari.2016
+
+Looking for Cahill 'Concentric ring and jerusalem cross arrays as frequency selective surfaces for a 45° incidence diplexer'
+	OK! Cahill.1982
+
+Looking for Cahill 'Two-layer MM-wave FSS of linear slot elements with low insertion loss'
+	OK! Cahill.2001
+
+Looking for Callaghan 'Loss-bandwidth product for frequency selective surfaces'
+	OK! Callaghan.1992
+
+Looking for Callaghan 'Tuning interactions of cascaded-frequency selective-slot arrays'
+	OK! Callaghan.1994
+
+Looking for Chakravarty 'Application of a microgenetic algorithm (MGA) to the design of broadband microwave absorbers using multiple frequency selective surface screens buried in dielectrics'
+	OK! Chakravarty.2002
+
+Looking for Chang 'Frequency selective surfaces on biased ferrite substrates'
+	OK! Chang.1994
+
+Looking for Chang 'Active frequency-selective surfaces'
+	OK! Chang.1996
+
+Looking for Chatterjee 'Beamwidth Control of Omnidirectional Antenna Using Conformal Frequency Selective Surface of Different Curvatures'
+	OK! Chatterjee.2018
+
+Looking for Chattha 'Small-Sized UWB MIMO Antenna With Band Rejection Capability'
+	OK! Chattha.2019
+
+Looking for Chen 'Dual-band high-gain Fabry–Perot cavity antenna with a shared-aperture FSS layer'
+	OK! Chen.2018
+
+Looking for Chen 'Compact filtering antenna using CRLH resonator and defected ground structure'
+	OK! Chen.2014
+
+Looking for Chen 'A Miniaturized Absorptive Frequency Selective Surface'
+	OK! Chen.2015
+
+Looking for Chen 'Dual-Band Crossed-Dipole Reflectarray With Dual-Band Frequency Selective Surface'
+	OK! Chen.2013
+
+Looking for Cheng 'Study of 2-bit Antenna–Filter–Antenna Elements for Reconfigurable Millimeter-Wave Lens Arrays'
+	OK! Cheng.2006
+
+Looking for Cheng 'Evaluation of a Novel Topology for MEMS Programmable Reflectarray Antennas'
+	OK! Cheng.2009
+
+Looking for Cheng 'Vertically Integrated Three-Pole Filter/Antennas for Array Applications'
+	OK! Cheng.2011
+
+Looking for Cheng 'Design and Analysis of a Wideband Low-Scattering Endfire Antenna Using a Moth Tail-Inspired Metamaterial Absorber and a Surface Waveguide'
+	OK! Cheng.2020
+
+Looking for Cho 'Design of Three-Dimensional Frequency Selective Structure With Replaceable Unit Structures Using a 3-D Printing Technique'
+	OK! Cho.2018
+
+Looking for Çimen 'Novel closely spaced planar dual-band frequency-selective surface'
+	OK! Cimen.2013
+
+Looking for Cooper 'A Novel Polarization-Independent, Free-Space, Microwave Beam Splitter Utilizing an Inkjet-Printed, 2-D Array Frequency Selective Surface'
+	OK! Cooper.2012
+
+Looking for Costa 'Multiband electromagnetic wave absorber based on reactive impedance ground planes'
+	OK! Costa.2010
+
+Looking for Costa 'Low-Cost Metamaterial Absorbers for Sub-GHz Wireless Systems'
+	OK! Costa.2014
+
+Looking for Costa 'Analysis of the selective behavior of multilayer structures with a dielectric grating'
+	OK! Costa.1995
+
+Looking for Coves 'Design of narrow-band dielectric frequency-selective surfaces for microwave applications'
+	OK! Coves.2016
+
+Looking for da 'Optimal design of frequency selective surfaces with fractal motifs'
+	OK! daSilva.2014
+
+Looking for da 'Stable and compact multiband frequency selective surfaces with Peano pre-fractal configurations'
+	OK! daSilva.2013
+
+Looking for Das 'Performance Improvement of Multiband MIMO Dielectric Resonator Antenna System With a Partially Reflecting Surface'
+	OK! Das.2019
+
+Looking for Das 'Modelling of ultra-wide stop-band frequency-selective surface to enhance the gain of a UWB antenna'
+	OK! Das.2019.a
+
+Looking for de 'Electromagnetic bandgap antennas and components for microwave and (Sub)millimeter wave applications'
+	OK! deMaagt.2003
+
+Looking for de 'Reconfigurable cross dipole: hash frequency selective surface'
+	OK! deOliveira.2018
+
+Looking for Delafkar 'An Accurate Method for Synthesis of Reflecting Elements to Design Wideband Reflectarray Antenna'
+	OK! Delafkar.2018
+
+Looking for Delihacioglu 'Frequency Selective Surfaces With Multiple-Strip Group Elements'
+	OK! Delihacioglu.2012
+
+Looking for Delihacioglu 'Zigzag metallic conductors as frequency selective surfaces'
+	OK! Delihacioglu.2013
+
+Looking for Deng 'A Method of Designing a Field-Controlled Active Frequency Selective Surface'
+	OK! Deng.2015
+
+Looking for Deng 'Broadband Pattern-Reconfigurable Filtering Microstrip Antenna With Quasi-Yagi Structure'
+	OK! Deng.2018
+
+Looking for Deng 'Closely Spaced Broadband MIMO Differential Filtering Slotline Antenna With CM Suppression'
+	OK! Deng.2018.a
+
+Looking for Deng 'Broadband double-tuned element with low profile for base station antennas'
+	OK! Deng.2010
+
+Looking for Deng 'An FSS-Backed Ku/Ka Quad-Band Reflectarray Antenna for Satellite Communications'
+	OK! Deng.2018.b
+
+Looking for Deng 'An FSS-Backed 20/30-GHz Dual-Band Circularly Polarized Reflectarray With Suppressed Mutual Coupling and Enhanced Performance'
+	OK! Deng.2017
+
+Looking for Deng 'Ultrathin Broadband Absorber Using Frequency-Selective Surface and Frequency-Dispersive Magnetic Materials'
+	OK! Deng.2017.a
+
+Looking for Dickie 'Micromachined 300 GHz high Q resonant slot frequency selective surface filter'
+	OK! Dickieet.2004
+
+Looking for Dickie 'Low-Pass FSS for 50–230 GHz Quasi-Optical Demultiplexing for the MetOp Second-Generation Microwave Sounder Instrument'
+	OK! Dickieet.2017
+
+Looking for Ding 'Achieving Wider Bandwidth With Full-Wavelength Dipoles for 5G Base Stations'
+	OK! Ding.2020
+
+Looking for Ding 'Broadband Low-RCS Phased Array With Wide-Angle Scanning Performance Based on the Switchable Stacked Artificial Structure'
+	OK! Ding.2019
+
+Looking for Döken 'Triple band frequency selective surface design for global system for mobile communication systems'
+	OK! Doken.2016
+
+Looking for Duan 'Compact Dual-Band Dual-Polarized Base-Station Antenna Array With a Small Frequency Ratio Using Filtering Elements'
+	OK! Duan.2019
+
+Looking for Dubrovka 'Equivalent circuit method for analysis and synthesis of frequency selective surfaces'
+	OK! Dubrovka.2006
+
+Looking for Dubrovka 'Multi-frequency and multi-layer frequency selective surface analysis using modal decomposition equivalent circuit method'
+	OK! Dubrovka.2009
+
+Looking for Ebrahimi 'Second-Order Terahertz Bandpass Frequency Selective Surface With Miniaturized Elements'
+	OK! Ebrahimiet.2015
+
+Looking for Ebrahimi 'Varactor-Tunable Second-Order Bandpass Frequency-Selective Surface With Embedded Bias Network'
+	OK! Ebrahimi.2016
+
+Looking for El-Sheikh 'Multiport network analysis of frequency-selective surfaces'
+	OK! El-Sheikh.1994
+
+Looking for Elzwawi 'Frequency Selective Surface-Based Switched-Beamforming Antenna'
+	OK! Elzwawi.2018
+
+Looking for Fabian-Gongora 'Closely spaced tri-band frequency selective surfaces based on split ring slots'
+	OK! Fabian-Gongora.2016
+
+Looking for Fakharian 'A Wideband and Reconfigurable Filtering Slot Antenna'
+	OK! Fakharian.2016
+
+Looking for Fallahi 'Efficient Procedures for the Optimization of Frequency Selective Surfaces'
+	OK! Fallahi.2008
+
+Looking for Fang 'Frequency selective characteristics of gratings with arbitrary profiles composed of left-handed materials'
+	OK! Fang.2009
+
+Looking for Fang 'A Wideband Low-Profile All-Metal Cavity Slot Antenna With Filtering Performance for Space-Borne SAR Applications'
+	OK! Fang.2019
+
+Looking for Ferreira 'Dual-band single-layer quarter ring frequency selective surface for Wi-Fi applications'
+	OK! Ferreira.2016
+
+Looking for Gao 'Design and Verification of an Integrated Free-Standing Thick-Screen FSS Radome'
+	OK! Gao.2018
+
+Looking for Gao 'A Hybrid Miniaturized-Element Frequency Selective Surface With a Third-Order Bandpass Response'
+	OK! Gao.2017
+
+Looking for Garcia-Vigueras 'Simplified Circuit Model for Arrays of Metallic Dipoles Sandwiched Between Dielectric Slabs Under Arbitrary Incidence'
+	OK! Garcia-Vigueras.2012
+
+Looking for Ghahremani 'Miniaturised UWB antenna with dual-band rejection of WLAN/WiMAX using slitted EBG structure'
+	OK! Ghahremani.2019
+
+Looking for Ghanem 'Two port frequency reconfigurable antenna for cognitive radios'
+	OK! Ghanem.2009
+
+Looking for Ghebrebrhan 'Textile Frequency Selective Surface'
+	OK! Ghebrebrhanet.2017
+
+Looking for Ghosh 'Design of UWB antenna integrated with dual GSM functionalities and dual notches in the UWB region using single branched EBG inspired structure'
+	OK! Ghosh.2019
+
+Looking for Grounds 'Numerical analysis of finite frequency selective surfaces with rectangular patches of various aspect ratios'
+	OK! Grounds.1991
+
+Looking for Gu 'Dual-Band Electronically Beam-Switched Antenna Using Slot Active Frequency Selective Surface'
+	OK! Guet.2017
+
+Looking for Guo 'Dual-Polarized Dual-Band Frequency Selective Rasorber With Low Insertion Loss'
+	OK! Guo.2020
+
+Looking for Guo 'Design of Dual-Band Frequency-Selective Rasorber'
+	OK! Guo.2019
+
+Looking for Guo 'Theory and experiment of novel frequency selective surface based on substrate integrated waveguide technology'
+	OK! GuoQingLuoet.2005
+
+Looking for Hamdy 'Comparison of modal analysis and equivalent circuit representation of E-plane arm of the jerusalem cross'
+	OK! Hamdy.1982
+
+Looking for Hamedani 'Planar H-Plane Horn Antenna Based on Groove Gap Waveguide Technology'
+	OK! Hamedani.2020
+
+Looking for Han 'Switchable Low-Profile Broadband Frequency-Selective Rasorber/Absorber Based on Slot Arrays'
+	OK! Han.2017
+
+Looking for Henderson 'Microstrip planar array with interference suppression radome'
+	OK! Henderson.1992
+
+Looking for Hendry 'Coupled-Resonator Theory of Isolation in Multi-Mode Antennas'
+	OK! Hendry.2019
+
+Looking for Hizan 'Integrated Dual-Band Radiating Bandpass Filter Using Dual-Mode Circular Cavities'
+	OK! Hizan.2011
+
+Looking for Holloway 'An Overview of the Theory and Applications of Metasurfaces: The Two-Dimensional Equivalents of Metamaterials'
+	OK! Holloway.2012
+
+Looking for Hong 'Miniaturized Frequency Selective Surface Using Handshake Convoluted Stripe'
+	OK! Hong.2019
+
+Looking for Hong 'Ultrathin and Miniaturized Frequency Selective Surface With Closely Located Dual Resonance'
+	OK! Hong.2019.a
+
+Looking for Hong 'Single-Layer Frequency Selective Surface With Angular Stability Property'
+	OK! Hong.2018
+
+Looking for Hu 'A Differential Filtering Microstrip Antenna Array With Intrinsic Common-Mode Rejection'
+	OK! Hu.2017
+
+Looking for Hu 'A Miniaturized Dual-Band Frequency Selective Surface (FSS) With Closed Loop and Its Complementary Pattern'
+	OK! Hu.2009
+
+Looking for Hua 'Dual-Polarized Filtering Antenna With Printed Jerusalem-Cross Radiator'
+	OK! Hua.2018
+
+Looking for Huang 'Combining FSS and EBG Surfaces for High-Efficiency Transmission and Low-Scattering Properties'
+	OK! Huang.2018
+
+Looking for Huang 'Absorptive Frequency-Selective Transmission Structure With Square-Loop Hybrid Resonator'
+	OK! Huang.2017
+
+Looking for Huang 'Tri-band frequency selective surface with circular ring elements'
+	OK! Huang.1994
+
+Looking for Huang 'A New Type of Combined Element Multiband Frequency Selective Surface'
+	OK! Huang.2009
+
+Looking for Huang 'A Novel Frequency Selective Structure With Quasi-Elliptic Bandpass Response'
+	OK! Huang.2012
+
+Looking for Hussein 'A Low-Profile Miniaturized Second-Order Bandpass Frequency Selective Surface'
+	OK! Hussein.2017
+
+Looking for Itami 'A Three-Layered Adjustable Frequency-Selective Surface for Wireless Applications'
+	OK! Itami.2019
+
+Looking for James 'Dichroic dual-band microstrip array'
+	OK! James.1986
+
+Looking for Jiang 'Design of miniaturised frequency selective rasorber using parallel LC resonators'
+	OK! Jiang.2019
+
+Looking for Jin 'Dual-Polarized Frequency-Selective Surface With Two Transmission Zeros Based on Cascaded Ground Apertured Annular Ring Resonators'
+	OK! Jin.2018
+
+Looking for Jin 'Capped Dielectric Inserted Perforated Metallic Plate Bandpass Frequency Selective Surface'
+	OK! Jin.2017
+
+Looking for Jin 'Integration Design of Millimeter-Wave Filtering Patch Antenna Array With SIW Four-Way Anti-Phase Filtering Power Divider'
+	OK! Jin.2019
+
+Looking for Kazantsev 'Broadening of Operating Frequency Band of Magnetic-Type Radio Absorbers by FSS Incorporation'
+	OK! Kazantsevet.2010
+
+Looking for Kesavan 'Beam-switching millimetre-wave antenna using cantilever-based FSSs'
+	OK! Kesavan.2018
+
+Looking for Khajeh 'Wideband aperture-coupled antenna array based on Fabry–Perot resonator for C-band applications'
+	OK! KhajehMohammadLou.2017
+
+Looking for Khajevandi 'Design of miniaturised-element FSS based on 2.5-dimensional closed-loop Hilbert fractal'
+	OK! Khajevandi.2019
+
+Looking for Khan 'A Multifunctional Metamaterial-Based Dual-Band Isotropic Frequency-Selective Surface'
+	OK! Khan.2018
+
+Looking for Kim ' Patch Array-Fed FR4-Based Transmit Array Antennas for Affordable and Reliable 5G Beam Steering'
+	OK! Kim.2019
+
+Looking for Kinowski 'Angular bandpass filters: an alternative viewpoint gives improved design flexibility'
+	OK! Kinowski.1995
+
+Looking for Kocakaya 'Novel angular-independent higher order band-stop frequency selective surface for X-band applications'
+	OK! Kocakaya.2018
+
+Looking for Kundu 'Single-Layer Wideband Microwave Absorber Using Array of Crossed Dipoles'
+	OK! Kundu.2016
+
+Looking for Langley 'Equivalent circuit model for arrays of square loops'
+	OK! Langley.1982
+
+Looking for Lee 'Frequency-selective surfaces for GPS and DCS1800 mobile communication. 2. Integration with antenna for scattering reduction'
+	OK! Lee.2007
+
+Looking for Lee 'Design of novel thin frequency selective surface superstrates for dual-band directivity enhancement'
+	OK! Lee.2007.a
+
+Looking for Lee 'A Study of Ultra-Thin Single Layer Frequency Selective Surface Microwave Absorbers With Three Different Bandwidths Using Double Resonance'
+	OK! Lee.2015
+
+Looking for Li 'Synthesis of Quasi-Elliptic Bandpass Frequency-Selective Surface Using Cascaded Loop Arrays'
+	OK! Li.2013
+
+Looking for Li 'Bandpass Frequency Selective Structure With Wideband Spurious Rejection'
+	OK! Li.2014
+
+Looking for Li 'A Low-Profile Broadband Bandpass Frequency Selective Surface With Two Rapid Band Edges for 5G Near-Field Applications'
+	OK! Liet.2017
+
+Looking for Li 'A 2.5-D Angularly Stable Frequency Selective Surface Using Via-Based Structure for 5G EMI Shielding'
+	OK! Li.2018
+
+Looking for Li 'Design of a Tunable Low-Frequency and Broadband Radar Absorber Based on Active Frequency Selective Surface'
+	OK! Liet.2016
+
+Looking for Li 'Fluidically Tunable Frequency Selective/Phase Shifting Surfaces for High-Power Microwave Applications'
+	OK! Li.2012
+
+Looking for Li 'Wideband True-Time-Delay Microwave Lenses Based on Metallo-Dielectric and All-Dielectric Lowpass Frequency Selective Surfaces'
+	OK! Li.2013.a
+
+Looking for Li 'Fast Periodic Interpolation Method for Periodic Unit Cell Problems'
+	OK! Li.2010
+
+Looking for Li ' Filter With Circularly Polarized Patch Antenna With Enhanced Impedance-Axial Ratio Bandwidth'
+	OK! Li.2018.a
+
+Looking for Li 'Novel Printed Filtenna With Dual Notches and Good Out-of-Band Characteristics for UWB-MIMO Applications'
+	OK! Li.2016
+
+Looking for Li 'Differentially-Fed, Wideband Dual-Polarized Filtering Antenna With Novel Feeding Structure for 5G Sub-6 GHz Base Station Applications'
+	OK! Li.2019
+
+Looking for Li 'A Dual-Passband Frequency Selective Surface for 5G Communication'
+	OK! Li.2019.a
+
+Looking for Li 'Design and Synthesis of Multilayer Frequency Selective Surface Based on Antenna-Filter-Antenna Using Minkowski Fractal Structures'
+	OK! Li.2015
+
+Looking for Li 'Frequency selective surface design by integrating optimisation algorithms with fast full wave numerical methods'
+	OK! Li.2002
+
+Looking for Liang 'Design of a UWB Reflectarray as an Impedance Surface Using Bessel Filters'
+	OK! Liang.2016
+
+Looking for Lima 'Narrow bandpass single layer frequency selective surfaces'
+	OK! Lima.1993
+
+Looking for Lima 'Fabry-Perot approach to the design of double layer FSS'
+	OK! Lima.1996
+
+Looking for Lima 'Tunable frequency selective surface using liquid substrates'
+	OK! Lima.1994
+
+Looking for Lin 'A Filtering Microstrip Antenna Array'
+	OK! Lin.2011
+
+Looking for Ling 'A model-based parameter estimation technique for wide-band interpolation of periodic moment method impedance matrices with application to genetic algorithm optimization of frequency selective surfaces'
+	OK! LingLi.2006
+
+Looking for Liu 'A Compact Planar Quasi-Yagi Antenna With Bandpass Filtering Response'
+	OK! Liu.2019
+
+Looking for Liu 'A Miniaturized Triband Frequency Selective Surface Based on Convoluted Design'
+	OK! Liu.2017
+
+Looking for Liu 'Design of Dual-Band Composite Radome Wall With High Angular Stability Using Frequency Selective Surface'
+	OK! Liu.2019.a
+
+Looking for Lockyer 'Complementary frequency selective surfaces'
+	OK! Lockyer.2000
+
+Looking for Lomakin 'Manipulation of stop-band gaps of periodically perforated conducting plates'
+	OK! Lomakin.2005
+
+Looking for Lou 'Design of a Low Profile Flexible Tri-Band Frequency Surface Applied in X-Band, K-Band and Millimeter-Band'
+	OK! Lou.2019
+
+Looking for Lu 'Circularly polarised integrated filtering antenna with polarisation reconfigurability'
+	OK! Lu.2017
+
+Looking for Lu 'A Novel Three-Dimensional Frequency Selective Structure'
+	OK! Lu.2012
+
+Looking for Luo 'Frequency-selective surfaces with two sharp sidebands realised by cascading and shunting substrate integrated waveguide cavities'
+	OK! Luo.2008
+
+Looking for Luo 'Dualband frequency-selective surfaces using substrate-integrated waveguide technology'
+	OK! Luo.2007
+
+Looking for Luo 'High Performance Frequency Selective Surface Using Cascading Substrate Integrated Waveguide Cavities'
+	OK! Luo.2006
+
+Looking for Luo 'Triband Frequency Selective Surface With Periodic Cell Perturbation'
+	OK! Luo.2007.a
+
+Looking for Luo 'A Hybrid Design Method for Thin-Panel Transmitarray Antennas'
+	OK! Luoet.2019
+
+Looking for Lv 'Wide-Passband Dual-Polarized Elliptic Frequency Selective Surface'
+	OK! Lv.2019
+
+Looking for Ma 'Synthesis of second-order wide-passband frequency selective surface using double-periodic structures'
+	OK! Ma.2019
+
+Looking for Mahmood 'Pattern-Reconfigurable Antenna Using a Switchable Frequency Selective Surface With Improved Bandwidth'
+	OK! Mahmood.2016
+
+Looking for Mahmud 'High-Gain and Wide-Bandwidth Filtering Planar Antenna Array-Based Solely on Resonators'
+	OK! Mahmud.2017
+
+Looking for Majidzadeh 'Quadruple filtering mechanism through an effective sketch of reconfigurable frequency selective surface'
+	OK! Majidzadeh.2016
+
+Looking for Mamedes 'Design of reconfigurable frequency-selective surfaces including the PIN diode threshold region'
+	OK! Mamedes.2018
+
+Looking for Mao 'Multimode Resonator-Fed Dual-Polarized Antenna Array With Enhanced Bandwidth and Selectivity'
+	OK! Mao.2015
+
+Looking for Mao 'An Integrated Filtering Antenna Array With High Selectivity and Harmonics Suppression'
+	OK! Maoet.2016
+
+Looking for Mao 'A Shared-Aperture Dual-Band Dual-Polarized Filtering-Antenna-Array With Improved Frequency Response'
+	OK! Mao.2017
+
+Looking for Mao 'Integrated Dual-Band Filtering/Duplexing Antennas'
+	OK! Maoet.2018
+
+Looking for Matekovits 'Frequency Selective Surface With Two Quasi-Independent Notch Frequencies'
+	OK! Matekovits.2019
+
+Looking for Mathur 'Dual-frequency dual-polarised shared-aperture microstrip antenna array with suppressed higher order modes'
+	OK! Mathur.2019
+
+Looking for Mbairi 'Microwave Bandstop Filters Using Novel Artificial Periodic Substrate Electromagnetic Band Gap Structures'
+	OK! Mbairi.2009
+
+Looking for Mendoza-Rosales 'Frequency selective surfaces based on ring slots loaded with monolithically integrated capacitors'
+	OK! Mendoza-Rosales.2012
+
+Looking for Mesa 'Simplified Modal Expansion to Analyze Frequency-Selective Surfaces: An Equivalent Circuit Approach'
+	OK! Mesa.2016
+
+Looking for Mias 'Varactor-tunable frequency selective surface with resistive-lumped-element biasing grids'
+	OK! Mias.2005
+
+Looking for Mittra 'Techniques for analyzing frequency selective surfaces-a review'
+	OK! Mittra.1988
+
+Looking for Mittra 'Spectral-domain analysis of circular patch frequency selective surfaces'
+	OK! Mittra.1984
+
+Looking for Moallem 'Miniaturized-Element Frequency Selective Surfaces for Millimeter-Wave to Terahertz Applications'
+	OK! Moallem.2012
+
+Looking for Momeni 'Inductively-Coupled Miniaturized-Element Frequency Selective Surfaces With Narrowband, High-Order Bandpass Responses'
+	OK! MomeniHasanAbadi.2015
+
+Looking for Monacelli 'Infrared frequency selective surface based on circuit-analog square loop design'
+	OK! Monacelli.2005
+
+Looking for Monje-Real 'Holey Glide-Symmetric Filters for 5G at Millimeter-Wave Frequencies'
+	OK! Monje-Real.2020
+
+Looking for Monorchio 'Synthesis of artificial magnetic conductors by using multilayered frequency selective surfaces'
+	OK! Monorchio.2002
+
+Looking for Moustafa 'EBG Structure With Wide Defect Band for Broadband Cavity Antenna Applications'
+	OK! Moustafa.2008
+
+Looking for Moustafa 'Design of a Wideband Highly Directive EBG Antenna Using Double-Layer Frequency Selective Surfaces and Multifeed Technique for Application in the Ku-Band'
+	OK! Moustafa.2010
+
+Looking for Narayan 'Novel Metamaterial-Element-Based FSS for Airborne Radome Applications'
+	OK! Narayan.2018
+
+Looking for Narayan 'Electromagnetic Techniques and Design Strategies for FSS Structure Applications [Antenna Applications Corner'
+	OK! Narayan.2015
+
+Looking for Naseri 'Antenna-Filter-Antenna-Based Transmit-Array for Circular Polarization Application'
+	OK! Naseri.2017
+
+Looking for Naseri 'Dual-Band Dual-Linear-to-Circular Polarization Converter in Transmission Mode Application to '
+	OK! Naseri.2018
+
+Looking for Niaz 'Design and Analysis of an Ultraminiaturized FSS Using 2.5-D Convoluted Square Spirals'
+	OK! Niaz.2020
+
+Looking for Nie 'A Dual-Polarized Frequency-Reconfigurable Low-Profile Antenna With Harmonic Suppression for 5G Application'
+	OK! Nie.2019
+
+Looking for Niroo 'Broadband Transmitarray Antenna Design Using Polarization-Insensitive Frequency Selective Surfaces'
+	OK! NirooJazi.2016
+
+Looking for Niu 'Compact SIW cavity slot antenna with enhanced bandwidth and quasi-elliptic filtering response'
+	OK! Niu.2019
+
+Looking for Oh 'Millimeter-Wave Thin Lens Employing Mixed-Order Elliptic Filter Arrays'
+	OK! Oh.2016
+
+Looking for Oliveri 'Reconfigurable Electromagnetics Through Metamaterials—A Review'
+	OK! Oliveri.2015
+
+Looking for Omar 'Multiband High-Order Bandstop 3-D Frequency-Selective Structures'
+	OK! Omar.2016
+
+Looking for Omar 'Thin 3-D Bandpass Frequency-Selective Structure Based on Folded Substrate for Conformal Radome Applications'
+	OK! Omar.2019
+
+Looking for Palomo 'Wideband Band-Stop X-Band Filter Using Electrically Small Tightly Coupled Resonators'
+	OK! Palomo.2013
+
+Looking for Parker 'Convoluted dipole array elements'
+	OK! Parker.1991
+
+Looking for Parker 'Arrays of concentric rings as frequency selective surfaces'
+	OK! Parker.1981
+
+Looking for Parker 'Active frequency selective surfaces with ferroelectric substrates'
+	OK! Parker.2001
+
+Looking for Paul 'Polarization-Insensitive and Angularly Stable Compact Ultrawide Stop-Band Frequency Selective Surface'
+	OK! Paul.2019
+
+Looking for Philips 'Ray tracing analysis of the transmission performance of curved FSS'
+	OK! Philips.1995
+
+Looking for Pintzos 'Resonance frequencies of annular microslots'
+	OK! Pintzos.2001
+
+Looking for Pous 'Frequency-selective surface using aperture-coupled microstrip patches'
+	OK! Pous.1989
+
+Looking for Pous 'A frequency-selective surface using aperture-coupled microstrip patches'
+	OK! Pous.1991
+
+Looking for Prakash 'Technique for analysing cascaded frequency selective surface screens with dissimilar lattice geometries'
+	OK! Prakash.2003
+
+Looking for Qian 'Switchable Broadband Dual-Polarized Frequency-Selective Rasorber/Absorber'
+	OK! Qianet.2019
+
+Looking for Quevedo-Teruel 'Compact Reconfigurable Planar EBGs Based on Short-Circuited Hairpin Resonators'
+	OK! Quevedo-Teruel.2013
+
+Looking for Rahmati 'Multiband Metallic Frequency Selective Surface With Wide Range of Band Ratio'
+	OK! Rahmati.2015
+
+Looking for Ramezani 'Equivalent circuit model for array of circular loop FSS structures at oblique angles of incidence'
+	OK! RamezaniVarkani.2018
+
+Looking for Ranga 'Multioctave Frequency Selective Surface Reflector for Ultrawideband Antennas'
+	OK! Ranga.2011
+
+Looking for Ranjan 'BWDO algorithm and its application in antenna array and pixelated metasurface synthesis'
+	OK! Ranjan.2019
+
+Looking for Riggs 'Efficient current expansion modes for the triarm frequency-selective surface'
+	OK! Riggs.1988
+
+Looking for Rodríguez-Berral 'Analytical Multimodal Network Approach for 2-D Arrays of Planar Patches/Apertures Embedded in a Layered Medium'
+	OK! Rodriguez-Berral.2015
+
+Looking for Rodríguez-Ulibarri 'Annular Apertures in Metallic Screens as Extraordinary Transmission and Frequency Selective Surface Structures'
+	OK! Rodriguez-Ulibarri.2017
+
+Looking for Romeu 'Fractal FSS: a novel dual-band frequency selective surface'
+	OK! Romeu.2000
+
+Looking for Salehi 'A Second-Order Dual X-/Ka-Band Frequency Selective Surface'
+	OK! Salehi.2008
+
+Looking for Sánchez-Escuderos 'Microwave Planar Lens Antenna Designed With a Three-Layer Frequency-Selective Surface'
+	OK! Sanchez-Escuderos.2017
+
+Looking for Sanz-Fernandez 'Power Stored and Quality Factors in Frequency Selective Surfaces at THz Frequencies'
+	OK! Sanz-Fernandez.2011
+
+Looking for Sarabandi 'A Frequency Selective Surface With Miniaturized Elements'
+	OK! Sarabandi.2007
+
+Looking for Savia 'Currents induced in the edge regions of FSS arrays'
+	OK! Savia.2000
+
+Looking for Savia 'Equivalent circuit model for superdense linear dipole FSS'
+	OK! Savia.2003
+
+Looking for Savia 'Finite planar- and curved-ring-element frequency-selective surfaces'
+	OK! Savia.1999
+
+Looking for Sazegar 'Beam Steering Transmitarray Using Tunable Frequency Selective Surface With Integrated Ferroelectric Varactors'
+	OK! Sazegaret.2012
+
+Looking for Seman 'Design of a salisbury screen absorber using frequency selective surfaces to improve bandwidth and angular stability performance'
+	OK! Seman.2011
+
+Looking for Shang 'Frequency-Selective Rasorber Based on Square-Loop and Cross-Dipole Arrays'
+	OK! Shang.2014
+
+Looking for Sharma 'A Micro Copper Mesh-Based Optically Transparent Triple-Band Frequency Selective Surface'
+	OK! Sharma.2019
+
+Looking for Sheng 'A Miniaturized Dual-Band FSS With Controllable Frequency Resonances'
+	OK! Sheng.2017
+
+Looking for Sievenpiper 'High-impedance electromagnetic surfaces with a forbidden frequency band'
+	OK! Sievenpiper.1999
+
+Looking for Silva 'Fast and accurate modelling of frequencyselective surfaces using a new modular neural network configuration of multilayer perceptrons'
+	OK! Silva.2008
+
+Looking for So 'Directional multi-band antenna employing frequency selective surfaces'
+	OK! So.2013
+
+Looking for Song 'Triband Frequency-Selective Surface as Subreflector in Ku-, K-, and Ka-Bands'
+	OK! Song.2016
+
+Looking for Stanley 'Ray tracing fields backscattered from curved dichroic structures'
+	OK! Stanley.1998
+
+Looking for Sun 'Low-RCS Reflectarray Antenna Based on Frequency Selective Rasorber'
+	OK! Sun.2019
+
+Looking for Taghizadeh 'New class of frequency selective surface based on non-resonant elements with high stability'
+	OK! Taghizadeh.2018
+
+Looking for Tang 'Electrically small, planar, wideband filtering antenna with dual ring patches'
+	OK! Tang.2020
+
+Looking for Te-Kao 'Four-band frequency selective surface with double-square-loop patch elements'
+	OK! Te-KaoWu.1994
+
+Looking for Te-Kao 'Multiband frequency selective surface with multiring patch elements'
+	OK! Te-KaoWu.1994.a
+
+Looking for Thornton 'Frequency selective lens antenna'
+	OK! Thornton.2007
+
+Looking for Toh 'A Planar Dualband Antenna Array'
+	OK! Toh.2011
+
+Looking for Ünaldı 'A Novel Dual-Band Ultrathin FSS With Closely Settled Frequency Response'
+	OK! unaldi.2017
+
+Looking for Varikuntla 'Ultrathin design and implementation of planar and conformal polarisation rotating frequency selective surface based on SIW technology'
+	OK! Varikuntla.2018
+
+Looking for Varikuntla 'Design and development of angularly stable and polarisation rotating FSS radome based on substrate-integrated waveguide technology'
+	OK! Varikuntla.2019
+
+Looking for Wakabayashi 'Numerical simulations for frequency-selective screens with complementary elements'
+	OK! Wakabayashi.1994
+
+Looking for Wang 'Absorptive/transmissive integrated frequency selective structure based on lumped resistance elements'
+	OK! Wang.2020
+
+Looking for Wang 'A Low-Profile Frequency Selective Surface With Controllable Triband Characteristics'
+	OK! Wang.2013
+
+Looking for Wang 'Combined-element frequency selective surfaces with multiple transmission poles and zeros'
+	OK! Wang.2014
+
+Looking for Wang 'Dual-band miniaturised FSS with stable resonance frequencies of 3.4/4.9 GHz for 5G communication systems applications'
+	OK! Wang.2020.a
+
+Looking for Wang 'Design and Analysis of Miniaturized Low Profile and Second-Order Multi-Band Polarization Selective Surface for Multipath Communication Application'
+	OK! Wang.2019
+
+Looking for Wang 'Frequency-Selective Rasorber With a Wide High-Transmission Passband Based on Multiple Coplanar Parallel Resonances'
+	OK! Wang.2020.b
+
+Looking for Wang 'Wideband Fabry-Perot Resonator Antenna With Two Complementary FSS Layers'
+	OK! Wang.2014.a
+
+Looking for Wang 'Tunable Frequency-Selective Rasorber Based on Varactor-Embedded Square-Loop Array'
+	OK! Wang.2019.a
+
+Looking for Wang 'Wideband Transmissive Frequency-Selective Absorber'
+	OK! Wang.2019.b
+
+Looking for Wang 'A High-Transmittance Frequency-Selective Rasorber Based on Dipole Arrays'
+	OK! Wanget.2018
+
+Looking for Wang 'Switchable all-dielectric frequency selective surface based on dielectric resonators'
+	OK! Wang.2017
+
+Looking for Wei 'A Balanced Filtering Quasi-Yagi Antenna With Low Cross-Polarization Levels and High Common-Mode Suppression'
+	OK! Wei.2019
+
+Looking for Wen 'A Balanced Feed Filtering Antenna With Novel Coupling Structure for Low-Sidelobe Radar Applications'
+	OK! Wenet.2018
+
+Looking for Wickenden 'Polarization Properties of Frequency-Selective Surfaces Comprised of Spiral Resonators'
+	OK! Wickendenet.2007
+
+Looking for Wincza 'Frequency-Selective Feeding Network Based on Directional Filter for Constant-Beamwidth Scalable Antenna Arrays'
+	OK! Wincza.2017
+
+Looking for Withayachumnankul ' Resonators With Broadband Tunability'
+	OK! Withayachumnankul.2011
+
+Looking for Wu 'Design and Validation of Flexible Multilayer Frequency Selective Surface With Transmission Zeros'
+	OK! Wu.2019
+
+Looking for Wu 'Balanced-to-Unbalanced Bandpass Filters and the Antenna Application'
+	OK! Wu.2008
+
+Looking for Wu 'High-Gain Dual-Band Transmitarray'
+	OK! Wu.2017
+
+Looking for Xu 'Generalized Synthesis Technique for High-Order Low-Profile Dual-Band Frequency Selective Surfaces'
+	OK! Xu.2018
+
+Looking for Xu 'Ultracompact Multichannel Bandpass Filter Based on Trimode Dielectric-Loaded Cavities'
+	OK! Xu.2020
+
+Looking for Xu 'A Low-Profile 1 × 2 Filtering Dipole Array With Small Unit Space and Closely Placed Ground'
+	OK! Xu.2019
+
+Looking for Xu 'Dual-Band Capacitive Loaded Frequency Selective Surfaces With Close Band Spacing'
+	OK! Xu.2008
+
+Looking for Xu 'Frequency-selective polarisation antenna based on simple rotational symmetric printed bow-tie dipole structure'
+	OK! Xu.2018.a
+
+Looking for Xue 'A Miniaturized Absorber Frequency Selective Surface With Good Angular Stability'
+	OK! Xue.2020
+
+Looking for Yan 'A Miniaturized Dual-Band FSS With Second-Order Response and Large Band Separation'
+	OK! Yanet.2015
+
+Looking for Yan 'A Tri-Band, Highly Selective, Bandpass FSS Using Cascaded Multilayer Loop Arrays'
+	OK! Yanet.2016
+
+Looking for Yan 'Highly-selective, closely-spaced, dual-band FSS with second-order characteristic'
+	OK! Yanet.2016.a
+
+Looking for Yang 'A Novel Stable Miniaturized Frequency Selective Surface'
+	OK! Yang.2010
+
+Looking for Yang 'Compound frequency selective surface with quasi-elliptic bandpass response'
+	OK! Yang.2010.a
+
+Looking for Yang 'Investigation into effects of dielectric loss on frequency selective characteristics of dielectric periodic structures'
+	OK! Yang.2001
+
+Looking for Yang 'Design Method for Low-Profile, Harmonic-Suppressed Filter-Antennas Using Miniaturized-Element Frequency Selective Surfaces'
+	OK! Yang.2019
+
+Looking for Yao 'On the Design of Ultrawideband Circuit Analog Absorber Based on Quasi-Single-Layer FSS'
+	OK! Yao.2020
+
+Looking for Yetisir 'Ultrawideband Array With 70° Scanning Using FSS Superstrate'
+	OK! Yetisir.2016
+
+Looking for Yetisir 'UWB dual-polarised dipole array with dielectric and FSS superstrate and 65° scanning'
+	OK! Yetisir.2019
+
+Looking for Yin 'Compact ultra-wideband antenna with dual bandstop characteristic'
+	OK! Yin.2008
+
+Looking for Yong 'Flexible Convoluted Ring Shaped FSS for X-Band Screening Application'
+	OK! Yonget.2018
+
+Looking for Yu 'Miniaturised band-absorptive frequency selective rasorbers with wide absorption band'
+	OK! Yu.2019
+
+Looking for Yu 'Dual-Polarized Band-Absorptive Frequency Selective Rasorber Using Meander-Line and Lumped Resistors'
+	OK! Yuet.2019
+
+Looking for Yu 'Broadband Band-Absorptive Frequency-Selective Rasorber With a Hybrid 2-D and 3-D Structure'
+	OK! Yu.2019.a
+
+Looking for Yu 'A Novel 2.5-Dimensional Ultraminiaturized-Element Frequency Selective Surface'
+	OK! Yu.2014
+
+Looking for Yuan 'Broadband Microwave Absorption Properties of Ultrathin Composites Containing Edge-Split Square-Loop FSS Embedded in Magnetic Sheets'
+	OK! Yuan.2017
+
+Looking for Yuan 'Compact UWB FSS reflector for antenna gain enhancement'
+	OK! Yuan.2019
+
+Looking for Yusuf 'A Seamless Integration of 3-D Vertical Filters With Highly Efficient Slot Antennas'
+	OK! Yusuf.2011
+
+Looking for Zabri 'Polarisation independent resistively loaded frequency selective surface absorber with optimum oblique incidence performance'
+	OK! Zabri.2014
+
+Looking for Zang 'Analysis and Design of Reflectarray Antennas Based on Delay Lines: A Filter Perspective'
+	OK! Zang.2020
+
+Looking for Zarrillo 'Closed-form low frequency solutions for electromagnetic waves through a frequency selective surface'
+	OK! Zarrillo.1987
+
+Looking for Zeng 'Dual-band transmission-type circular polariser based on frequency selective surfaces'
+	OK! Zeng.2019
+
+Looking for Zeng 'Design of a tuneable and broadband absorber using a switchable transmissive/reflective FSS'
+	OK! Zeng.2018
+
+Looking for Zhang 'A Dual-Band Shared-Aperture Antenna With Large Frequency Ratio, High Aperture Reuse Efficiency, and High Channel Isolation'
+	OK! Zhang.2019
+
+Looking for Zhang 'Design Bandpass Frequency Selective Surface Absorber Using LC Resonators'
+	OK! Zhang.2017
+
+Looking for Zhang 'Broadband Tunable Frequency Selective Surface for Steerable Antenna Applications'
+	OK! Zhang.2016
+
+Looking for Zhang 'Frequency Selective Rasorber With Low Insertion Loss and Dual-Band Absorptions Using Planar Slotline Structures'
+	OK! Zhang.2018
+
+Looking for Zhao 'Power-Dependent Frequency-Selective Surface: Concept, Design, and Experiment'
+	OK! Zhao.2019
+
+Looking for Zhao 'Novel Absorber Based on Pixelated Frequency Selective Surface Using Estimation of Distribution Algorithm'
+	OK! Zhaoet.2015
+
+Looking for Zheng 'Analysis of Miniature Frequency Selective Surfaces Based on Fractal Antenna–Filter–Antenna Arrays'
+	OK! Zheng.2012
+
+Looking for Zhong 'Dual-Linear Polarized Phased Array With 9:1 Bandwidth and 60° Scanning Off Broadside'
+	OK! Zhong.2019
+
+Looking for Zhong 'An FSS-Backed Broadband Phase-Shifting Surface Array With Multimode Operation'
+	OK! Zhong.2019.a
+
+Looking for Zhou 'Experimental Demonstration of An Absorptive/Transmissive FSS With Magnetic Material'
+	OK! Zhouet.2014
+
+Looking for Zhu 'Fabrication and Characterization of Multiband Polarization Independent 3-D-Printed Frequency Selective Structures With UltraWide Fields of View'
+	OK! Zhu.2018
+
+Looking for Zhu 'Dual-Polarized Bandpass Frequency-Selective Surface With Quasi-Elliptic Response Based on Square Coaxial Waveguide'
+	OK! Zhu.2018.a
+
+Looking for Zhu 'Design of band-notched structure for UWB applications'
+	OK! Zhu.2011
+
+Looking for Zhu 'Decoupling and Low-Profile Design of Dual-Band Dual-Polarized Base Station Antennas Using Frequency-Selective Surface'
+	OK! Zhu.2019
+
