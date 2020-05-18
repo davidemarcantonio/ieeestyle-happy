@@ -33,7 +33,7 @@ FILENAME_OUTPUT='output.lyx'
 # Optional (Rename PDF files correctly)
 #-----------------------------------------------------
 ENABLE_PDF_RENAMING=0  # 1:ON, 0:OFF
-ZOTERO_EXPORT_FOLDER_NAME="../ExportedItems/"
+ZOTERO_EXPORT_FOLDER_NAME="../pdfs/"
 
 if [ $ENABLE_PDF_RENAMING -eq 1 ]; then
     find $ZOTERO_EXPORT_FOLDER_NAME -type f -name "*.pdf" > _pdf_file_list.txt

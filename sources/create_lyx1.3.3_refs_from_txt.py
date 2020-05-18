@@ -96,6 +96,13 @@ def fix_accent(name):
     str_tmp = str_tmp.replace("ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{u}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("Ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{U}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ğ", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {g}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ž", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {z}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("š", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {s}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("č", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {c}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ă", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {a}}\n\\end_inset\n")
+    
+    
+    
     str_tmp = str_tmp.replace("ç", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {c}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("Ç", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {C}}\n\\end_inset\n")
     
@@ -104,6 +111,7 @@ def fix_accent(name):
     str_tmp = str_tmp.replace("×", "\n\\begin_inset Formula $\\times$\n\\end_inset\n")
     str_tmp = str_tmp.replace("°", "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n") 
     str_tmp = str_tmp.replace("ã", "\n\\begin_inset Formula $\\tilde{a}$\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ñ", "\n\\begin_inset Formula $\\tilde{n}$\n\\end_inset\n")
     return str_tmp
 
 def fix_math(name):
@@ -123,6 +131,7 @@ def simplify_naming(name):
     str_tmp = str_tmp.replace("å", "a")
     str_tmp = str_tmp.replace("Å", "a") 	
     str_tmp = str_tmp.replace("ã", "a")
+    str_tmp = str_tmp.replace("ă", "a")
 
     str_tmp = str_tmp.replace("è", "e")
     str_tmp = str_tmp.replace("é", "e")
@@ -147,11 +156,15 @@ def simplify_naming(name):
     str_tmp = str_tmp.replace("ü", "u")
     str_tmp = str_tmp.replace("Ü", "u")
 
+    str_tmp = str_tmp.replace("č", "c")
+    str_tmp = str_tmp.replace("š", "s")
+    str_tmp = str_tmp.replace("ž", "z")
     str_tmp = str_tmp.replace("ğ", "g")
     str_tmp = str_tmp.replace("Ÿ", "Y")
     str_tmp = str_tmp.replace("ÿ", "y")
     str_tmp = str_tmp.replace("Ç", "C")
     str_tmp = str_tmp.replace("ç", "c")
+    str_tmp = str_tmp.replace("ñ", "n")
 
     str_tmp = str_tmp.replace(" ", "")
     str_tmp = str_tmp.replace("’", "")
@@ -328,8 +341,8 @@ for line in file_in:
 file_in.close()
 
 
-print(years)
-for y in years:
+print(sorted(years, reverse=True))
+for y in sorted(years, reverse=True):
     file_out.write("\n\\layout Subsubsection\n\n")
     file_out.write("Year %d\n" %y)
     

@@ -12,3 +12,5 @@ IEEE Microwave and Wireless Components Letters | IEEE Microw. Wireless Compon. L
 Electronics Letters | Electron. Lett.
 Antennas Propagation IET Microwaves | IET Microw. Antenna P.
 Antennas and Propagation IEE Proceedings - Microwaves | IEE P-Microw. Anten. P.
+IEEE Transactions on Magnetics | IEEE Trans. Magn.
+IEEE Transactions on Evolutionary Computation | IEEE Trans. Evol. Comput.
