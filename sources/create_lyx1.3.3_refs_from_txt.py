@@ -17,8 +17,8 @@ txt_refs_fname     = lines[0]
 do_not_lower_fname = lines[1]
 abbr_fname         = lines[2]
 output_lyx_fname   = lines[3]
-
 rename_PDF = lines[4] == '1'
+classif_fname      = lines[5]
 
 done_refs = []
 years = set()
@@ -392,13 +392,31 @@ file_in.close()
 
 # print(sorted(years, reverse=True))
 for y in sorted(years, reverse=True):
-    if not y:
+    # print(y)
+    if y:
         file_out.write("\n\\layout Subsubsection\n\n")
         file_out.write("Year %d\n" %y)
         
         for item in wors_per_year[y]:
             file_out.write("\n\\layout Itemize\n\n")
             file_out.write("%s\n" %item)
+
+if classif_fname != '':
+    print("adding classif")
+    with open(classif_fname) as file_cls:
+        lines = file_cls.read().split("\n")
+    for line in lines:
+        if "#" in line:
+            file_out.write("\n\\layout Subsection\n\n")
+            file_out.write("%s\n" %line.replace("#",""))
+        else:
+            if '[' in line:
+                name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line)
+                # print(name)
+                file_out.write("\n\\layout Itemize\n\n")
+                file_out.write("[%s] %s\n" %(name, ref))
+else:
+    print("no classification selected")
 
 # end document - do not modify 
 done_copy = []
