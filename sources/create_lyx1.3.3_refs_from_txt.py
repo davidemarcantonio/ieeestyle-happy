@@ -390,9 +390,7 @@ for line in file_in:
 # end references part
 file_in.close()
 
-# print(sorted(years, reverse=True))
 for y in sorted(years, reverse=True):
-    # print(y)
     if y:
         file_out.write("\n\\layout Subsubsection\n\n")
         file_out.write("Year %d\n" %y)
