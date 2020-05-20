@@ -138,6 +138,7 @@ def fix_accent(name):
     str_tmp = str_tmp.replace("í", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{i}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ò", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{o}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ó", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{o}}\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ö", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{o}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ù", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{u}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ú", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{u}}\n\\end_inset\n")
     str_tmp = str_tmp.replace("ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{u}}\n\\end_inset\n")
@@ -344,7 +345,7 @@ def clean_ref(reference):
         if len(str_tmp) > len(str_tmp10):
             str_tmp10 = str_tmp
 
-    return naming, to_ret, title, author, year, bare_author, str_tmp10
+    return naming, to_ret, fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-"))), author, year, bare_author, str_tmp10
 
 # processing part
 file_in = open(txt_refs_fname, 'r')
@@ -380,10 +381,12 @@ file_out.write("\n")
 
 # start references part
 refs_for_biblio = []
+counter = 0
 for line in file_in:
     if '[' in line:
         name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line)
-        print(name)
+        counter += 1
+        print("[%d] %s" %(counter, name))
         file_out.write("\n\\layout Itemize\n\n")
         file_out.write("[%s] %s\n" %(name, ref))
         refs_for_biblio.append([name, ref, tit, auth, year, bare_auth, bare_tit])
@@ -426,15 +429,15 @@ for r in refs_for_biblio:
     file_out.write("\\layout Bibliography\n\n")
     file_out.write("\\bibitem {%s}\n" %name)
     file_out.write("%s\n" %r[1])
+    print("%s" %(title))
+    print("%s" %(r[2]))
     if rename_PDF:
         file_pdfs = open("_pdf_file_list.txt", 'r')
         found = False
-        print("Looking for %s '%s'" %(auth, title))
+        print("Looking for PDF")
         for line in file_pdfs:
             path = line.replace(" ", " ")
             path = path[:-1]
-            #print(line)
-            
             if title[:10] in line and auth in line and year in line:
                 found = True
                 copyfile('%s' %path, './Renamed-PDFs/%s.pdf' %name)
