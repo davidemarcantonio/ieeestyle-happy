@@ -1,6 +1,6 @@
-#Review
-[1]C. Antonopoulos, R. Cahill, E. A. Parker, and I. M. Sturland, “Multilayer frequency-selective surfaces for millimetre and submillimetre wave applications,” Antennas and Propagation IEE Proceedings - Microwaves, vol. 144, no. 6, pp. 415–420, Dec. 1997, doi: 10.1049/ip-map:19971406.
-#Methodological
+#Review Papers/Book Chapters
 [1]S. M. A. M. H. Abadi and N. Behdad, “Design of Wideband, FSS-Based MultiBeam Antennas Using the Effective Medium Approach,” IEEE Transactions on Antennas and Propagation, vol. 62, no. 11, pp. 5557–5564, Nov. 2014, doi: 10.1109/TAP.2014.2355192.
-#Applicative
-[1]A. Abbaspour-Tamijani, K. Sarabandi, and G. M. Rebeiz, “A millimetre-wave bandpass filter-lens array,” Antennas Propagation IET Microwaves, vol. 1, no. 2, pp. 388–395, Apr. 2007, doi: 10.1049/iet-map:20050295.
+#Methodological Papers
+[1]S. M. A. M. H. Abadi and N. Behdad, “Design of Wideband, FSS-Based MultiBeam Antennas Using the Effective Medium Approach,” IEEE Transactions on Antennas and Propagation, vol. 62, no. 11, pp. 5557–5564, Nov. 2014, doi: 10.1109/TAP.2014.2355192.
+#Applicative Papers
+[1]S. M. A. M. H. Abadi and N. Behdad, “Design of Wideband, FSS-Based MultiBeam Antennas Using the Effective Medium Approach,” IEEE Transactions on Antennas and Propagation, vol. 62, no. 11, pp. 5557–5564, Nov. 2014, doi: 10.1109/TAP.2014.2355192.

@@ -215,7 +215,7 @@ def simplify_naming(name):
     str_tmp = str_tmp.replace("’", "")
     return str_tmp
 
-def clean_ref(reference):
+def clean_ref(reference, save_refs_in_biblio=True):
     str_tmp1 = reference.split("]")[1:]  # remove number [1], [2], etc.
     new_tmp = ""
     for str_tmp in str_tmp1:
@@ -263,7 +263,7 @@ def clean_ref(reference):
                 bare_author = str_tmp.split(",")[0]
             if "," in str_tmp or "and" == str_tmp:
                 finished = True
-            if "and" != str_tmp:
+            if "and" != str_tmp and 'et' != str_tmp:
                 author += str_tmp.split(",")[0]
 
     # extract year
@@ -281,6 +281,7 @@ def clean_ref(reference):
             counter += 1
         naming = "%s.%s" %(naming, letters[counter])
 
+    # if save_refs_in_biblio:
     done_refs.append(naming)
     
     # make title lower case
@@ -337,6 +338,7 @@ def clean_ref(reference):
     to_ret += "%s\n" %rest
     to_ret += " (DOI: %s).\n" %doi
 
+    # if save_refs_in_biblio:
     years.add(int(year))
     wors_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
 
@@ -412,10 +414,26 @@ if classif_fname != '':
             file_out.write("%s\n" %line.replace("#",""))
         else:
             if '[' in line:
-                name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line)
+                # sarch in refs_for_biblio
+                name_found=""
+                ref_found=""
+                found=False
+                for work in refs_for_biblio:
+                    name =  work[0]
+                    title = work[6]
+                    auth =  work[5]
+                    year =  work[4]
+                    if auth in line and year in line and title in line:
+                        found = True
+                        name_found = name
+                        ref_found = work[1]
+                # name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line, False)
                 # print(name)
-                file_out.write("\n\\layout Itemize\n\n")
-                file_out.write("[%s] %s\n" %(name, ref))
+                if found:
+                    file_out.write("\n\\layout Itemize\n\n")
+                    file_out.write("[%s] %s\n" %(name_found, ref_found))
+                else:
+                    print("WORK %s NOT FOUND" %line)
 else:
     print("no classification selected")
 

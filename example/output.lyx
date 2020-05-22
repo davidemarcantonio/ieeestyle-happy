@@ -29,7 +29,7 @@
 [Abadi.2014] S. M. A. M. H. Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-Design of wideband, fss-based multibeam antennas using the effective medium approach,
+Design of wideband, FSS-Based multibeam antennas using the effective medium approach,
 \begin_inset Quotes erd
 \end_inset
 \emph on
@@ -49,7 +49,7 @@ Year 2014
 [Abadi.2014] S. M. A. M. H. Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-Design of wideband, fss-based multibeam antennas using the effective medium approach,
+Design of wideband, FSS-Based multibeam antennas using the effective medium approach,
 \begin_inset Quotes erd
 \end_inset
 \emph on
@@ -63,34 +63,14 @@ Design of wideband, fss-based multibeam antennas using the effective medium appr
 
 \layout Subsection
 
-Review
+Review Papers/Book Chapters
 
 \layout Itemize
 
-[Antonopoulos.1997] C. Antonopoulos, R. Cahill, E. A. Parker, and I. M. Sturland, 
+[Abadi.2014] S. M. A. M. H. Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-Multilayer frequency-selective surfaces for millimetre and submillimetre wave applications,
-\begin_inset Quotes erd
-\end_inset
-\emph on
- IEE P-Microw. Anten. P.
-
-\emph default
-, vol. 144, no. 6, pp. 415-420, Dec. 1997
- (DOI: 10.1049/IP-MAP:1997140).
-
-
-\layout Subsection
-
-Methodological
-
-\layout Itemize
-
-[Abadi.2014.a] S. M. A. M. H. Abadi and N. Behdad, 
-\begin_inset Quotes eld
-\end_inset
-Design of wideband, fss-based multibeam antennas using the effective medium approach,
+Design of wideband, FSS-Based multibeam antennas using the effective medium approach,
 \begin_inset Quotes erd
 \end_inset
 \emph on
@@ -103,22 +83,42 @@ Design of wideband, fss-based multibeam antennas using the effective medium appr
 
 \layout Subsection
 
-Applicative
+Methodological Papers
 
 \layout Itemize
 
-[Abbaspour-Tamijani.2007] A. Abbaspour-Tamijani, K. Sarabandi, and G. M. Rebeiz, 
+[Abadi.2014] S. M. A. M. H. Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-A millimetre-wave bandpass filter-lens array,
+Design of wideband, FSS-Based multibeam antennas using the effective medium approach,
 \begin_inset Quotes erd
 \end_inset
 \emph on
- IET Microw. Antennas Propag.
+ IEEE Trans. Antennas Propag.
 
 \emph default
-, vol. 1, no. 2, pp. 388-395, Apr. 2007
- (DOI: 10.1049/IET-MAP:2005029).
+, vol. 62, no. 11, pp. 5557-5564, Nov. 2014
+ (DOI: 10.1109/TAP.2014.235519).
+
+
+\layout Subsection
+
+Applicative Papers
+
+\layout Itemize
+
+[Abadi.2014] S. M. A. M. H. Abadi and N. Behdad, 
+\begin_inset Quotes eld
+\end_inset
+Design of wideband, FSS-Based multibeam antennas using the effective medium approach,
+\begin_inset Quotes erd
+\end_inset
+\emph on
+ IEEE Trans. Antennas Propag.
+
+\emph default
+, vol. 62, no. 11, pp. 5557-5564, Nov. 2014
+ (DOI: 10.1109/TAP.2014.235519).
 
 \layout Bibliography
 
@@ -126,7 +126,7 @@ A millimetre-wave bandpass filter-lens array,
 S. M. A. M. H. Abadi and N. Behdad, 
 \begin_inset Quotes eld
 \end_inset
-Design of wideband, fss-based multibeam antennas using the effective medium approach,
+Design of wideband, FSS-Based multibeam antennas using the effective medium approach,
 \begin_inset Quotes erd
 \end_inset
 \emph on
