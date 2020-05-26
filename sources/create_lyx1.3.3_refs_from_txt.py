@@ -145,17 +145,19 @@ class Reference:
         # generate naming [Surname.YEAR]
         naming = "%s.%s" %(simplify_naming(author), year)
 
-        for rfs in done_refs:
-            if naming in rfs.name:
-                letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
-                counter = 0
-                while "%s.%s" %(naming, letters[counter]) in done_refs:
-                    counter += 1
-                if counter == 1:
-                    naming = "%s.%s" %(naming, letters[counter+1])
-                    rfs.name = "%s.a" %(naming)
-                else:
-                    naming = "%s.%s" %(naming, letters[counter])
+        if naming in done_refs:
+            letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
+            counter = 0
+            while "%s.%s" %(naming, letters[counter]) in done_refs:
+                counter += 1
+            if counter == 0:
+                tmp = done_refs[naming]
+                tmp.name = "%s.a" %naming
+                del done_refs[naming]
+                done_refs[tmp.name] = tmp
+                naming = "%s.b" %(naming)
+            else:
+                naming = "%s.%s" %(naming, letters[counter])
         
         # make title lower case
         to_ret6 = title.split(" ")
@@ -221,7 +223,7 @@ class Reference:
         self.bare_tit = to_ret10
 
         # if save_refs_in_biblio:
-        done_refs.append(self)
+        done_refs[self.name] = self
 
 def print_lyx_header():
     header = "#LyX 1.3 created this file. For more info see http://www.lyx.org/\n"
@@ -306,7 +308,7 @@ if __name__ == "__main__":
     classif_fname      = lines[5]
     csv_export         = lines[6] == '1'
     # initialize arrays
-    done_refs = []
+    done_refs = {}
     years = set()
     wors_per_year = {
         1950 : [],
@@ -413,10 +415,12 @@ if __name__ == "__main__":
         if '[' in line:
             reference = Reference(line)
     for work in done_refs:
+        name = work
+        reference = done_refs[work]
         counter += 1
-        print("[%d] %s" %(counter, work.name))
+        print("[%d] %s" %(counter, name))
         file_out.write("\n\\layout Itemize\n\n")
-        file_out.write("[%s] %s\n" %(work.name, work.ref))
+        file_out.write("[%s] %s\n" %(name, reference.ref))
     # end references part
     file_in.close()
 
@@ -444,14 +448,15 @@ if __name__ == "__main__":
                     ref_found=""
                     found=False
                     for work in done_refs:
-                        name =  work.name
-                        title = work.bare_title
-                        auth =  work.bare_auth
-                        year =  work.year
+                        name = work
+                        reference = done_refs[work]
+                        title = reference.bare_title
+                        auth =  reference.bare_auth
+                        year =  reference.year
                         if auth in line and year in line and title in line:
                             found = True
                             name_found = name
-                            ref_found = work.ref
+                            ref_found = reference.ref
                     if found:
                         file_out.write("\n\\layout Itemize\n\n")
                         file_out.write("[%s] %s\n" %(name_found, ref_found))
@@ -462,14 +467,15 @@ if __name__ == "__main__":
 
     # end document - do not modify 
     done_copy = []
-    for r in done_refs:
-        name =  r.name
-        title = r.bare_tit
-        auth =  r.bare_auth
-        year =  r.year
+    for work in done_refs:
+        name = work
+        reference = done_refs[work]
+        title = reference.bare_tit
+        auth =  reference.bare_auth
+        year =  reference.year
         file_out.write("\\layout Bibliography\n\n")
         file_out.write("\\bibitem {%s}\n" %name)
-        file_out.write("%s\n" %r.ref)
+        file_out.write("%s\n" %reference.ref)
         if rename_PDF:
             file_pdfs = open("_pdf_file_list.txt", 'r')
             found = False
@@ -481,7 +487,6 @@ if __name__ == "__main__":
                     found = True
                     copyfile('%s' %path, './Renamed-PDFs/%s.pdf' %name)
                     done_copy.append(name)
-
             file_pdfs.close()
             if not found:
                 print("\tPDF file %s NOT FOUND\n" %name)
