@@ -405,7 +405,7 @@ for y in sorted(years, reverse=True):
             file_out.write("%s\n" %item)
 
 if classif_fname != '':
-    print("adding classif")
+    print("adding classification")
     with open(classif_fname) as file_cls:
         lines = file_cls.read().split("\n")
     for line in lines:
@@ -447,12 +447,12 @@ for r in refs_for_biblio:
     file_out.write("\\layout Bibliography\n\n")
     file_out.write("\\bibitem {%s}\n" %name)
     file_out.write("%s\n" %r[1])
-    print("%s" %(title))
-    print("%s" %(r[2]))
+    # print("%s" %(title))
+    # print("%s" %(r[2]))
     if rename_PDF:
         file_pdfs = open("_pdf_file_list.txt", 'r')
         found = False
-        print("Looking for PDF")
+        # print("Looking for PDF")
         for line in file_pdfs:
             path = line.replace(" ", " ")
             path = path[:-1]
@@ -463,9 +463,9 @@ for r in refs_for_biblio:
 
         file_pdfs.close()
         if not found:
-            print("\tfile %s NOT FOUND\n" %name)
+            print("\tPDF file %s NOT FOUND\n" %name)
         else:
-            print("\tOK! %s\n" %name)
+            print("\tOK! PDF file %s FOUND\n" %name)
 file_out.write("\\the_end\n")
 # end document - do not modify 
 
