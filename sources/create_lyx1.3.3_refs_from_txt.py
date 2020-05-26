@@ -4,6 +4,15 @@ import re
 import sys
 from shutil import copyfile
 
+class Reference:
+    """
+    Simple class for a reference
+    """
+    def __init__(self, reference_ieee_std):
+        self.name, self.ref, self.tit, self.auth, self.year, self.bare_auth, self.bare_tit = clean_ref(reference_ieee_std)
+
+
+
 # TODOs 
 # - if journals not in list leave ref as is
 # - check "comments"/ reply papers handling
@@ -11,112 +20,34 @@ from shutil import copyfile
 # - better handle ACRONYMS
 # - refactor and clean 
 
-input_fname = sys.argv[1]
-with open(input_fname) as file_in:
-    lines = file_in.read().split("\n")
-txt_refs_fname     = lines[0]
-do_not_lower_fname = lines[1]
-abbr_fname         = lines[2]
-output_lyx_fname   = lines[3]
-rename_PDF = lines[4] == '1'
-classif_fname      = lines[5]
+def print_lyx_header():
+    header = "#LyX 1.3 created this file. For more info see http://www.lyx.org/\n"
+    header += "\\lyxformat 221\n"
+    header += "\\textclass article\n"
+    header += "\\language english\n"
+    header += "\\inputencoding auto\n"
+    header += "\\fontscheme default\n"
+    header += "\\graphics default\n"
+    header += "\\paperfontsize default\n"
+    header += "\\papersize Default\n"
+    header += "\\paperpackage a4\n"
+    header += "\\use_geometry 0\n"
+    header += "\\use_amsmath 0\n"
+    header += "\\use_natbib 0\n"
+    header += "\\use_numerical_citations 0\n"
+    header += "\\paperorientation portrait\n"
+    header += "\\secnumdepth 3\n"
+    header += "\\tocdepth 3\n"
+    header += "\\paragraph_separation indent\n"
+    header += "\\defskip medskip\n"
+    header += "\\quotes_language english\n"
+    header += "\\quotes_times 2\n"
+    header += "\\papercolumns 1\n"
+    header += "\\papersides 1\n"
+    header += "\\paperpagestyle default\n"
+    header += "\n"
+    return header
 
-done_refs = []
-years = set()
-wors_per_year = {
-    1950 : [],
-    1951 : [],
-    1952 : [],
-    1953 : [],
-    1954 : [],
-    1955 : [],
-    1956 : [],
-    1957 : [],
-    1958 : [],
-    1959 : [],
-    1960 : [],
-    1961 : [],
-    1962 : [],
-    1963 : [],
-    1964 : [],
-    1965 : [],
-    1966 : [],
-    1967 : [],
-    1968 : [],
-    1969 : [],
-    1970 : [],
-    1971 : [],
-    1972 : [],
-    1973 : [],
-    1974 : [],
-    1975 : [],
-    1976 : [],
-    1977 : [],
-    1978 : [],
-    1979 : [],
-    1980 : [],
-    1980 : [],
-    1980 : [],
-    1980 : [],
-    1980 : [],
-    1980 : [],
-    1980 : [],
-    1980 : [],
-    1981 : [],
-    1982 : [],
-    1983 : [],
-    1984 : [],
-    1985 : [],
-    1986 : [],
-    1987 : [],
-    1988 : [],
-    1989 : [],
-    1990 : [],
-    1991 : [],
-    1992 : [],
-    1993 : [],
-    1994 : [],
-    1995 : [],
-    1996 : [],
-    1997 : [],
-    1998 : [],
-    1999 : [],
-    2000 : [],
-    2001 : [],
-    2002 : [],
-    2003 : [],
-    2004 : [],
-    2005 : [],
-    2006 : [],
-    2007 : [],
-    2008 : [],
-    2009 : [],
-    2010 : [],
-    2011 : [],
-    2012 : [],
-    2013 : [],
-    2014 : [],
-    2015 : [],
-    2016 : [],
-    2017 : [],
-    2018 : [],
-    2019 : [],
-    2020 : [],
-    2021 : [],
-    2022 : [],
-    2023 : [],
-    2024 : []}
-
-if rename_PDF:
-    print("Renaming PDFs...")
-    PDF_file_path = "_pdf_file_list.txt"
-else:
-    print("NOT Renaming PDFs...")
-
-print('Creating Biblio from:\n\t%s'          %txt_refs_fname)
-print('Keep Uppercase Word List from:\n\t%s' %do_not_lower_fname)
-print('Journal Abbreviations from:\n\t%s'    %abbr_fname)
-print('Creating Lyx file to:\n\t%s'          %output_lyx_fname)
 
 # function definition
 def abbreviate(journal, abbr_file):
@@ -280,6 +211,8 @@ def clean_ref(reference, save_refs_in_biblio=True):
         counter = 0
         while "%s.%s" %(naming, letters[counter]) in done_refs:
             counter += 1
+        # if counter == 1:
+        #     done_refs[]
         naming = "%s.%s" %(naming, letters[counter])
 
     # if save_refs_in_biblio:
@@ -350,124 +283,207 @@ def clean_ref(reference, save_refs_in_biblio=True):
 
     return naming, to_ret, fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-"))), author, year, bare_author, str_tmp10
 
-# processing part
-file_in = open(txt_refs_fname, 'r')
-file_out = open(output_lyx_fname, 'w')
 
-# start header - do not modify
-file_out.write("#LyX 1.3 created this file. For more info see http://www.lyx.org/\n")
-file_out.write("\\lyxformat 221\n")
-file_out.write("\\textclass article\n")
-file_out.write("\\language english\n")
-file_out.write("\\inputencoding auto\n")
-file_out.write("\\fontscheme default\n")
-file_out.write("\\graphics default\n")
-file_out.write("\\paperfontsize default\n")
-file_out.write("\\papersize Default\n")
-file_out.write("\\paperpackage a4\n")
-file_out.write("\\use_geometry 0\n")
-file_out.write("\\use_amsmath 0\n")
-file_out.write("\\use_natbib 0\n")
-file_out.write("\\use_numerical_citations 0\n")
-file_out.write("\\paperorientation portrait\n")
-file_out.write("\\secnumdepth 3\n")
-file_out.write("\\tocdepth 3\n")
-file_out.write("\\paragraph_separation indent\n")
-file_out.write("\\defskip medskip\n")
-file_out.write("\\quotes_language english\n")
-file_out.write("\\quotes_times 2\n")
-file_out.write("\\papercolumns 1\n")
-file_out.write("\\papersides 1\n")
-file_out.write("\\paperpagestyle default\n")
-file_out.write("\n")
-# end header - do not modify
-
-# start references part
-refs_for_biblio = []
-counter = 0
-for line in file_in:
-    if '[' in line:
-        name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line)
-        counter += 1
-        print("[%d] %s" %(counter, name))
-        file_out.write("\n\\layout Itemize\n\n")
-        file_out.write("[%s] %s\n" %(name, ref))
-        refs_for_biblio.append([name, ref, tit, auth, year, bare_auth, bare_tit])
-# end references part
-file_in.close()
-
-for y in sorted(years, reverse=True):
-    if y:
-        file_out.write("\n\\layout Subsubsection\n\n")
-        file_out.write("Year %d\n" %y)
-        
-        for item in wors_per_year[y]:
-            file_out.write("\n\\layout Itemize\n\n")
-            file_out.write("%s\n" %item)
-
-if classif_fname != '':
-    print("adding classification")
-    with open(classif_fname) as file_cls:
-        lines = file_cls.read().split("\n")
-    for line in lines:
-        if "#" in line:
-            file_out.write("\n\\layout Subsection\n\n")
-            file_out.write("%s\n" %line.replace("#",""))
-        else:
-            if '[' in line:
-                # sarch in refs_for_biblio
-                name_found=""
-                ref_found=""
-                found=False
-                for work in refs_for_biblio:
-                    name =  work[0]
-                    title = work[6]
-                    auth =  work[5]
-                    year =  work[4]
-                    if auth in line and year in line and title in line:
-                        found = True
-                        name_found = name
-                        ref_found = work[1]
-                # name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line, False)
-                # print(name)
-                if found:
-                    file_out.write("\n\\layout Itemize\n\n")
-                    file_out.write("[%s] %s\n" %(name_found, ref_found))
-                else:
-                    print("WORK %s NOT FOUND" %line)
-else:
-    print("no classification selected")
-
-# end document - do not modify 
-done_copy = []
-for r in refs_for_biblio:
-    name = r[0]
-    title = r[6]
-    auth = r[5]
-    year = r[4]
-    file_out.write("\\layout Bibliography\n\n")
-    file_out.write("\\bibitem {%s}\n" %name)
-    file_out.write("%s\n" %r[1])
-    # print("%s" %(title))
-    # print("%s" %(r[2]))
+if __name__ == "__main__":
+    # read input parameters
+    input_fname = sys.argv[1]
+    with open(input_fname) as file_in:
+        lines = file_in.read().split("\n")
+    txt_refs_fname     = lines[0]
+    do_not_lower_fname = lines[1]
+    abbr_fname         = lines[2]
+    output_lyx_fname   = lines[3]
+    rename_PDF         = lines[4] == '1'
+    classif_fname      = lines[5]
+    csv_export         = lines[6] == '1'
+    # initialize arrays
+    done_refs = []
+    years = set()
+    wors_per_year = {
+        1950 : [],
+        1951 : [],
+        1952 : [],
+        1953 : [],
+        1954 : [],
+        1955 : [],
+        1956 : [],
+        1957 : [],
+        1958 : [],
+        1959 : [],
+        1960 : [],
+        1961 : [],
+        1962 : [],
+        1963 : [],
+        1964 : [],
+        1965 : [],
+        1966 : [],
+        1967 : [],
+        1968 : [],
+        1969 : [],
+        1970 : [],
+        1971 : [],
+        1972 : [],
+        1973 : [],
+        1974 : [],
+        1975 : [],
+        1976 : [],
+        1977 : [],
+        1978 : [],
+        1979 : [],
+        1980 : [],
+        1980 : [],
+        1980 : [],
+        1980 : [],
+        1980 : [],
+        1980 : [],
+        1980 : [],
+        1980 : [],
+        1981 : [],
+        1982 : [],
+        1983 : [],
+        1984 : [],
+        1985 : [],
+        1986 : [],
+        1987 : [],
+        1988 : [],
+        1989 : [],
+        1990 : [],
+        1991 : [],
+        1992 : [],
+        1993 : [],
+        1994 : [],
+        1995 : [],
+        1996 : [],
+        1997 : [],
+        1998 : [],
+        1999 : [],
+        2000 : [],
+        2001 : [],
+        2002 : [],
+        2003 : [],
+        2004 : [],
+        2005 : [],
+        2006 : [],
+        2007 : [],
+        2008 : [],
+        2009 : [],
+        2010 : [],
+        2011 : [],
+        2012 : [],
+        2013 : [],
+        2014 : [],
+        2015 : [],
+        2016 : [],
+        2017 : [],
+        2018 : [],
+        2019 : [],
+        2020 : [],
+        2021 : [],
+        2022 : [],
+        2023 : [],
+        2024 : []}
+    # PDF renaming part
     if rename_PDF:
-        file_pdfs = open("_pdf_file_list.txt", 'r')
-        found = False
-        # print("Looking for PDF")
-        for line in file_pdfs:
-            path = line.replace(" ", " ")
-            path = path[:-1]
-            if title[:10] in line and auth in line and year in line:
-                found = True
-                copyfile('%s' %path, './Renamed-PDFs/%s.pdf' %name)
-                done_copy.append(name)
+        print("Renaming PDFs...")
+        PDF_file_path = "_pdf_file_list.txt"
+    else:
+        print("NOT Renaming PDFs...")
+    # information part
+    print('Creating Biblio from:\n\t%s'          %txt_refs_fname)
+    print('Keep Uppercase Word List from:\n\t%s' %do_not_lower_fname)
+    print('Journal Abbreviations from:\n\t%s'    %abbr_fname)
+    print('Creating Lyx file to:\n\t%s'          %output_lyx_fname)
+    # file reading/writing part
+    file_in = open(txt_refs_fname, 'r')
+    file_out = open(output_lyx_fname, 'w')
+    file_out.write(print_lyx_header())
 
-        file_pdfs.close()
-        if not found:
-            print("\tPDF file %s NOT FOUND\n" %name)
-        else:
-            print("\tOK! PDF file %s FOUND\n" %name)
-file_out.write("\\the_end\n")
-# end document - do not modify 
+    # start references part
+    refs_for_biblio = []
+    counter = 0
+    for line in file_in:
+        if '[' in line:
+            reference = Reference(line) #name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line)
+            counter += 1
+            print("[%d] %s" %(counter, reference.name))
+            file_out.write("\n\\layout Itemize\n\n")
+            file_out.write("[%s] %s\n" %(reference.name, reference.ref))
+            refs_for_biblio.append(reference) #[name, ref, tit, auth, year, bare_auth, bare_tit])
+    # end references part
+    file_in.close()
 
-file_out.close()
+    for y in sorted(years, reverse=True):
+        if y:
+            file_out.write("\n\\layout Subsubsection\n\n")
+            file_out.write("Year %d\n" %y)
+            
+            for item in wors_per_year[y]:
+                file_out.write("\n\\layout Itemize\n\n")
+                file_out.write("%s\n" %item)
+
+    if classif_fname != '':
+        print("adding classification")
+        with open(classif_fname) as file_cls:
+            lines = file_cls.read().split("\n")
+        for line in lines:
+            if "#" in line:
+                file_out.write("\n\\layout Subsection\n\n")
+                file_out.write("%s\n" %line.replace("#",""))
+            else:
+                if '[' in line:
+                    # sarch in refs_for_biblio
+                    name_found=""
+                    ref_found=""
+                    found=False
+                    for work in refs_for_biblio:
+                        name =  work.name
+                        title = work.bare_title
+                        auth =  work.bare_auth
+                        year =  work.year
+                        if auth in line and year in line and title in line:
+                            found = True
+                            name_found = name
+                            ref_found = work.ref
+                    # name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line, False)
+                    # print(name)
+                    if found:
+                        file_out.write("\n\\layout Itemize\n\n")
+                        file_out.write("[%s] %s\n" %(name_found, ref_found))
+                    else:
+                        print("WORK %s NOT FOUND" %line)
+    else:
+        print("no classification selected")
+
+    # end document - do not modify 
+    done_copy = []
+    for r in refs_for_biblio:
+        name =  r.name
+        title = r.bare_tit
+        auth =  r.bare_auth
+        year =  r.year
+        file_out.write("\\layout Bibliography\n\n")
+        file_out.write("\\bibitem {%s}\n" %name)
+        file_out.write("%s\n" %r.ref)
+        # print("%s" %(title))
+        # print("%s" %(r[2]))
+        if rename_PDF:
+            file_pdfs = open("_pdf_file_list.txt", 'r')
+            found = False
+            # print("Looking for PDF")
+            for line in file_pdfs:
+                path = line.replace(" ", " ")
+                path = path[:-1]
+                if title[:10] in line and auth in line and year in line:
+                    found = True
+                    copyfile('%s' %path, './Renamed-PDFs/%s.pdf' %name)
+                    done_copy.append(name)
+
+            file_pdfs.close()
+            if not found:
+                print("\tPDF file %s NOT FOUND\n" %name)
+            else:
+                print("\tOK! PDF file %s FOUND\n" %name)
+    file_out.write("\\the_end\n")
+    # end document - do not modify 
+
+    file_out.close()
