@@ -4,13 +4,83 @@ import re
 import sys
 from shutil import copyfile
 
+char_replacements = {
+    "à": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{a}}\n\\end_inset\n",
+    "á": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{a}}\n\\end_inset\n",
+    "è": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{e}}\n\\end_inset\n",
+    "é": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{e}}\n\\end_inset\n",
+    "ì": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{i}}\n\\end_inset\n",
+    "í": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{i}}\n\\end_inset\n",
+    "ò": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{o}}\n\\end_inset\n",
+    "ó": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{o}}\n\\end_inset\n",
+    "ö": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{o}}\n\\end_inset\n",
+    "ù": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{u}}\n\\end_inset\n",
+    "ú": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{u}}\n\\end_inset\n",
+    "ü": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{u}}\n\\end_inset\n",
+    "Ü": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{U}}\n\\end_inset\n",
+    "ğ": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {g}}\n\\end_inset\n",
+    "ž": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {z}}\n\\end_inset\n",
+    "š": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {s}}\n\\end_inset\n",
+    "č": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {c}}\n\\end_inset\n",
+    "ă": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {a}}\n\\end_inset\n",
+    "ç": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {c}}\n\\end_inset\n",
+    "Ç": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {C}}\n\\end_inset\n",
+    "ı": "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\ni}\n\\end_inset\n",
+    "’": "'",
+    "×": "\n\\begin_inset Formula $\\times$\n\\end_inset\n",
+    "°": "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n", 
+    "ã": "\n\\begin_inset Formula $\\tilde{\\mbox{a}}$\n\\end_inset\n",
+    "ñ": "\n\\begin_inset Formula $\\tilde{\\mbox{n}}$\n\\end_inset\n"
+}
+
+char_simplify = {
+    "à": "a",
+    "á": "a",
+    "ä": "a",
+    "Ä": "a",
+    "å": "a",
+    "Å": "a", 	
+    "ã": "a",
+    "ă": "a",
+    "è": "e",
+    "é": "e",
+    "ë": "e",
+    "Ë": "E",
+    "ì": "i",
+    "í": "i", 
+    "ï": "i",
+    "ı": "i", 
+    "Ï": "I",
+    "ò": "o",
+    "ó": "o",
+    "ö": "o",
+    "Ö": "O",
+    "ø": "o",
+    "Ø": "O",
+    "ù": "u",
+    "ú": "u",
+    "ü": "u",
+    "Ü": "u",
+    "č": "c",
+    "š": "s",
+    "ž": "z",
+    "ğ": "g",
+    "Ÿ": "Y",
+    "ÿ": "y",
+    "Ç": "C",
+    "ç": "c",
+    "ñ": "n",
+    " ": "",
+    "’": ""
+}
+
+
 class Reference:
     """
     Simple class for a reference
     """
     def __init__(self, reference_ieee_std):
         self.name, self.ref, self.tit, self.auth, self.year, self.bare_auth, self.bare_tit = clean_ref(reference_ieee_std)
-
 
 
 # TODOs 
@@ -49,7 +119,7 @@ def print_lyx_header():
     return header
 
 
-# function definition
+# journal abbreviation
 def abbreviate(journal, abbr_file):
     file_abbr = open(abbr_file, 'r')
     for line in file_abbr:
@@ -61,120 +131,53 @@ def abbreviate(journal, abbr_file):
             file_abbr.close()
             return abbr_name
 
-def fix_accent(name):
-    str_tmp = name.replace("à", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{a}}\n\\end_inset\n")
-    str_tmp = name.replace("á", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{a}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("è", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{e}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("é", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{e}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ì", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{i}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("í", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{i}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ò", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{o}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ó", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{o}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ö", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{o}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ù", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\'{u}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ú", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n`{u}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{u}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("Ü", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\n\"{U}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ğ", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {g}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ž", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {z}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("š", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {s}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("č", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {c}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ă", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nu {a}}\n\\end_inset\n")
-    
-    str_tmp = str_tmp.replace("ç", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {c}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("Ç", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\nc {C}}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ı", "\n\\begin_inset ERT\nstatus Collapsed\n\n\\layout Standard\n{\n\\backslash\ni}\n\\end_inset\n")
-    str_tmp = str_tmp.replace("’", "'")
-    str_tmp = str_tmp.replace("×", "\n\\begin_inset Formula $\\times$\n\\end_inset\n")
-    str_tmp = str_tmp.replace("°", "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n") 
-    str_tmp = str_tmp.replace("ã", "\n\\begin_inset Formula $\\tilde{\\mbox{a}}$\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ñ", "\n\\begin_inset Formula $\\tilde{\\mbox{n}}$\n\\end_inset\n")
-    return str_tmp
+# substitute latex for strange letters/symbols
+def fix_accent(x):
+    to_ret = x
+    for cr in char_replacements:
+        to_ret = to_ret.replace(cr, char_replacements[cr])
+    return to_ret
 
-def fix_math(name):
-    if "$" in name:
-        content = re.search(r"\$.*\$", name).group(0).replace("$","")
-        str_tmp = re.sub(r"\$.*\$", '__PLACEHOLDER__', name)
-        str_tmp = str_tmp.replace("__PLACEHOLDER__", "\n\\begin_inset Formula\n$%s$\n\\end_inset\n" %content)
-        return str_tmp
+# substitute strange letters/symbols with their similar normal twin
+def simplify_naming(x):
+    to_ret = x
+    for cr in char_simplify:
+        to_ret = to_ret.replace(cr, char_simplify[cr])
+    return to_ret
+
+# replace math in title with proper latex
+def fix_math(x):
+    if "$" in x:
+        content = re.search(r"\$.*\$", x).group(0).replace("$","")
+        to_ret = re.sub(r"\$.*\$", '__PLACEHOLDER__', x)
+        to_ret = to_ret.replace("__PLACEHOLDER__", "\n\\begin_inset Formula\n$%s$\n\\end_inset\n" %content)
+        return to_ret
     else:
-        return name
+        return x
 
-def simplify_naming(name):
-    str_tmp =    name.replace("à", "a")
-    str_tmp = str_tmp.replace("á", "a")
-    str_tmp = str_tmp.replace("ä", "a")
-    str_tmp = str_tmp.replace("Ä", "a")
-    str_tmp = str_tmp.replace("å", "a")
-    str_tmp = str_tmp.replace("Å", "a") 	
-    str_tmp = str_tmp.replace("ã", "a")
-    str_tmp = str_tmp.replace("ă", "a")
 
-    str_tmp = str_tmp.replace("è", "e")
-    str_tmp = str_tmp.replace("é", "e")
-    str_tmp = str_tmp.replace("ë", "e")
-    str_tmp = str_tmp.replace("Ë", "E")
-
-    str_tmp = str_tmp.replace("ì", "i")
-    str_tmp = str_tmp.replace("í", "i") 
-    str_tmp = str_tmp.replace("ï", "i")
-    str_tmp = str_tmp.replace("ı", "i") 
-    str_tmp = str_tmp.replace("Ï", "I")
-
-    str_tmp = str_tmp.replace("ò", "o")
-    str_tmp = str_tmp.replace("ó", "o")
-    str_tmp = str_tmp.replace("ö", "o")
-    str_tmp = str_tmp.replace("Ö", "O")
-    str_tmp = str_tmp.replace("ø", "o")
-    str_tmp = str_tmp.replace("Ø", "O")
-
-    str_tmp = str_tmp.replace("ù", "u")
-    str_tmp = str_tmp.replace("ú", "u")
-    str_tmp = str_tmp.replace("ü", "u")
-    str_tmp = str_tmp.replace("Ü", "u")
-
-    str_tmp = str_tmp.replace("č", "c")
-    str_tmp = str_tmp.replace("š", "s")
-    str_tmp = str_tmp.replace("ž", "z")
-    str_tmp = str_tmp.replace("ğ", "g")
-    str_tmp = str_tmp.replace("Ÿ", "Y")
-    str_tmp = str_tmp.replace("ÿ", "y")
-    str_tmp = str_tmp.replace("Ç", "C")
-    str_tmp = str_tmp.replace("ç", "c")
-    str_tmp = str_tmp.replace("ñ", "n")
-
-    str_tmp = str_tmp.replace(" ", "")
-    str_tmp = str_tmp.replace("’", "")
-    return str_tmp
 
 def clean_ref(reference, save_refs_in_biblio=True):
-    str_tmp1 = reference.split("]")[1:]  # remove number [1], [2], etc.
+    to_ret1 = reference.split("]")[1:]  # remove number [1], [2], etc.
     new_tmp = ""
-    for str_tmp in str_tmp1:
-        new_tmp += str_tmp
+    for to_ret in to_ret1:
+        new_tmp += to_ret
 
-    # if "“Reply to ‘Comments on “" in str_tmp1:
-    #     flag_reply = True
-    #     str_tmp2 = str_tmp1.split("“Reply to ‘Comments on “")  # divide title from rest
-    #     authors = str_tmp2[0]
-    #     str_tmp3 = str_tmp2[1]
-    #     str_tmp4 = str_tmp3.split(",”’”")
-    # else:
     flag_reply = False
-    str_tmp2 = new_tmp.split("“")  # divide title from rest
-    authors = str_tmp2[0]
-    str_tmp3 = str_tmp2[1:]
+    to_ret2 = new_tmp.split("“")  # divide title from rest
+    authors = to_ret2[0]
+    to_ret3 = to_ret2[1:]
     new_tmp = ""
-    for str_tmp in str_tmp3:
-        new_tmp += str_tmp
-    str_tmp4 = new_tmp.split(",”")    
+    for to_ret in to_ret3:
+        new_tmp += to_ret
+    to_ret4 = new_tmp.split(",”")    
         
-    # print(str_tmp4)
-    bare_title = str_tmp4[0]
+    # print(to_ret4)
+    bare_title = to_ret4[0]
     title = bare_title.replace("–", "-").replace("—", "-")
-    str_tmp8  = str_tmp4[1].split(",")
-    journal = str_tmp8[0].replace("–", "-")
-    rest = str_tmp4[1].replace("–", "-").replace("—", "-").replace(journal, "").split(", doi: ")[0]
+    to_ret8  = to_ret4[1].split(",")
+    journal = to_ret8[0].replace("–", "-")
+    rest = to_ret4[1].replace("–", "-").replace("—", "-").replace(journal, "").split(", doi: ")[0]
     abbr_journal = abbreviate(journal, abbr_fname)
    
     # print(reference)
@@ -185,23 +188,23 @@ def clean_ref(reference, save_refs_in_biblio=True):
     # print("\trest: ", rest)
 
     # extract first author's surname
-    str_tmp5 = authors.split(" ")
+    to_ret5 = authors.split(" ")
     author = ""
     bare_author = ""
     finished = False
-    for str_tmp in str_tmp5:
-        if "." not in str_tmp and not finished:
+    for to_ret in to_ret5:
+        if "." not in to_ret and not finished:
             if bare_author == "":
-                bare_author = str_tmp.split(",")[0]
-            if "," in str_tmp or "and" == str_tmp:
+                bare_author = to_ret.split(",")[0]
+            if "," in to_ret or "and" == to_ret:
                 finished = True
-            if "and" != str_tmp and 'et' != str_tmp:
-                author += str_tmp.split(",")[0]
+            if "and" != to_ret and 'et' != to_ret:
+                author += to_ret.split(",")[0]
 
     # extract year
-    year = str_tmp4[1].split(", doi: ")[0].split(" ")[-1]
+    year = to_ret4[1].split(", doi: ")[0].split(" ")[-1]
 
-    doi = str_tmp4[1].split(", doi: ")[1].upper()
+    doi = to_ret4[1].split(", doi: ")[1].upper()
     doi = doi[:-2]
     # generate naming [Surname.YEAR]
     naming = "%s.%s" %(simplify_naming(author), year)
@@ -219,35 +222,35 @@ def clean_ref(reference, save_refs_in_biblio=True):
     done_refs.append(naming)
     
     # make title lower case
-    str_tmp6 = title.split(" ")
-    lower_tit = str_tmp6[0]
-    lower_tit_divided = str_tmp6[0].split("-")
+    to_ret6 = title.split(" ")
+    lower_tit = to_ret6[0]
+    lower_tit_divided = to_ret6[0].split("-")
     lower_title = lower_tit_divided[0]
-    for str_tmp in lower_tit_divided[1:]:
+    for to_ret in lower_tit_divided[1:]:
         lower = True
         file_lower_tabu = open(do_not_lower_fname, 'r')
         for line in file_lower_tabu:
             # print(line)
-            if str_tmp in line:
+            if to_ret in line:
                 lower = False
         file_lower_tabu.close()
-        if lower and not "$" in str_tmp:
-            lower_title += "-%s" %str_tmp.lower()
+        if lower and not "$" in to_ret:
+            lower_title += "-%s" %to_ret.lower()
         else:
-            lower_title += "-%s" %str_tmp
+            lower_title += "-%s" %to_ret
     
-    for str_tmp in str_tmp6[1:]:
+    for to_ret in to_ret6[1:]:
         lower = True
         file_lower_tabu = open(do_not_lower_fname, 'r')
         for line in file_lower_tabu:
             # print(line)
-            if str_tmp in line:
+            if to_ret in line:
                 lower = False
         file_lower_tabu.close()
-        if lower and not "$" in str_tmp:
-            lower_title += " %s" %str_tmp.lower()
+        if lower and not "$" in to_ret:
+            lower_title += " %s" %to_ret.lower()
         else:
-            lower_title += " %s" %str_tmp
+            lower_title += " %s" %to_ret
 
     to_ret  = "%s\n" %fix_accent(authors)
     to_ret += "\\begin_inset Quotes eld\n"
@@ -276,12 +279,12 @@ def clean_ref(reference, save_refs_in_biblio=True):
     years.add(int(year))
     wors_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
 
-    str_tmp10 = ""
-    for str_tmp in bare_title.split('$'):
-        if len(str_tmp) > len(str_tmp10):
-            str_tmp10 = str_tmp
+    to_ret10 = ""
+    for to_ret in bare_title.split('$'):
+        if len(to_ret) > len(to_ret10):
+            to_ret10 = to_ret
 
-    return naming, to_ret, fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-"))), author, year, bare_author, str_tmp10
+    return naming, to_ret, fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-"))), author, year, bare_author, to_ret10
 
 
 if __name__ == "__main__":
