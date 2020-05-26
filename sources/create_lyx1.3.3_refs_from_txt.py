@@ -98,6 +98,7 @@ class Reference:
                 ref += "]" + to_ret
         else:
             ref = tmp[0]
+        self.original = ref
 
         divide_apex = ref.split("“")  # divide title from rest
         authors = divide_apex[0]
@@ -112,7 +113,7 @@ class Reference:
         rest_divide_comma  = title_and_rest[1].split(",")
         journal = rest_divide_comma[0]
         rest = fix_accent(title_and_rest[1]).replace(journal, "").split(", doi: ")[0]
-        abbr_journal = abbreviate(journal, abbr_fname)
+        abbr_journal, self.journal_idx, self.publisher = abbreviate(journal, abbr_fname)
     
         # print(reference)
         # print("\tautors: ", authors)
@@ -202,9 +203,9 @@ class Reference:
 
         year_num = int(year)
         years.add(year_num)
-        if year_num not in wors_per_year:
-            wors_per_year[int(year)] = list()
-        wors_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
+        if year_num not in works_per_year:
+            works_per_year[int(year)] = list()
+        works_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
 
         to_ret10 = ""
         for tmp in bare_title.split('$'):
@@ -259,12 +260,12 @@ def abbreviate(journal, abbr_file):
         # print(journal, extended_name, abbr_name)
         if journal.replace(" ", "") == extended_name:
             file_abbr.close()
-            return abbr_name
+            return abbr_name, tmp[2], tmp[3]
     file_abbr.close()
     print("Journal %s NOT found, adding to list" %journal)
     file_abbr = open(abbr_file, 'a')
-    file_abbr.write("\n%s | %s" %(journal[1:], journal[1:]))  # TODO workaround on first space
-    return journal
+    file_abbr.write("\n%s | %s | ? | Journal?" %(journal[1:], journal[1:]))  # TODO workaround on first space
+    return journal, "?", "Journal?"
 
 # substitute latex for strange letters/symbols
 def fix_accent(x):
@@ -306,7 +307,7 @@ if __name__ == "__main__":
     # initialize arrays
     done_refs = {}
     years = set()
-    wors_per_year = {}
+    works_per_year = {}
      
     # PDF renaming part
     if rename_PDF:
@@ -344,7 +345,7 @@ if __name__ == "__main__":
             file_out.write("\n\\layout Subsubsection\n\n")
             file_out.write("Year %d\n" %y)
             
-            for item in wors_per_year[y]:
+            for item in works_per_year[y]:
                 file_out.write("\n\\layout Itemize\n\n")
                 file_out.write("%s\n" %item)
 
@@ -410,3 +411,12 @@ if __name__ == "__main__":
     file_out.write("\\the_end\n")
     # end document - do not modify 
     file_out.close()
+
+    if csv_export:
+        file_csv = open("prova.csv", 'w')
+        for work in done_refs:
+            name = work
+            reference = done_refs[work]
+            file_csv.write("%s|%s|%s|%s|%s\n" %(name, reference.year, \
+                reference.journal_idx.replace("\n",""), reference.publisher.replace("\n",""), reference.original.replace("\n","")))
+        file_csv.close()
