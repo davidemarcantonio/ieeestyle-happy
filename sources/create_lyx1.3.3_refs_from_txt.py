@@ -37,7 +37,11 @@ char_replacements = {
     "×": "\n\\begin_inset Formula $\\times$\n\\end_inset\n",
     "°": "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n", 
     "ã": "\n\\begin_inset Formula $\\tilde{\\mbox{a}}$\n\\end_inset\n",
-    "ñ": "\n\\begin_inset Formula $\\tilde{\\mbox{n}}$\n\\end_inset\n"
+    "ñ": "\n\\begin_inset Formula $\\tilde{\\mbox{n}}$\n\\end_inset\n",
+    "–": "-",
+    "–": "-",
+    "—": "-",
+    "’": "'"
 }
 
 char_simplify = {
@@ -85,10 +89,133 @@ class Reference:
     """
     Simple class for a reference
     """
-    def __init__(self, reference_ieee_std):
-        self.name, self.ref, self.tit, self.auth, self.year, self.bare_auth, self.bare_tit = clean_ref(reference_ieee_std)
+    def __init__(self, reference):
+        # self.name, self.ref, self.tit, self.auth, self.year, self.bare_auth, self.bare_tit = clean_ref(reference_ieee_std)
 
+        # remove number [1], [2], etc.
+        tmp = reference.split("]")[1:]  
+        ref = ""
+        for to_ret in tmp:
+            ref += "]" + to_ret
 
+        divide_apex = ref.split("“")  # divide title from rest
+        authors = divide_apex[0]
+        no_authors = divide_apex[1:]
+        ref = ""
+        for to_ret in no_authors:
+            ref += to_ret
+        title_and_rest = ref.split(",”")    
+            
+        bare_title = title_and_rest[0]
+        title = fix_accent(bare_title)
+        rest_divide_comma  = title_and_rest[1].split(",")
+        journal = rest_divide_comma[0] #.replace("–", "-")
+        rest = fix_accent(title_and_rest[1]).replace(journal, "").split(", doi: ")[0]
+        abbr_journal = abbreviate(journal, abbr_fname)
+    
+        # print(reference)
+        # print("\tautors: ", authors)
+        # print("\ttitle: ", title)
+        # print("\tjournal: ", journal)
+        # print("\tabbr journal: ", abbr_journal)
+        # print("\trest: ", rest)
+
+        # extract first author's surname
+        to_ret5 = authors.split(" ")
+        author = ""
+        bare_author = ""
+        finished = False
+        for to_ret in to_ret5:
+            if "." not in to_ret and not finished:
+                if bare_author == "":
+                    bare_author = to_ret.split(",")[0]
+                if "," in to_ret or "and" == to_ret:
+                    finished = True
+                if "and" != to_ret and 'et' != to_ret:
+                    author += to_ret.split(",")[0]
+
+        # extract year
+        year = title_and_rest[1].split(", doi: ")[0].split(" ")[-1]
+        doi = title_and_rest[1].split(", doi: ")[1].upper()
+        doi = doi[:-2]
+
+        # generate naming [Surname.YEAR]
+        naming = "%s.%s" %(simplify_naming(author), year)
+
+        if naming in done_refs:
+            letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
+            counter = 0
+            while "%s.%s" %(naming, letters[counter]) in done_refs:
+                counter += 1
+            # if counter == 1:
+            #     done_refs[]
+            naming = "%s.%s" %(naming, letters[counter])
+
+        # if save_refs_in_biblio:
+        done_refs.append(naming)
+        
+        # make title lower case
+        to_ret6 = title.split(" ")
+        lower_tit = to_ret6[0]
+        lower_tit_divided = to_ret6[0].split("-")
+        lower_title = lower_tit_divided[0]
+        for to_ret in lower_tit_divided[1:]:
+            lower = True
+            file_lower_tabu = open(do_not_lower_fname, 'r')
+            for line in file_lower_tabu:
+                # print(line)
+                if to_ret in line:
+                    lower = False
+            file_lower_tabu.close()
+            if lower and not "$" in to_ret:
+                lower_title += "-%s" %to_ret.lower()
+            else:
+                lower_title += "-%s" %to_ret
+        
+        for to_ret in to_ret6[1:]:
+            lower = True
+            file_lower_tabu = open(do_not_lower_fname, 'r')
+            for line in file_lower_tabu:
+                # print(line)
+                if to_ret in line:
+                    lower = False
+            file_lower_tabu.close()
+            if lower and not "$" in to_ret:
+                lower_title += " %s" %to_ret.lower()
+            else:
+                lower_title += " %s" %to_ret
+
+        to_ret  = "%s\n" %fix_accent(authors)
+        to_ret += "\\begin_inset Quotes eld\n"
+        to_ret += "\\end_inset\n"
+
+        to_ret += "%s,\n" %fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-")))
+        
+        to_ret += "\\begin_inset Quotes erd\n"
+        to_ret += "\\end_inset\n"
+        to_ret += "\\emph on\n"
+        to_ret += " %s\n" %abbr_journal
+        to_ret += "\\emph default\n"
+        to_ret += "%s\n" %rest
+        to_ret += " (DOI: %s).\n" %doi
+
+        # if save_refs_in_biblio:
+        years.add(int(year))
+        wors_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
+
+        to_ret10 = ""
+        for tmp in bare_title.split('$'):
+            if len(tmp) > len(to_ret10):
+                to_ret10 = tmp
+
+        # return naming, to_ret, fix_accent(fix_math(fix_accent(lower_title))), author, year, bare_author, to_ret10
+        self.name = naming
+        self.ref = to_ret
+        self.title = fix_accent(fix_math(fix_accent(lower_title)))
+        self.auth = author
+        self.year = year
+        self.bare_auth = bare_author
+        self.bare_tit = to_ret10
 
 def print_lyx_header():
     header = "#LyX 1.3 created this file. For more info see http://www.lyx.org/\n"
@@ -158,135 +285,6 @@ def fix_math(x):
         return to_ret
     else:
         return x
-
-def clean_ref(reference):
-    to_ret1 = reference.split("]")[1:]  # remove number [1], [2], etc.
-    new_tmp = ""
-    for to_ret in to_ret1:
-        new_tmp += to_ret
-
-    flag_reply = False
-    to_ret2 = new_tmp.split("“")  # divide title from rest
-    authors = to_ret2[0]
-    to_ret3 = to_ret2[1:]
-    new_tmp = ""
-    for to_ret in to_ret3:
-        new_tmp += to_ret
-    to_ret4 = new_tmp.split(",”")    
-        
-    # print(to_ret4)
-    bare_title = to_ret4[0]
-    title = bare_title.replace("–", "-").replace("—", "-")
-    to_ret8  = to_ret4[1].split(",")
-    journal = to_ret8[0].replace("–", "-")
-    rest = to_ret4[1].replace("–", "-").replace("—", "-").replace(journal, "").split(", doi: ")[0]
-    abbr_journal = abbreviate(journal, abbr_fname)
-   
-    # print(reference)
-    # print("\tautors: ", authors)
-    # print("\ttitle: ", title)
-    # print("\tjournal: ", journal)
-    # print("\tabbr journal: ", abbr_journal)
-    # print("\trest: ", rest)
-
-    # extract first author's surname
-    to_ret5 = authors.split(" ")
-    author = ""
-    bare_author = ""
-    finished = False
-    for to_ret in to_ret5:
-        if "." not in to_ret and not finished:
-            if bare_author == "":
-                bare_author = to_ret.split(",")[0]
-            if "," in to_ret or "and" == to_ret:
-                finished = True
-            if "and" != to_ret and 'et' != to_ret:
-                author += to_ret.split(",")[0]
-
-    # extract year
-    year = to_ret4[1].split(", doi: ")[0].split(" ")[-1]
-
-    doi = to_ret4[1].split(", doi: ")[1].upper()
-    doi = doi[:-2]
-    # generate naming [Surname.YEAR]
-    naming = "%s.%s" %(simplify_naming(author), year)
-
-    if naming in done_refs:
-        letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
-        counter = 0
-        while "%s.%s" %(naming, letters[counter]) in done_refs:
-            counter += 1
-        # if counter == 1:
-        #     done_refs[]
-        naming = "%s.%s" %(naming, letters[counter])
-
-    # if save_refs_in_biblio:
-    done_refs.append(naming)
-    
-    # make title lower case
-    to_ret6 = title.split(" ")
-    lower_tit = to_ret6[0]
-    lower_tit_divided = to_ret6[0].split("-")
-    lower_title = lower_tit_divided[0]
-    for to_ret in lower_tit_divided[1:]:
-        lower = True
-        file_lower_tabu = open(do_not_lower_fname, 'r')
-        for line in file_lower_tabu:
-            # print(line)
-            if to_ret in line:
-                lower = False
-        file_lower_tabu.close()
-        if lower and not "$" in to_ret:
-            lower_title += "-%s" %to_ret.lower()
-        else:
-            lower_title += "-%s" %to_ret
-    
-    for to_ret in to_ret6[1:]:
-        lower = True
-        file_lower_tabu = open(do_not_lower_fname, 'r')
-        for line in file_lower_tabu:
-            # print(line)
-            if to_ret in line:
-                lower = False
-        file_lower_tabu.close()
-        if lower and not "$" in to_ret:
-            lower_title += " %s" %to_ret.lower()
-        else:
-            lower_title += " %s" %to_ret
-
-    to_ret  = "%s\n" %fix_accent(authors)
-    to_ret += "\\begin_inset Quotes eld\n"
-    to_ret += "\\end_inset\n"
-
-    if flag_reply:
-        to_ret += "Reply to 'Comments on \n"
-        to_ret += "\\begin_inset Quotes eld\n"
-        to_ret += "\\end_inset\n"
-        to_ret += "%s,\n" %fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-")))
-        to_ret += "\\begin_inset Quotes erd\n"
-        to_ret += "\\end_inset\n"
-        to_ret += "'\n"
-    else:
-        to_ret += "%s,\n" %fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-")))
-    
-    to_ret += "\\begin_inset Quotes erd\n"
-    to_ret += "\\end_inset\n"
-    to_ret += "\\emph on\n"
-    to_ret += " %s\n" %abbr_journal
-    to_ret += "\\emph default\n"
-    to_ret += "%s\n" %rest
-    to_ret += " (DOI: %s).\n" %doi
-
-    # if save_refs_in_biblio:
-    years.add(int(year))
-    wors_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
-
-    to_ret10 = ""
-    for to_ret in bare_title.split('$'):
-        if len(to_ret) > len(to_ret10):
-            to_ret10 = to_ret
-
-    return naming, to_ret, fix_accent(fix_math(lower_title.replace("–", "-").replace("—", "-"))), author, year, bare_author, to_ret10
 
 
 if __name__ == "__main__":
@@ -408,12 +406,12 @@ if __name__ == "__main__":
     counter = 0
     for line in file_in:
         if '[' in line:
-            reference = Reference(line) #name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line)
+            reference = Reference(line)
             counter += 1
             print("[%d] %s" %(counter, reference.name))
             file_out.write("\n\\layout Itemize\n\n")
             file_out.write("[%s] %s\n" %(reference.name, reference.ref))
-            refs_for_biblio.append(reference) #[name, ref, tit, auth, year, bare_auth, bare_tit])
+            refs_for_biblio.append(reference) 
     # end references part
     file_in.close()
 
@@ -449,8 +447,6 @@ if __name__ == "__main__":
                             found = True
                             name_found = name
                             ref_found = work.ref
-                    # name, ref, tit, auth, year, bare_auth, bare_tit = clean_ref(line, False)
-                    # print(name)
                     if found:
                         file_out.write("\n\\layout Itemize\n\n")
                         file_out.write("[%s] %s\n" %(name_found, ref_found))
@@ -469,8 +465,6 @@ if __name__ == "__main__":
         file_out.write("\\layout Bibliography\n\n")
         file_out.write("\\bibitem {%s}\n" %name)
         file_out.write("%s\n" %r.ref)
-        # print("%s" %(title))
-        # print("%s" %(r[2]))
         if rename_PDF:
             file_pdfs = open("_pdf_file_list.txt", 'r')
             found = False
@@ -490,5 +484,4 @@ if __name__ == "__main__":
                 print("\tOK! PDF file %s FOUND\n" %name)
     file_out.write("\\the_end\n")
     # end document - do not modify 
-
     file_out.close()
