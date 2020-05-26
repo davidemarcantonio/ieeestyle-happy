@@ -90,8 +90,6 @@ class Reference:
     Simple class for a reference
     """
     def __init__(self, reference):
-        # self.name, self.ref, self.tit, self.auth, self.year, self.bare_auth, self.bare_tit = clean_ref(reference_ieee_std)
-
         # remove number [1], [2], etc.
         tmp = reference.split("]")[1:]  
         ref = ""
@@ -112,7 +110,7 @@ class Reference:
         bare_title = title_and_rest[0]
         title = fix_accent(bare_title)
         rest_divide_comma  = title_and_rest[1].split(",")
-        journal = rest_divide_comma[0] #.replace("–", "-")
+        journal = rest_divide_comma[0]
         rest = fix_accent(title_and_rest[1]).replace(journal, "").split(", doi: ")[0]
         abbr_journal = abbreviate(journal, abbr_fname)
     
@@ -168,7 +166,6 @@ class Reference:
             lower = True
             file_lower_tabu = open(do_not_lower_fname, 'r')
             for line in file_lower_tabu:
-                # print(line)
                 if to_ret in line:
                     lower = False
             file_lower_tabu.close()
@@ -181,7 +178,6 @@ class Reference:
             lower = True
             file_lower_tabu = open(do_not_lower_fname, 'r')
             for line in file_lower_tabu:
-                # print(line)
                 if to_ret in line:
                     lower = False
             file_lower_tabu.close()
@@ -204,8 +200,10 @@ class Reference:
         to_ret += "%s\n" %rest
         to_ret += " (DOI: %s).\n" %doi
 
-        # if save_refs_in_biblio:
-        years.add(int(year))
+        year_num = int(year)
+        years.add(year_num)
+        if year_num not in wors_per_year:
+            wors_per_year[int(year)] = list()
         wors_per_year[int(year)].append("[%s] %s\n" %(naming, to_ret))
 
         to_ret10 = ""
@@ -213,7 +211,6 @@ class Reference:
             if len(tmp) > len(to_ret10):
                 to_ret10 = tmp
 
-        # return naming, to_ret, fix_accent(fix_math(fix_accent(lower_title))), author, year, bare_author, to_ret10
         self.name = naming
         self.ref = to_ret
         self.title = fix_accent(fix_math(fix_accent(lower_title)))
@@ -222,7 +219,6 @@ class Reference:
         self.bare_auth = bare_author
         self.bare_tit = to_ret10
 
-        # if save_refs_in_biblio:
         done_refs[self.name] = self
 
 def print_lyx_header():
@@ -310,89 +306,8 @@ if __name__ == "__main__":
     # initialize arrays
     done_refs = {}
     years = set()
-    wors_per_year = {
-        1950 : [],
-        1951 : [],
-        1952 : [],
-        1953 : [],
-        1954 : [],
-        1955 : [],
-        1956 : [],
-        1957 : [],
-        1958 : [],
-        1959 : [],
-        1960 : [],
-        1961 : [],
-        1962 : [],
-        1963 : [],
-        1964 : [],
-        1965 : [],
-        1966 : [],
-        1967 : [],
-        1968 : [],
-        1969 : [],
-        1970 : [],
-        1971 : [],
-        1972 : [],
-        1973 : [],
-        1974 : [],
-        1975 : [],
-        1976 : [],
-        1977 : [],
-        1978 : [],
-        1979 : [],
-        1980 : [],
-        1980 : [],
-        1980 : [],
-        1980 : [],
-        1980 : [],
-        1980 : [],
-        1980 : [],
-        1980 : [],
-        1981 : [],
-        1982 : [],
-        1983 : [],
-        1984 : [],
-        1985 : [],
-        1986 : [],
-        1987 : [],
-        1988 : [],
-        1989 : [],
-        1990 : [],
-        1991 : [],
-        1992 : [],
-        1993 : [],
-        1994 : [],
-        1995 : [],
-        1996 : [],
-        1997 : [],
-        1998 : [],
-        1999 : [],
-        2000 : [],
-        2001 : [],
-        2002 : [],
-        2003 : [],
-        2004 : [],
-        2005 : [],
-        2006 : [],
-        2007 : [],
-        2008 : [],
-        2009 : [],
-        2010 : [],
-        2011 : [],
-        2012 : [],
-        2013 : [],
-        2014 : [],
-        2015 : [],
-        2016 : [],
-        2017 : [],
-        2018 : [],
-        2019 : [],
-        2020 : [],
-        2021 : [],
-        2022 : [],
-        2023 : [],
-        2024 : []}
+    wors_per_year = {}
+     
     # PDF renaming part
     if rename_PDF:
         print("Renaming PDFs...")
