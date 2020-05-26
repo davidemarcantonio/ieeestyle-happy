@@ -8,6 +8,7 @@ from shutil import copyfile
 # - if journals not in list leave ref as is
 # - check "comments"/ reply papers handling
 # - complete strange letters list
+# - better handle ACRONYMS
 # - refactor and clean 
 
 input_fname = sys.argv[1]
@@ -155,8 +156,8 @@ def fix_accent(name):
     str_tmp = str_tmp.replace("’", "'")
     str_tmp = str_tmp.replace("×", "\n\\begin_inset Formula $\\times$\n\\end_inset\n")
     str_tmp = str_tmp.replace("°", "\n\\begin_inset Formula $^{\circ}$\n\\end_inset\n") 
-    str_tmp = str_tmp.replace("ã", "\n\\begin_inset Formula $\\tilde{a}$\n\\end_inset\n")
-    str_tmp = str_tmp.replace("ñ", "\n\\begin_inset Formula $\\tilde{n}$\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ã", "\n\\begin_inset Formula $\\tilde{\\mbox{a}}$\n\\end_inset\n")
+    str_tmp = str_tmp.replace("ñ", "\n\\begin_inset Formula $\\tilde{\\mbox{n}}$\n\\end_inset\n")
     return str_tmp
 
 def fix_math(name):
