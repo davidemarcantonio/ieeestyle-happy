@@ -95,8 +95,11 @@ class Reference:
         # remove number [1], [2], etc.
         tmp = reference.split("]")[1:]  
         ref = ""
-        for to_ret in tmp:
-            ref += "]" + to_ret
+        if len(tmp) > 1:
+            for to_ret in tmp:
+                ref += "]" + to_ret
+        else:
+            ref = tmp[0]
 
         divide_apex = ref.split("“")  # divide title from rest
         authors = divide_apex[0]
@@ -142,17 +145,17 @@ class Reference:
         # generate naming [Surname.YEAR]
         naming = "%s.%s" %(simplify_naming(author), year)
 
-        if naming in done_refs:
-            letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
-            counter = 0
-            while "%s.%s" %(naming, letters[counter]) in done_refs:
-                counter += 1
-            # if counter == 1:
-            #     done_refs[]
-            naming = "%s.%s" %(naming, letters[counter])
-
-        # if save_refs_in_biblio:
-        done_refs.append(naming)
+        for rfs in done_refs:
+            if naming in rfs.name:
+                letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
+                counter = 0
+                while "%s.%s" %(naming, letters[counter]) in done_refs:
+                    counter += 1
+                if counter == 1:
+                    naming = "%s.%s" %(naming, letters[counter+1])
+                    rfs.name = "%s.a" %(naming)
+                else:
+                    naming = "%s.%s" %(naming, letters[counter])
         
         # make title lower case
         to_ret6 = title.split(" ")
@@ -216,6 +219,9 @@ class Reference:
         self.year = year
         self.bare_auth = bare_author
         self.bare_tit = to_ret10
+
+        # if save_refs_in_biblio:
+        done_refs.append(self)
 
 def print_lyx_header():
     header = "#LyX 1.3 created this file. For more info see http://www.lyx.org/\n"
@@ -402,16 +408,15 @@ if __name__ == "__main__":
     file_out.write(print_lyx_header())
 
     # start references part
-    refs_for_biblio = []
     counter = 0
     for line in file_in:
         if '[' in line:
             reference = Reference(line)
-            counter += 1
-            print("[%d] %s" %(counter, reference.name))
-            file_out.write("\n\\layout Itemize\n\n")
-            file_out.write("[%s] %s\n" %(reference.name, reference.ref))
-            refs_for_biblio.append(reference) 
+    for work in done_refs:
+        counter += 1
+        print("[%d] %s" %(counter, work.name))
+        file_out.write("\n\\layout Itemize\n\n")
+        file_out.write("[%s] %s\n" %(work.name, work.ref))
     # end references part
     file_in.close()
 
@@ -438,7 +443,7 @@ if __name__ == "__main__":
                     name_found=""
                     ref_found=""
                     found=False
-                    for work in refs_for_biblio:
+                    for work in done_refs:
                         name =  work.name
                         title = work.bare_title
                         auth =  work.bare_auth
@@ -457,7 +462,7 @@ if __name__ == "__main__":
 
     # end document - do not modify 
     done_copy = []
-    for r in refs_for_biblio:
+    for r in done_refs:
         name =  r.name
         title = r.bare_tit
         auth =  r.bare_auth
