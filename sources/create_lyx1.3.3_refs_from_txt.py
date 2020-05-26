@@ -1,5 +1,12 @@
 #!/usr/bin/python3.6 
 
+# TODO 
+# - if journals not in list leave ref as is
+# - check "comments"/ reply papers handling
+# - complete strange letters list
+# - better handle ACRONYMS
+# - refactor and clean 
+
 import re
 import sys
 from shutil import copyfile
@@ -74,7 +81,6 @@ char_simplify = {
     "’": ""
 }
 
-
 class Reference:
     """
     Simple class for a reference
@@ -83,12 +89,6 @@ class Reference:
         self.name, self.ref, self.tit, self.auth, self.year, self.bare_auth, self.bare_tit = clean_ref(reference_ieee_std)
 
 
-# TODOs 
-# - if journals not in list leave ref as is
-# - check "comments"/ reply papers handling
-# - complete strange letters list
-# - better handle ACRONYMS
-# - refactor and clean 
 
 def print_lyx_header():
     header = "#LyX 1.3 created this file. For more info see http://www.lyx.org/\n"
@@ -118,8 +118,7 @@ def print_lyx_header():
     header += "\n"
     return header
 
-
-# journal abbreviation
+# journal abbreviations
 def abbreviate(journal, abbr_file):
     file_abbr = open(abbr_file, 'r')
     for line in file_abbr:
@@ -130,6 +129,11 @@ def abbreviate(journal, abbr_file):
         if journal.replace(" ", "") == extended_name:
             file_abbr.close()
             return abbr_name
+    file_abbr.close()
+    print("Journal %s NOT found, adding to list" %journal)
+    file_abbr = open(abbr_file, 'a')
+    file_abbr.write("\n%s | %s" %(journal[1:], journal[1:]))  # TODO workaround on first space
+    return journal
 
 # substitute latex for strange letters/symbols
 def fix_accent(x):
@@ -155,9 +159,7 @@ def fix_math(x):
     else:
         return x
 
-
-
-def clean_ref(reference, save_refs_in_biblio=True):
+def clean_ref(reference):
     to_ret1 = reference.split("]")[1:]  # remove number [1], [2], etc.
     new_tmp = ""
     for to_ret in to_ret1:
