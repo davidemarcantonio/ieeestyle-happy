@@ -37,12 +37,14 @@ ENABLE_PDF_RENAMING=0  # 1:ON, 0:OFF
 ZOTERO_EXPORT_FOLDER_NAME="../pdfs/"
 #  (Add subsections of list for classification)
 # usage ->    '':OFF, 'filename.txt':ON
-SUB_LIST_FROM_ZOTERO='classification.txt'  
+SUB_LIST_FROM_ZOTERO=''
 
 if [ $ENABLE_PDF_RENAMING -eq 1 ]; then
     find $ZOTERO_EXPORT_FOLDER_NAME -type f -name "*.pdf" > _pdf_file_list.txt
     mkdir -p "Renamed-PDFs"
 fi
+
+CSV_LIST_EXPORT=1  # 1:ON, 0:OFF
 
 # EXE
 # =======================================
@@ -56,12 +58,13 @@ echo $FILENAME_INPUT_ABBREVIATIONS  >> in.create_lyx
 echo $FILENAME_OUTPUT               >> in.create_lyx
 echo $ENABLE_PDF_RENAMING           >> in.create_lyx
 echo $SUB_LIST_FROM_ZOTERO          >> in.create_lyx
+echo $CSV_LIST_EXPORT               >> in.create_lyx
 
 ./create_lyx.py in.create_lyx > out.create_lyx
+rm in.create_lyx 
+# rm out.create_lyx 
 
 # CLEAN
 # =======================================
 rm create_lyx.py 
-rm in.create_lyx 
-# rm out.create_lyx 
 rm -f _pdf_file_list.txt

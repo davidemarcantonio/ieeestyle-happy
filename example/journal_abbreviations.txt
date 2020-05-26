@@ -1,16 +1,20 @@
-IEEE Transactions on Antennas and Propagation | IEEE Trans. Antennas Propag.
-IEEE Transactions on Microwave Theory and Techniques | IEEE Trans. Microw. Theory Techn.
-IEEE Antennas and Wireless Propagation Letters | IEEE Antennas Wireless Propag. Lett.
-IEEE Access | IEEE Access
-IEEE Antennas and Propagation Magazine | IEEE Antennas Propag. Mag.
-Antennas Propagation IET Microwaves | IET Microw. Antennas Propag.
-Proceedings of the IEEE | Proc. IEEE
-IEEE Transactions on Terahertz Science and Technology | IEEE Trans. THz Sci. Technol.
-IEEE Transactions on Electromagnetic Compatibility | IEEE Trans. Electromagn. Compat.
-IEEE Transactions on Components and Packaging Technologies | IEEE Trans. Compon. Packag. Technol.
-IEEE Microwave and Wireless Components Letters | IEEE Microw. Wireless Compon. Lett.
-Electronics Letters | Electron. Lett.
-Antennas Propagation IET Microwaves | IET Microw. Antenna P.
-Antennas and Propagation IEE Proceedings - Microwaves | IEE P-Microw. Anten. P.
-IEEE Transactions on Magnetics | IEEE Trans. Magn.
-IEEE Transactions on Evolutionary Computation | IEEE Trans. Evol. Comput.
+EXTENDED JOURNAL | ABBR. J. | SUPER-ABBR. JOURNAL | JOURNAL/CONF/...
+IEEE Transactions on Antennas and Propagation | IEEE Trans. Antennas Propag. | IEEE-TAP | Journal
+IEEE Transactions on Microwave Theory and Techniques | IEEE Trans. Microw. Theory Techn. | IEEE-TMTT | Journal
+IEEE Antennas and Wireless Propagation Letters | IEEE Antennas Wireless Propag. Lett. | IEEE-AWPL | Journal
+IEEE Access | IEEE Access | IEEE-Access | Journal
+IEEE Antennas and Propagation Magazine | IEEE Antennas Propag. Mag. | IEEE-APM | Journal
+Antennas Propagation IET Microwaves | IET Microw. Antennas Propag. | IET-MAP | Journal
+Proceedings of the IEEE | Proc. IEEE | P-IEEE | Journal
+IEEE Transactions on Terahertz Science and Technology | IEEE Trans. THz Sci. Technol. | IEEE-TTST | Journal
+IEEE Transactions on Electromagnetic Compatibility | IEEE Trans. Electromagn. Compat. | IEEE-TEComp | Journal
+IEEE Transactions on Components and Packaging Technologies | IEEE Trans. Compon. Packag. Technol. | IEEE-TCPT | Journal
+IEEE Microwave and Wireless Components Letters | IEEE Microw. Wireless Compon. Lett. | IEEE-MWCL | Journal
+Electronics Letters | Electron. Lett. | EL | Journal
+Antennas Propagation IET Microwaves | IET Microw. Antenna P. | IET-MAP | Journal
+Antennas and Propagation IEE Proceedings - Microwaves | IEE P-Microw. Anten. P. | IEE-P-MAP | Journal
+IEEE Transactions on Magnetics | IEEE Trans. Magn. | IEEE-TM | Journal
+IEEE Transactions on Evolutionary Computation | IEEE Trans. Evol. Comput. | IEEE-TEC | Journal
+IEEE Transactions on Emerging Topics in Computational Intelligence | IEEE Trans. Emerg. Topics Comput. Intell. | IEEE-TETCI | Journal
+Swarm and Evolutionary Computation | Swarm Evol. Comput. | SEC | Journal
+IEEE Transactions on Cybernetics | IEEE Trans. Cybern. | IEEE-TC | Journal
